@@ -189,6 +189,9 @@ export default function JobDetailPageClient({ params }: { params: { id: string }
             }`}
             href={canDownload ? clientApi(`/jobs/${job.id}/download`) : "#"}
             onClick={(e) => !canDownload && e.preventDefault()}
+            aria-disabled={!canDownload}
+            role="button"
+            aria-label={canDownload ? `Descargar ZIP del job ${job.id}` : "Descarga no disponible aún"}
           >
             {canDownload ? (
               <>
