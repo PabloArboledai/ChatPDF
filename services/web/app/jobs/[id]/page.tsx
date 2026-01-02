@@ -13,6 +13,34 @@ type Job = {
   error: string;
 };
 
+function jobTypeLabel(jobType: string): string {
+  switch (jobType) {
+    case "export_all":
+      return "Exportación";
+    case "markdown":
+      return "Markdown";
+    case "clustering":
+      return "Clustering";
+    default:
+      return jobType;
+  }
+}
+
+function statusBadgeClass(status: string): string {
+  switch (status) {
+    case "succeeded":
+      return "border-black/10 bg-black/5 text-black/80 dark:border-white/10 dark:bg-white/10 dark:text-white/80";
+    case "failed":
+      return "border-red-500/30 bg-red-500/10 text-red-700 dark:text-red-300";
+    case "running":
+      return "border-black/10 bg-black/5 text-black/80 dark:border-white/10 dark:bg-white/10 dark:text-white/80";
+    case "queued":
+      return "border-black/10 bg-black/5 text-black/80 dark:border-white/10 dark:bg-white/10 dark:text-white/80";
+    default:
+      return "border-black/10 bg-black/5 text-black/80 dark:border-white/10 dark:bg-white/10 dark:text-white/80";
+  }
+}
+
 async function fetchJob(id: string): Promise<Job | null> {
   const base = serverApiBaseUrl();
   const res = await fetch(`${base}/jobs/${id}`, { cache: "no-store" });
@@ -58,19 +86,31 @@ export default async function JobDetailPage({
         <dl className="grid gap-3 md:grid-cols-2">
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Tipo</dt>
-            <dd className="text-sm">{job.job_type}</dd>
+            <dd className="text-sm">
+              <span className="inline-flex items-center rounded-full border border-black/10 bg-black/5 px-2.5 py-1 text-xs text-black/80 dark:border-white/10 dark:bg-white/10 dark:text-white/80">
+                {jobTypeLabel(job.job_type)}
+              </span>
+            </dd>
           </div>
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Estado</dt>
-            <dd className="text-sm">{job.status}</dd>
+            <dd className="text-sm">
+              <span
+                className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs ${statusBadgeClass(
+                  job.status,
+                )}`}
+              >
+                {job.status}
+              </span>
+            </dd>
           </div>
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Archivo</dt>
-            <dd className="text-sm">{job.filename}</dd>
+            <dd className="text-sm text-black/80 dark:text-white/80">{job.filename}</dd>
           </div>
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Error</dt>
-            <dd className="text-sm">{job.error || "—"}</dd>
+            <dd className="text-sm text-black/80 dark:text-white/80">{job.error || "—"}</dd>
           </div>
         </dl>
 
