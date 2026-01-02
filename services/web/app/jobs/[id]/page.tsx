@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { clientApi, serverApiBaseUrl } from "@/lib/api";
+
 type Job = {
   id: number;
   job_type: string;
@@ -12,7 +14,7 @@ type Job = {
 };
 
 async function fetchJob(id: string): Promise<Job | null> {
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+  const base = serverApiBaseUrl();
   const res = await fetch(`${base}/jobs/${id}`, { cache: "no-store" });
   if (!res.ok) return null;
   return (await res.json()) as Job;
@@ -24,7 +26,6 @@ export default async function JobDetailPage({
   params: { id: string };
 }) {
   const job = await fetchJob(params.id);
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
 
   if (!job) {
     return (
@@ -80,7 +81,7 @@ export default async function JobDetailPage({
                 ? "bg-foreground text-background"
                 : "cursor-not-allowed bg-black/10 text-black/50 dark:bg-white/10 dark:text-white/50"
             }`}
-            href={canDownload ? `${base}/jobs/${job.id}/download` : "#"}
+            href={canDownload ? clientApi(`/jobs/${job.id}/download`) : "#"}
           >
             Descargar ZIP
           </a>

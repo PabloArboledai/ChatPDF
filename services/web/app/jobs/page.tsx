@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { serverApiBaseUrl } from "@/lib/api";
+
 type Job = {
   id: number;
   created_at: string;
@@ -11,7 +13,7 @@ type Job = {
 };
 
 async function fetchJobs(): Promise<Job[]> {
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+  const base = serverApiBaseUrl();
   const res = await fetch(`${base}/jobs`, { cache: "no-store" });
   if (!res.ok) return [];
   const data = (await res.json()) as { items: Job[] };

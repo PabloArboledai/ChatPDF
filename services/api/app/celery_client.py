@@ -13,6 +13,7 @@ celery_app = Celery(
 
 # NOTE: tasks live in worker service. API only publishes tasks.
 celery_app.conf.update(
+    task_default_queue="default",
     task_serializer="json",
     accept_content=["json"],
     result_serializer="json",

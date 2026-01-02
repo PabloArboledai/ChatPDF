@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { apiBaseUrl } from "@/lib/api";
+import { clientApi } from "@/lib/api";
 
 type JobType = "export_all" | "markdown" | "clustering";
 
@@ -80,7 +80,7 @@ export default function UploadForm() {
 
     setSubmitting(true);
     try {
-      const resp = await fetch(`${apiBaseUrl()}/jobs`, {
+      const resp = await fetch(clientApi("/jobs"), {
         method: "POST",
         body: fd,
       });

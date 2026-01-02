@@ -27,7 +27,7 @@ app.add_middleware(
     allow_origins=[o.strip() for o in settings.cors_origins.split(",") if o.strip()] or ["*"],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"] ,
+    allow_headers=["*"],
 )
 
 
@@ -148,6 +148,19 @@ def create_job(
     celery_app.send_task("worker.tasks.process_job", args=[job.id], queue=queue)
 
     return JobCreateResponse(id=job.id)
+
+
+@app.get("/jobs/{job_id}/logs")
+def download_job_logs(job_id: int, db: Session = Depends(get_db)):
+    job = db.get(Job, job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    if not job.log_path:
+        raise HTTPException(status_code=404, detail="Log not available")
+    lp = Path(job.log_path)
+    if not lp.exists():
+        raise HTTPException(status_code=404, detail="Log missing")
+    return FileResponse(path=str(lp), media_type="text/plain", filename=f"job_{job_id}.log")
 
 
 @app.get("/jobs/{job_id}/download")
