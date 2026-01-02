@@ -1,0 +1,7476 @@
+{
+  "title": "Tema 4 Conservemos la Tierra",
+  "meta": {
+    "source_pdf": "libro.pdf",
+    "start_page": 280,
+    "end_page": 343,
+    "images": [
+      {
+        "page": 280,
+        "src": "images/p280_y0317_x0097.jpeg"
+      },
+      {
+        "page": 281,
+        "src": "images/p281_y-001_x0318.jpeg"
+      },
+      {
+        "page": 284,
+        "src": "images/p284_y0088_x0055.jpeg"
+      },
+      {
+        "page": 284,
+        "src": "images/p284_y0111_x0264.jpeg"
+      },
+      {
+        "page": 284,
+        "src": "images/p284_y0260_x0054.jpeg"
+      },
+      {
+        "page": 284,
+        "src": "images/p284_y0260_x0301.jpeg"
+      },
+      {
+        "page": 285,
+        "src": "images/p285_y0148_x0066.jpeg"
+      },
+      {
+        "page": 286,
+        "src": "images/p286_y0449_x0409.jpeg"
+      },
+      {
+        "page": 291,
+        "src": "images/p291_y-001_x0249.jpeg"
+      },
+      {
+        "page": 292,
+        "src": "images/p292_y-001_x-001.jpeg"
+      },
+      {
+        "page": 293,
+        "src": "images/p293_y0355_x0317.jpeg"
+      },
+      {
+        "page": 294,
+        "src": "images/p294_y0521_x0000.jpeg"
+      },
+      {
+        "page": 294,
+        "src": "images/p294_y0522_x0369.jpeg"
+      },
+      {
+        "page": 295,
+        "src": "images/p295_y0249_x-001.jpeg"
+      },
+      {
+        "page": 295,
+        "src": "images/p295_y0249_x0166.jpeg"
+      },
+      {
+        "page": 296,
+        "src": "images/p296_y0212_x-001.jpeg"
+      },
+      {
+        "page": 298,
+        "src": "images/p298_y0265_x0000.jpeg"
+      },
+      {
+        "page": 299,
+        "src": "images/p299_y0456_x0175.jpeg"
+      },
+      {
+        "page": 300,
+        "src": "images/p300_y0199_x0360.jpeg"
+      },
+      {
+        "page": 301,
+        "src": "images/p301_y0198_x-001.jpeg"
+      },
+      {
+        "page": 302,
+        "src": "images/p302_y0007_x0315.jpeg"
+      },
+      {
+        "page": 302,
+        "src": "images/p302_y0193_x0279.jpeg"
+      },
+      {
+        "page": 302,
+        "src": "images/p302_y0203_x0061.jpeg"
+      },
+      {
+        "page": 302,
+        "src": "images/p302_y0217_x0174.jpeg"
+      },
+      {
+        "page": 303,
+        "src": "images/p303_y0193_x-001.jpeg"
+      },
+      {
+        "page": 304,
+        "src": "images/p304_y0096_x0326.jpeg"
+      },
+      {
+        "page": 306,
+        "src": "images/p306_y0440_x0269.jpeg"
+      },
+      {
+        "page": 308,
+        "src": "images/p308_y0359_x0143.jpeg"
+      },
+      {
+        "page": 309,
+        "src": "images/p309_y0220_x-001.jpeg"
+      },
+      {
+        "page": 310,
+        "src": "images/p310_y0225_x0280.png"
+      },
+      {
+        "page": 311,
+        "src": "images/p311_y0170_x0060.jpeg"
+      },
+      {
+        "page": 312,
+        "src": "images/p312_y0303_x0030.jpeg"
+      },
+      {
+        "page": 313,
+        "src": "images/p313_y0237_x-001.jpeg"
+      },
+      {
+        "page": 314,
+        "src": "images/p314_y-001_x0238.jpeg"
+      },
+      {
+        "page": 315,
+        "src": "images/p315_y0124_x-001.jpeg"
+      },
+      {
+        "page": 316,
+        "src": "images/p316_y-001_x-001.jpeg"
+      },
+      {
+        "page": 316,
+        "src": "images/p316_y0122_x0417.jpeg"
+      },
+      {
+        "page": 316,
+        "src": "images/p316_y0579_x-001.jpeg"
+      },
+      {
+        "page": 317,
+        "src": "images/p317_y-001_x-001.jpeg"
+      },
+      {
+        "page": 318,
+        "src": "images/p318_y-001_x-001.jpeg"
+      },
+      {
+        "page": 320,
+        "src": "images/p320_y0428_x0000.jpeg"
+      },
+      {
+        "page": 321,
+        "src": "images/p321_y0383_x0311.jpeg"
+      },
+      {
+        "page": 321,
+        "src": "images/p321_y0384_x0066.jpeg"
+      },
+      {
+        "page": 321,
+        "src": "images/p321_y0563_x0311.jpeg"
+      },
+      {
+        "page": 321,
+        "src": "images/p321_y0563_x0065.jpeg"
+      },
+      {
+        "page": 324,
+        "src": "images/p324_y0195_x0037.jpeg"
+      },
+      {
+        "page": 324,
+        "src": "images/p324_y0426_x0062.jpeg"
+      },
+      {
+        "page": 325,
+        "src": "images/p325_y0217_x0097.jpeg"
+      },
+      {
+        "page": 326,
+        "src": "images/p326_y0472_x0044.jpeg"
+      },
+      {
+        "page": 328,
+        "src": "images/p328_y0044_x-001.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0134_x0046.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0138_x0316.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0140_x0409.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0147_x0171.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0258_x0188.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0260_x0423.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0261_x0043.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0268_x0315.png"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0375_x0335.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0378_x0175.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0380_x0047.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0380_x0445.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0491_x0225.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0495_x0417.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0495_x0053.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0603_x0048.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0604_x0216.jpeg"
+      },
+      {
+        "page": 329,
+        "src": "images/p329_y0614_x0379.jpeg"
+      },
+      {
+        "page": 333,
+        "src": "images/p333_y0317_x-001.jpeg"
+      },
+      {
+        "page": 334,
+        "src": "images/p334_y0304_x0228.jpeg"
+      },
+      {
+        "page": 335,
+        "src": "images/p335_y0493_x0032.jpeg"
+      },
+      {
+        "page": 336,
+        "src": "images/p336_y0411_x0069.jpeg"
+      },
+      {
+        "page": 336,
+        "src": "images/p336_y0413_x0303.jpeg"
+      },
+      {
+        "page": 338,
+        "src": "images/p338_y0557_x0062.jpeg"
+      },
+      {
+        "page": 339,
+        "src": "images/p339_y0105_x0064.jpeg"
+      },
+      {
+        "page": 339,
+        "src": "images/p339_y0134_x0311.png"
+      },
+      {
+        "page": 341,
+        "src": "images/p341_y0421_x0342.jpeg"
+      },
+      {
+        "page": 342,
+        "src": "images/p342_y0213_x0333.jpeg"
+      },
+      {
+        "page": 342,
+        "src": "images/p342_y0528_x0346.jpeg"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "type": "page_marker",
+      "page": 280
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tema 4 Conservemos la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Como hemos revisado en los temas anteriores, en la Tierra hay una gran",
+        "diversidad de formas de vida. Pero una de ellas, la humana, ha transformado",
+        "el planeta sin considerar que la existencia de la Tierra no se justifica por",
+        "la utilidad que ésta tiene para ella. La Tierra, hogar extraordinario, tiene",
+        "derecho a seguir existiendo y con ella todos sus habitantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "ara empezar..."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué te hace pensar y sentir la imagen?"
+    },
+    {
+      "type": "image",
+      "src": "images/p280_y0317_x0097.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conservemos la salud de la madre Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "279"
+    },
+    {
+      "type": "page_marker",
+      "page": 281
+    },
+    {
+      "type": "image",
+      "src": "images/p281_y-001_x0318.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "H"
+    },
+    {
+      "type": "paragraph",
+      "text": "ace muchísimo tiempo, antes"
+    },
+    {
+      "type": "paragraph",
+      "text": "de nacer el primer ser hu-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "mano, antes de que el primer ár-"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "bol buscara la luz del Sol... su vida"
+    },
+    {
+      "type": "paragraph",
+      "text": "comenzó. Con el paso de los años"
+    },
+    {
+      "type": "paragraph",
+      "text": "se ha transformado. Los ríos, como"
+    },
+    {
+      "type": "paragraph",
+      "text": "sangre, corren por sus venas, ex-"
+    },
+    {
+      "type": "paragraph",
+      "text": "presa lo que siente, nos alimenta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "nos puede sanar, tiene el poder de"
+    },
+    {
+      "type": "paragraph",
+      "text": "regalarnos vida, energía y también"
+    },
+    {
+      "type": "paragraph",
+      "text": "alegrías. No es una cosa, es la Tie-"
+    },
+    {
+      "type": "paragraph",
+      "text": "rra. Y hay razón para llamarla"
+    },
+    {
+      "type": "paragraph",
+      "text": "Madre."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten el contenido del texto anterior y digan qué piensan de la",
+        "última frase."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué significa para ti querer y cuidar la Tierra?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "280"
+    },
+    {
+      "type": "page_marker",
+      "page": 282
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comparte tu respuesta con otras personas del Círculo de estudio y",
+        "escribe en el cuaderno las ideas que consideres más importantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Traza una ✓ en los círculos correspondientes a las acciones que apoyas"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "o realizas con frecuencia."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Respeto y no daño a las plantas y animales con los que convivo.",
+        "Mantengo encendida la luz sólo cuando la necesito.",
+        "En los lugares públicos, respeto las indicaciones que prohíben fumar y tirar",
+        "basura.",
+        "Separo el papel, las latas y el vidrio de otra basura y los vendo.",
+        "Cuando llueve, uso recipientes limpios para reunir agua y después la utilizo",
+        "para regar plantas y limpiar la casa.",
+        "Le enseño a los niños con los que convivo a mantener limpio el lugar",
+        "donde se encuentren, a no desperdiciar agua ni energía eléctrica.",
+        "Evito el uso de aerosoles.",
+        "Participo en actividades que organizan grupos o instituciones para",
+        "sembrar y cuidar árboles.",
+        "Uso jabones y detergentes que no contaminan mucho."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen sus respuestas y, por parejas, expliquen la importancia que",
+        "tiene difundir y llevar a cabo cada una de las medidas anteriores.",
+        "Escribe en tu cuaderno la conclusión a la llegaron."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "281"
+    },
+    {
+      "type": "page_marker",
+      "page": 283
+    },
+    {
+      "type": "paragraph",
+      "text": "Trabajando por nuestra casa, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Para empezar bien el próximo año",
+        "A quienes aman la Tierra:",
+        "Cada día docenas de especies desaparecen de la Tierra para siempre. Pero",
+        "aún hay esperanzas, con la ayuda de muchas personas, la ballena gris se sigue",
+        "reproduciendo en aguas mexicanas, algunas industrias contaminantes han sido",
+        "sancionadas, y miles de kilómetros de zonas arboladas han sido protegidas",
+        "para siempre. Tenemos sólo una madre Tierra, necesita de nosotros. A diario, tú",
+        "puedes hacer algo por ella. ¿Qué vas a hacer?",
+        "¡Corre la voz!"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Investiga tres medidas que, a partir de hoy, podrías llevar a cabo",
+        "para conservar la Tierra. Puedes consultar a personas o materiales",
+        "impresos. Anótalas en tu cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “ Qué podemos hacer para"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "conservar la Tierra?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisa las medidas que investigaste. Después, selecciona algunas de ellas"
+    },
+    {
+      "type": "paragraph",
+      "text": "y decide qué podrías hacer para darlas a conocer a tus familiares o"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "vecinos. Fíjate en los ejemplos de la siguiente página."
+    },
+    {
+      "type": "paragraph",
+      "text": "282"
+    },
+    {
+      "type": "page_marker",
+      "page": 284
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa las ilustraciones."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "image",
+      "src": "images/p284_y0088_x0055.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p284_y0111_x0264.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p284_y0260_x0054.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p284_y0260_x0301.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Investiga las direcciones de algunas instituciones u organizaciones",
+        "dedicadas a la conservación del ambiente y acude a ellas para solici-",
+        "tar información acerca de las actividades que realizarás en tu familia",
+        "o en tu comunidad."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Realiza las actividades de la ficha “Reciclemos el papel”."
+    },
+    {
+      "type": "paragraph",
+      "text": "abías"
+    },
+    {
+      "type": "paragraph",
+      "text": "que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Muchas personas se dedican a reciclar papel y realizan con él diversas artesanías,"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "por ejemplo, canastas de vistosos colores, separadores para libros con frases"
+    },
+    {
+      "type": "paragraph",
+      "text": "283"
+    },
+    {
+      "type": "page_marker",
+      "page": 285
+    },
+    {
+      "type": "paragraph",
+      "text": "de autores famosos, libretas, agendas, calendarios, entre otras cosas. Esto"
+    },
+    {
+      "type": "paragraph",
+      "text": "permite que se reutilice el papel, se proteja el ambiente, y algunas familias"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "se apoyen económicamente vendiendo estos productos."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee y subraya las ideas principales de la siguiente noticia."
+    },
+    {
+      "type": "image",
+      "src": "images/p285_y0148_x0066.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Derecho de toda"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "persona a un ambiente"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "adecuado"
+    },
+    {
+      "type": "paragraph",
+      "text": "Integrado a rango constitucional"
+    },
+    {
+      "type": "paragraph",
+      "text": "que es impostergable una refor-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ciudad de México, 5 de enero de"
+    },
+    {
+      "type": "paragraph",
+      "text": "1999. Por unanimidad (con 417"
+    },
+    {
+      "type": "paragraph",
+      "text": "ma a la Carta Magna que permita"
+    },
+    {
+      "type": "paragraph",
+      "text": "votos), el Pleno de la Cámara de"
+    },
+    {
+      "type": "paragraph",
+      "text": "prever el derecho al medio am-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diputados aprobó el Decreto por"
+    },
+    {
+      "type": "paragraph",
+      "text": "biente adecuado, lo cual dará sus-"
+    },
+    {
+      "type": "paragraph",
+      "text": "el que se adiciona un párrafo quin-"
+    },
+    {
+      "type": "paragraph",
+      "text": "tento claro e incuestionable para"
+    },
+    {
+      "type": "paragraph",
+      "text": "to al artículo 4º constitucional para"
+    },
+    {
+      "type": "paragraph",
+      "text": "su propia reglamentación."
+    },
+    {
+      "type": "paragraph",
+      "text": "establecer el derecho a un medio"
+    },
+    {
+      "type": "paragraph",
+      "text": "En la discusión del tema,"
+    },
+    {
+      "type": "paragraph",
+      "text": "ambiente adecuado para el bien-"
+    },
+    {
+      "type": "paragraph",
+      "text": "se dijo que con estas medidas se"
+    },
+    {
+      "type": "paragraph",
+      "text": "estar y desarrollo de la población,"
+    },
+    {
+      "type": "paragraph",
+      "text": "busca evitar las consecuencias"
+    },
+    {
+      "type": "paragraph",
+      "text": "y se reforma el párrafo primero"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la tala o quema inmoderada"
+    },
+    {
+      "type": "paragraph",
+      "text": "del artículo 25 del mismo orde-"
+    },
+    {
+      "type": "paragraph",
+      "text": "de selvas, el comercio de especies"
+    },
+    {
+      "type": "paragraph",
+      "text": "namiento, a efecto de incluir el"
+    },
+    {
+      "type": "paragraph",
+      "text": "raras amenazadas y en peligro"
+    },
+    {
+      "type": "paragraph",
+      "text": "término “sustentable” en relación"
+    },
+    {
+      "type": "paragraph",
+      "text": "de extinción, la sobreexplotación"
+    },
+    {
+      "type": "paragraph",
+      "text": "con la rectoría del desarrollo na-"
+    },
+    {
+      "type": "paragraph",
+      "text": "de los recursos, así como la con-"
+    },
+    {
+      "type": "paragraph",
+      "text": "cional."
+    },
+    {
+      "type": "paragraph",
+      "text": "taminación atmosférica deriva-"
+    },
+    {
+      "type": "paragraph",
+      "text": "En el dictamen, las comisiones"
+    },
+    {
+      "type": "paragraph",
+      "text": "da del consumo de combustibles"
+    },
+    {
+      "type": "paragraph",
+      "text": "unidas de Gobernación y Puntos"
+    },
+    {
+      "type": "paragraph",
+      "text": "fósiles (petróleo), generadores de"
+    },
+    {
+      "type": "paragraph",
+      "text": "Constitucionales y la de Ecología"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía que amenazan gravemen-"
+    },
+    {
+      "type": "paragraph",
+      "text": "y Medio Ambiente consideraron"
+    },
+    {
+      "type": "paragraph",
+      "text": "te la estabilidad de los ecosistemas."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "284"
+    },
+    {
+      "type": "page_marker",
+      "page": 286
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten acerca de la noticia anterior:",
+        "¿Qué relación encuentras entre esta noticia y los problemas",
+        "revisados en las actividades de esta unidad?",
+        "¿Cuál es la responsabilidad de cada persona para hacer realidad",
+        "esta propuesta?",
+        "Escribe en tu cuaderno una propuesta de carta dirigida a represen-",
+        "tantes locales o federales de la Cámara de Diputados para solicitarles",
+        "su apoyo en la elaboración de leyes que favorezcan la solución de uno",
+        "de los principales problemas de contaminación de tu comunidad, o",
+        "bien, de procedimientos que hagan cumplir las leyes que ya existen."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisen el texto de la carta que propone cada integrante. Después, entre"
+    },
+    {
+      "type": "paragraph",
+      "text": "todos, redacten el texto de la carta que enviarán. Inviten a sus familiares"
+    },
+    {
+      "type": "paragraph",
+      "text": "y vecinos para que firmen en apoyo a sus demandas y comenten la"
+    },
+    {
+      "type": "paragraph",
+      "text": "importancia de llevar a cabo acciones para el cuidado del ambiente"
+    },
+    {
+      "type": "image",
+      "src": "images/p286_y0449_x0409.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una persona sola poco puede hacer para evitar que miles de"
+    },
+    {
+      "type": "paragraph",
+      "text": "litros de petróleo floten o ardan sobre la superficie de los ma-"
+    },
+    {
+      "type": "paragraph",
+      "text": "res, contaminen el agua y destruyan la vida. Pero todos juntos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "a diario, podemos lograr que la producción y el consumo de"
+    },
+    {
+      "type": "paragraph",
+      "text": "ese recurso sean más racionales, y también que los dirigentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "de las distintas naciones no antepongan intereses económicos"
+    },
+    {
+      "type": "paragraph",
+      "text": "y políticos al interés legítimo de millones de personas que"
+    },
+    {
+      "type": "paragraph",
+      "text": "deseamos conservar la Tierra y las formas de vida que hay en"
+    },
+    {
+      "type": "paragraph",
+      "text": "ella. Infórmate, manifiesta tus inquietudes y une tus esfuerzos"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "con otras personas interesadas en hacer escuchar sus voces."
+    },
+    {
+      "type": "paragraph",
+      "text": "285"
+    },
+    {
+      "type": "page_marker",
+      "page": 287
+    },
+    {
+      "type": "paragraph",
+      "text": "uestros avances"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Elige dos o tres actividades que te hayan resultado difíciles de realizar;"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "localiza aquellas partes que consideres necesario revisar nuevamente."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota el material, la página y el asunto que deseas revisar."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. Reúnete con otra persona, sea o no integrante del Círculo de estudio. Pla-"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "tícale tus dificultades y juntos aclaren las dudas. De ser necesario, realicen"
+    },
+    {
+      "type": "paragraph",
+      "text": "nuevamente la actividad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe brevemente lo que hicieron y lo que aprendieron durante las"
+    },
+    {
+      "type": "paragraph",
+      "text": "actividades realizadas."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "286"
+    },
+    {
+      "type": "page_marker",
+      "page": 288
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. Elabora una síntesis del tema de esta unidad que te resultó más"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "importante; explica por qué."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "el la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "4. ¿Qué importancia tiene conocer las relaciones que existen entre los"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "componentes de un ecosistema?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "287"
+    },
+    {
+      "type": "page_marker",
+      "page": 289
+    },
+    {
+      "type": "list",
+      "items": [
+        "5. Describe algunas ventajas en el uso de la observación y la"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "experimentación. Coméntalas con el grupo y escríbelas."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "6. Recupera información de un periódico, libro, revista, radio o televisión,"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "relacionada con problemas originados por la contaminación. Presenta"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el grupo la información y explica cómo afecta a los componentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "del ecosistema."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "288"
+    },
+    {
+      "type": "page_marker",
+      "page": 290
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué he aprendido y para qué me sirve?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y"
+    },
+    {
+      "type": "paragraph",
+      "text": "diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "el la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad 4. Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Temas:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. México, un país de contrastes",
+        "2. Los ecosistemas en el mundo",
+        "3. Cuidemos el patrimonio de la humanidad",
+        "4. Conservemos la Tierra"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué aprendí en esta unidad?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué debo repasar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Para qué me sirve lo que he aprendido en esta unidad?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "289"
+    },
+    {
+      "type": "page_marker",
+      "page": 291
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "image",
+      "src": "images/p291_y-001_x0249.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¿QUÉ NOS",
+        "PROPONEMOS?",
+        "•\tDistinguir las características",
+        "más importantes del universo,",
+        "del sistema solar y de la Tierra.",
+        "•\tIdentificar las formas en que la",
+        "Tierra cambia y evoluciona de",
+        "manera natural y por la acción",
+        "de los seres humanos.",
+        "•\tExplicar las relaciones",
+        "que existen entre algunos",
+        "fenómenos naturales y el",
+        "movimiento de los cuerpos",
+        "u objetos que se encuentran",
+        "en el cielo.",
+        "•\tApreciar cómo nuestras ideas",
+        "sobre el universo han ido",
+        "cambiando con el tiempo.",
+        "TEMAS",
+        "1.\tLa Tierra, nuestra casa",
+        "en el universo",
+        "2.\tOrigen y evolución",
+        "de la vida",
+        "3.\tEstaciones, eclipses",
+        "y mareas",
+        "4.\tNuestras ideas acerca del",
+        "mundo y la vida cambian",
+        "Nuestros avances",
+        "¿Qué he aprendido y para qué",
+        "me sirve?"
+      ]
+    },
+    {
+      "type": "page_marker",
+      "page": 292
+    },
+    {
+      "type": "image",
+      "src": "images/p292_y-001_x-001.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Una mirada"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "al cielo"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "La Tierra, nuestro planeta, al igual que"
+    },
+    {
+      "type": "paragraph",
+      "text": "otros planetas y millones de estrellas, forma"
+    },
+    {
+      "type": "paragraph",
+      "text": "Su historia y muchos"
+    },
+    {
+      "type": "paragraph",
+      "text": "parte del universo."
+    },
+    {
+      "type": "paragraph",
+      "text": "de los fenómenos que ocurren en ella tie-"
+    },
+    {
+      "type": "paragraph",
+      "text": "nen origen en los movimientos de los cuer-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esto"
+    },
+    {
+      "type": "paragraph",
+      "text": "pos u objetos que existen en el cielo."
+    },
+    {
+      "type": "paragraph",
+      "text": "se sabe por el conocimiento que se tiene del"
+    },
+    {
+      "type": "paragraph",
+      "text": "universo, el cual ha ido cambiando a lo lar-"
+    },
+    {
+      "type": "paragraph",
+      "text": "go de la historia de la humanidad."
+    },
+    {
+      "type": "page_marker",
+      "page": 293
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "1\t La Tierra, nuestra casa en el universo"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tema"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Las características que tiene el interior y la superficie del planeta Tierra,",
+        "su atmósfera y su clima, combinadas con la energía del Sol, hacen posible",
+        "la existencia de diversas formas de vida. El estudio del universo nos ayuda",
+        "a comprender mejor el origen de nuestro planeta y de los seres vivos que",
+        "hay en él."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara empezar..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa la ilustración y lee el texto siguiente."
+    },
+    {
+      "type": "image",
+      "src": "images/p293_y0355_x0317.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "El universo"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué es el universo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "pregunté cien veces,"
+    },
+    {
+      "type": "paragraph",
+      "text": "y siempre me contestaron"
+    },
+    {
+      "type": "paragraph",
+      "text": "¡Todo lo que ves!"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué sabes del universo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "292"
+    },
+    {
+      "type": "page_marker",
+      "page": 294
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Compara tus respuestas con las de otros integrantes del Círculo de",
+        "estudio."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "El origen del universo"
+    },
+    {
+      "type": "paragraph",
+      "text": "En el transcurso del tiempo, diferentes culturas de la antigüedad han"
+    },
+    {
+      "type": "paragraph",
+      "text": "tratado de contestar cómo surgió el universo. Para hacerlo, muchos se"
+    },
+    {
+      "type": "paragraph",
+      "text": "basaron en historias mágicas, leyendas religiosas y suposiciones filosóficas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunas explicaciones de diferentes culturas sobre"
+    },
+    {
+      "type": "paragraph",
+      "text": "el origen del universo"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "S"
+    },
+    {
+      "type": "paragraph",
+      "text": "egún los aztecas, el mundo actual fue creado luego de cuatro intentos"
+    },
+    {
+      "type": "paragraph",
+      "text": "fallidos de los dioses, quienes trataron de formar un hombre bueno que"
+    },
+    {
+      "type": "paragraph",
+      "text": "les rindiera honor y tributo. Esta era corresponde al Quinto Sol, en donde"
+    },
+    {
+      "type": "paragraph",
+      "text": "los aztecas se consideran a sí mismos el pueblo elegido para mantener al"
+    },
+    {
+      "type": "paragraph",
+      "text": "astro rey con vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los egipcios, por su parte, pensaban que antes de todo lo único que había"
+    },
+    {
+      "type": "paragraph",
+      "text": "era un océano turbulento, oscuro e infinito, que no era posible ordenar. En"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cultura egipcia"
+    },
+    {
+      "type": "image",
+      "src": "images/p294_y0521_x0000.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p294_y0522_x0369.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pirámides. Przemyslaw “Blueshade” Idzkiewicz. Este archivo está autorizado bajo la"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "293"
+    },
+    {
+      "type": "page_marker",
+      "page": 295
+    },
+    {
+      "type": "paragraph",
+      "text": "ese caos vivía Nun o Amón, quien luego de un tiempo tomó conciencia de"
+    },
+    {
+      "type": "paragraph",
+      "text": "sí mismo y generó todo lo existente, hasta transformarse en Sol. Fue entonces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "que se convirtió en Ra, el gran dios solar, padre de todos los dioses."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "En la India, varias religiones coinciden al explicar el origen del universo"
+    },
+    {
+      "type": "paragraph",
+      "text": "como un continuo: al igual que la vida y la muerte, el cosmos está en un"
+    },
+    {
+      "type": "paragraph",
+      "text": "continuo renacer, en donde la muerte es una etapa transitoria, porque el"
+    },
+    {
+      "type": "paragraph",
+      "text": "ciclo de vida se repite, así sea en diferentes manifestaciones. Desde hace"
+    },
+    {
+      "type": "paragraph",
+      "text": "millones de años, un dios crea el universo durante el día, pero por la noche"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cultura"
+    },
+    {
+      "type": "paragraph",
+      "text": "el caos regresa, lo que hace necesaria la regeneración."
+    },
+    {
+      "type": "paragraph",
+      "text": "griega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los griegos y romanos creían"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Partenón. Marco ed Emanuela. Septiembre 2005. Este archivo está autorizado bajo la"
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p295_y0249_x-001.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p295_y0249_x0166.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "que en el principio predominaba el"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caos, del que surgieron Erebo (las"
+    },
+    {
+      "type": "paragraph",
+      "text": "tinieblas) y Nicte (la noche), quie-"
+    },
+    {
+      "type": "paragraph",
+      "text": "nes originaron a Eros (el amor),"
+    },
+    {
+      "type": "paragraph",
+      "text": "Éter (la luz) y Hemera (el día). Éter"
+    },
+    {
+      "type": "paragraph",
+      "text": "y Hemera se unieron y procrearon"
+    },
+    {
+      "type": "paragraph",
+      "text": "a Gea, la Tierra, quien sería ma-"
+    },
+    {
+      "type": "paragraph",
+      "text": "dre de Urano y Ponto (el cielo y"
+    },
+    {
+      "type": "paragraph",
+      "text": "el mar, respectivamente). Todas"
+    },
+    {
+      "type": "paragraph",
+      "text": "estas deidades generarían muchas"
+    },
+    {
+      "type": "paragraph",
+      "text": "más que tuvieron en el Olimpo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "su morada."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con otros compañeros del Círculo de estudio o tu asesor lo",
+        "que acabas de leer.",
+        "Investiga o comenta una creencia de otra cultura americana-prehispá-",
+        "nica distinta a las del texto (mayas, incas u otra que te interese) sobre",
+        "el origen del universo, y anota lo más importante en tu cuaderno.",
+        "Comenta los resultados de tu investigación con los de tus compañe-",
+        "ros. Pide apoyo a tu asesor para que te oriente dónde investigar."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "294"
+    },
+    {
+      "type": "page_marker",
+      "page": 296
+    },
+    {
+      "type": "paragraph",
+      "text": "Debemos tomar en cuenta que ninguna de estas explicaciones se ha"
+    },
+    {
+      "type": "paragraph",
+      "text": "comprobado basándose en algún razonamiento o método científico. Todas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "se sustentan en la fe de las creencias de cada cultura."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué forma parte del universo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa el siguiente esquema."
+    },
+    {
+      "type": "image",
+      "src": "images/p296_y0212_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "En el universo hay"
+    },
+    {
+      "type": "paragraph",
+      "text": "También hay"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las estrellas forman grupos"
+    },
+    {
+      "type": "paragraph",
+      "text": "enormes llamados galaxias,"
+    },
+    {
+      "type": "paragraph",
+      "text": "nebulosas, que"
+    },
+    {
+      "type": "paragraph",
+      "text": "más estrellas que"
+    },
+    {
+      "type": "paragraph",
+      "text": "que se encuentran girando"
+    },
+    {
+      "type": "paragraph",
+      "text": "son nubes de gas"
+    },
+    {
+      "type": "paragraph",
+      "text": "cualquier otro tipo de"
+    },
+    {
+      "type": "paragraph",
+      "text": "en forma permanente."
+    },
+    {
+      "type": "paragraph",
+      "text": "y polvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "objetos. Las estrellas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Se localizan"
+    },
+    {
+      "type": "paragraph",
+      "text": "son esferas de gas"
+    },
+    {
+      "type": "paragraph",
+      "text": "también los"
+    },
+    {
+      "type": "paragraph",
+      "text": "incandescente."
+    },
+    {
+      "type": "paragraph",
+      "text": "meteoritos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "fragmentos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "roca y de metal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los asteroides"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el espacio."
+    },
+    {
+      "type": "paragraph",
+      "text": "son millones"
+    },
+    {
+      "type": "paragraph",
+      "text": "de pedazos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "En su mayor"
+    },
+    {
+      "type": "paragraph",
+      "text": "roca."
+    },
+    {
+      "type": "paragraph",
+      "text": "parte, el universo"
+    },
+    {
+      "type": "paragraph",
+      "text": "no contiene más"
+    },
+    {
+      "type": "paragraph",
+      "text": "que espacio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cometas"
+    },
+    {
+      "type": "paragraph",
+      "text": "vacío."
+    },
+    {
+      "type": "paragraph",
+      "text": "son bolas"
+    },
+    {
+      "type": "paragraph",
+      "text": "de polvo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "gas y hielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nosotros"
+    },
+    {
+      "type": "paragraph",
+      "text": "acumulados."
+    },
+    {
+      "type": "paragraph",
+      "text": "pertenecemos"
+    },
+    {
+      "type": "paragraph",
+      "text": "a una galaxia"
+    },
+    {
+      "type": "paragraph",
+      "text": "llamada Vía"
+    },
+    {
+      "type": "paragraph",
+      "text": "Láctea. Todas"
+    },
+    {
+      "type": "paragraph",
+      "text": "El sistema solar es el conjunto formado por"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sol es una estrella"
+    },
+    {
+      "type": "paragraph",
+      "text": "las estrellas que"
+    },
+    {
+      "type": "paragraph",
+      "text": "el Sol y todos los objetos que giran a su"
+    },
+    {
+      "type": "paragraph",
+      "text": "entre millones de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "vemos forman"
+    },
+    {
+      "type": "paragraph",
+      "text": "alrededor, como los planetas, que son bolas de"
+    },
+    {
+      "type": "paragraph",
+      "text": "galaxia; es el centro"
+    },
+    {
+      "type": "paragraph",
+      "text": "parte de ella."
+    },
+    {
+      "type": "paragraph",
+      "text": "roca, hielo o gas que giran sobre su propio eje,"
+    },
+    {
+      "type": "paragraph",
+      "text": "del sistema solar."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "y sus satélites, formados de rocas."
+    },
+    {
+      "type": "paragraph",
+      "text": "295"
+    },
+    {
+      "type": "page_marker",
+      "page": 297
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué importancia tiene para los seres humanos saber que, hasta ahora,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra es el único planeta en el que existe vida?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Sabes cuáles son los cuerpos celestes* que forman el sistema solar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí       No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si contestaste afirmativamente escríbelos."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambien y comenten sus respuestas y traten de llegar a una",
+        "conclusión para cada pregunta. Anótalas en tu cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “ Cómo es el universo?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "*Cuerpos celestes: Objetos que se localizan en el cielo."
+    },
+    {
+      "type": "paragraph",
+      "text": "296"
+    },
+    {
+      "type": "page_marker",
+      "page": 298
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo se formó el universo y sus componentes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Tienes alguna información acerca de cómo se formó el universo? Anótala."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa la siguiente ilustración."
+    },
+    {
+      "type": "image",
+      "src": "images/p298_y0265_x0000.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hace 15 000 millones"
+    },
+    {
+      "type": "paragraph",
+      "text": "La vida surgió en"
+    },
+    {
+      "type": "paragraph",
+      "text": "de años, el universo"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra hace"
+    },
+    {
+      "type": "paragraph",
+      "text": "empezó con una"
+    },
+    {
+      "type": "paragraph",
+      "text": "3 500 millones"
+    },
+    {
+      "type": "paragraph",
+      "text": "tremenda explosión"
+    },
+    {
+      "type": "paragraph",
+      "text": "de años,"
+    },
+    {
+      "type": "paragraph",
+      "text": "con la que se creó"
+    },
+    {
+      "type": "paragraph",
+      "text": "aproximadamente."
+    },
+    {
+      "type": "paragraph",
+      "text": "toda la materia, la"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía, el espacio y"
+    },
+    {
+      "type": "paragraph",
+      "text": "el tiempo."
+    },
+    {
+      "type": "paragraph",
+      "text": "La Tierra se formó"
+    },
+    {
+      "type": "paragraph",
+      "text": "también hace"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 600 millones"
+    },
+    {
+      "type": "paragraph",
+      "text": "En unos minutos"
+    },
+    {
+      "type": "paragraph",
+      "text": "de años."
+    },
+    {
+      "type": "paragraph",
+      "text": "se formó la materia"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA and The Hubble Heritage Team (STScI/AURA), Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "que compone"
+    },
+    {
+      "type": "paragraph",
+      "text": "el universo."
+    },
+    {
+      "type": "paragraph",
+      "text": "La galaxia de la Vía"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hace 4 600 millones de años se formó el sistema"
+    },
+    {
+      "type": "paragraph",
+      "text": "Láctea se formó hace"
+    },
+    {
+      "type": "paragraph",
+      "text": "solar a partir de una nube de gas y polvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "13 000 millones de"
+    },
+    {
+      "type": "paragraph",
+      "text": "Primero se formó el Sol y luego los demás"
+    },
+    {
+      "type": "paragraph",
+      "text": "años."
+    },
+    {
+      "type": "paragraph",
+      "text": "cuerpos: planetas, asteroides, satélites."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "297"
+    },
+    {
+      "type": "page_marker",
+      "page": 299
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con tus compañeros del Círculo de estudio lo que observan",
+        "en la fotografía anterior.",
+        "Con la colaboración de otras personas, responde la siguiente pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si una persona viviera 100 años, ¿cuántas personas de la misma edad"
+    },
+    {
+      "type": "paragraph",
+      "text": "tendrían que sumarse para igualar el total de años que tiene la Tierra?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Elaboren un periódico mural que lleve por título",
+        "“El universo y la vida”."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta a personas ajenas al Círculo de estudio o lee algunos materiales"
+    },
+    {
+      "type": "paragraph",
+      "text": "para obtener la información que requieras."
+    },
+    {
+      "type": "image",
+      "src": "images/p299_y0456_x0175.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las estrellas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa"
+    },
+    {
+      "type": "paragraph",
+      "text": "la siguiente"
+    },
+    {
+      "type": "paragraph",
+      "text": "imagen."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "298"
+    },
+    {
+      "type": "page_marker",
+      "page": 300
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Conoces el nombre de algunas estrellas? Escríbelos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "M45 - The Pleiades, D JMcCrady, Fotopedia."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las estrellas tienen diversas características:"
+    },
+    {
+      "type": "image",
+      "src": "images/p300_y0199_x0360.jpeg"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Se localizan a grandes distancias de la Tierra.",
+        "Se forman de gas y polvo.",
+        "Crecen, se desarrollan y mueren; pueden"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "durar cientos o millones de años."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tienen diversas temperaturas.",
+        "Producen energía luminosa que las hace"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "brillar."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mueren o se extinguen de diferentes maneras:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "explotan o se extinguen poco a poco."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una estrella es una bola de gas caliente y"
+    },
+    {
+      "type": "paragraph",
+      "text": "luminoso en permanente actividad. La mayoría"
+    },
+    {
+      "type": "paragraph",
+      "text": "de las estrellas contienen dos gases principales:"
+    },
+    {
+      "type": "paragraph",
+      "text": "hidrógeno y helio. Las reacciones que ocurren en"
+    },
+    {
+      "type": "paragraph",
+      "text": "su núcleo, es decir, en su centro, producen energía."
+    },
+    {
+      "type": "paragraph",
+      "text": "La energía es liberada en forma de luz y calor."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Encuentras algún parecido entre la vida de una estrella y la de una"
+    },
+    {
+      "type": "paragraph",
+      "text": "persona? Anótalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "299"
+    },
+    {
+      "type": "page_marker",
+      "page": 301
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué crees que los seres humanos nos hemos fijado en las estrellas?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "El ser humano, desde tiempos remo-"
+    },
+    {
+      "type": "image",
+      "src": "images/p301_y0198_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "tos, se ha fijado en las estrellas, las"
+    },
+    {
+      "type": "paragraph",
+      "text": "ha estudiado. Por su posición y brillo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "las estrellas en la noche parecieran"
+    },
+    {
+      "type": "paragraph",
+      "text": "formar figuras. A estas figuras se les"
+    },
+    {
+      "type": "paragraph",
+      "text": "llama constelaciones. Cada una de"
+    },
+    {
+      "type": "paragraph",
+      "text": "las constelaciones, para quienes las"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA-JPL/California Institute of Technology, Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "miraron, representaba a una perso-"
+    },
+    {
+      "type": "paragraph",
+      "text": "na, animal u objeto. El brillo de una"
+    },
+    {
+      "type": "paragraph",
+      "text": "estrella depende de su luminosidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "y de su distancia con la Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasaría con la Tierra y los demás planetas, si el Sol se extinguiera?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Descríbelo."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen y comenten sus respuestas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "300"
+    },
+    {
+      "type": "page_marker",
+      "page": 302
+    },
+    {
+      "type": "image",
+      "src": "images/p302_y0007_x0315.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "abías"
+    },
+    {
+      "type": "paragraph",
+      "text": "que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Algunas aves, como las currucas y las grullas,",
+        "y algunos insectos, como las hormigas y",
+        "las mariposas nocturnas, se orientan por la",
+        "posición de los astros y las estrellas para seguir el",
+        "camino a casa."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p302_y0193_x0279.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p302_y0203_x0061.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p302_y0217_x0174.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sol es una estrella. La energía que se produce en su núcleo alcanza"
+    },
+    {
+      "type": "paragraph",
+      "text": "la superficie y se propaga al espacio. La luz visible y otras radiaciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "tardan ocho minutos en llegar a la Tierra desde la superficie solar. Como"
+    },
+    {
+      "type": "paragraph",
+      "text": "todas las estrellas, el Sol algún día se extinguirá, cuando esto ocurra"
+    },
+    {
+      "type": "paragraph",
+      "text": "habrán pasado miles de millones de años."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasaría en la Tierra si el Sol tuviera cinco veces más su diámetro actual?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Algunos datos que conocemos del Sol"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Edad",
+        "Diámetro",
+        "Temperatura del centro",
+        "Distancia de la Tierra"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "4 600 millones de años aproximadamente"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "301"
+    },
+    {
+      "type": "page_marker",
+      "page": 303
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunas estrellas como el Sol dan origen a planetas que giran a su"
+    },
+    {
+      "type": "paragraph",
+      "text": "alrededor. Así nació el sistema solar al que pertenecemos. Primero, se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "formó el Sol; después, los planetas, los satélites, los asteroides y cometas"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "que giran a su alrededor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa el siguiente esquema."
+    },
+    {
+      "type": "image",
+      "src": "images/p303_y0193_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sol es sólo una estrella entre las"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Tierra es el tercero de los planetas."
+    },
+    {
+      "type": "paragraph",
+      "text": "miles de millones que existen en el"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el único planeta del sistema solar"
+    },
+    {
+      "type": "paragraph",
+      "text": "universo. El Sol, junto con los ocho"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el que se sabe que existe vida. En"
+    },
+    {
+      "type": "paragraph",
+      "text": "planetas, más de 60 satélites y miles"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra viven más de 6 000 millones"
+    },
+    {
+      "type": "paragraph",
+      "text": "de asteroides y cometas, forman el"
+    },
+    {
+      "type": "paragraph",
+      "text": "de personas y cientos de miles de"
+    },
+    {
+      "type": "paragraph",
+      "text": "sistema solar."
+    },
+    {
+      "type": "paragraph",
+      "text": "organismos vivos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los planetas"
+    },
+    {
+      "type": "paragraph",
+      "text": "giran alrededor"
+    },
+    {
+      "type": "paragraph",
+      "text": "del Sol y sobre"
+    },
+    {
+      "type": "paragraph",
+      "text": "su propio eje."
+    },
+    {
+      "type": "paragraph",
+      "text": "También alrededor del Sol giran en"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los planetas que giran alrededor del Sol"
+    },
+    {
+      "type": "paragraph",
+      "text": "órbita los cometas, asteroides y"
+    },
+    {
+      "type": "paragraph",
+      "text": "son 8: Mercurio, Venus, Tierra, Marte,"
+    },
+    {
+      "type": "paragraph",
+      "text": "meteoritos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Júpiter, Saturno, Urano y Neptuno.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuatro planetas son de roca: Mercurio,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Venus, Tierra y Marte; y cuatro están"
+    },
+    {
+      "type": "paragraph",
+      "text": "formados por gas licuado: Júpiter,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Saturno, Urano y Neptuno."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "*\tA partir de 2006, Plutón es considerado como planeta enano, según la Unión"
+    },
+    {
+      "type": "paragraph",
+      "text": "Astronómica Internacional (uai)."
+    },
+    {
+      "type": "paragraph",
+      "text": "302"
+    },
+    {
+      "type": "page_marker",
+      "page": 304
+    },
+    {
+      "type": "paragraph",
+      "text": "Alrededor de cada planeta giran satélites, que son formaciones rocosas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunos planetas tienen uno, otros más de uno. La Luna es el satélite"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "image",
+      "src": "images/p304_y0096_x0326.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "natural del planeta Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "El sistema solar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Al ritmo de un sabroso danzón se"
+    },
+    {
+      "type": "paragraph",
+      "text": "pusieron a bailar más de sesenta lunas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los planetas y el Sol."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflexiona acerca de lo que significa la frase"
+    },
+    {
+      "type": "paragraph",
+      "text": "anterior. ¿Qué imaginas que hace girar a los"
+    },
+    {
+      "type": "paragraph",
+      "text": "planetas y las lunas en torno al Sol?"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe tus respuestas en tu cuaderno.",
+        "Discute con otros integrantes y den respuesta a las siguientes pre-",
+        "guntas:",
+        "¿Qué cae más rápido, un trozo de metal o una pluma de ave?",
+        "¿Por qué caen los objetos al suelo?",
+        "Anota tus respuestas en tu cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Planeta. Significa, en griego, errante o caminante. Son cuerpos celestes,"
+    },
+    {
+      "type": "paragraph",
+      "text": "es decir, objetos que se localizan en el cielo, de más de 1 000 kilómetros"
+    },
+    {
+      "type": "paragraph",
+      "text": "de diámetro. No radian luz propia. Los planetas orbitan, es decir, giran"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "alrededor de las estrellas."
+    },
+    {
+      "type": "paragraph",
+      "text": "303"
+    },
+    {
+      "type": "page_marker",
+      "page": 305
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “La fuerza en el universo”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Existe una fuerza mediante la cual todos los componentes del universo se"
+    },
+    {
+      "type": "paragraph",
+      "text": "atraen. Por ejemplo, los planetas y el Sol se atraen. Esa fuerza depende"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la masa de cada componente, es decir, de la cantidad de materia que"
+    },
+    {
+      "type": "paragraph",
+      "text": "contiene. La fuerza de atracción es mayor mientras más grande y pesado"
+    },
+    {
+      "type": "paragraph",
+      "text": "es un cuerpo celeste y mientras más cerca está de otro cuerpo."
+    },
+    {
+      "type": "paragraph",
+      "text": "A esta fuerza se le llama fuerza de gravedad."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Crees que exista vida en otro planeta?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe tu respuesta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagina que vas a describir la Tierra a los habitantes de otro planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Escribe tu descripción"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "304"
+    },
+    {
+      "type": "page_marker",
+      "page": 306
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunos de los principales"
+    },
+    {
+      "type": "paragraph",
+      "text": "componentes de la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Atmósfera. Capa de gases que rodean a la Tierra. Antes de que llegue"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "a la superficie de la Tierra, la energía del Sol es recibida en la atmósfera."
+    },
+    {
+      "type": "paragraph",
+      "text": "Casi la mitad de esa energía es absorbida por la atmósfera y el resto"
+    },
+    {
+      "type": "paragraph",
+      "text": "es devuelta al espacio."
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. Corteza. Capa de la superficie del planeta. El grosor de la corteza"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "terrestre varía según las diferentes partes del mundo; en algunos"
+    },
+    {
+      "type": "paragraph",
+      "text": "lugares tiene entre 50 y 100 km, mientras que en otros apenas existe"
+    },
+    {
+      "type": "paragraph",
+      "text": "corteza. Existen porciones de la corteza llamadas placas tectónicas"
+    },
+    {
+      "type": "paragraph",
+      "text": "que están en constante movimiento."
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. Océanos. Grandes masas de agua salada que cubren más de 70%"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "de la corteza de la Tierra."
+    },
+    {
+      "type": "list",
+      "items": [
+        "4. Núcleo. Centro de la Tierra; se encuentra en estado sólido, formado en"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "su mayor parte por hierro."
+    },
+    {
+      "type": "image",
+      "src": "images/p306_y0440_x0269.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Anota en el esquema el número",
+        "correspondiente a algunos de",
+        "los componentes principales",
+        "de la Tierra, de acuerdo con",
+        "las definiciones anteriores."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "305"
+    },
+    {
+      "type": "page_marker",
+      "page": 307
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Respondan las siguientes preguntas. Para ello lean y discutan las",
+        "definiciones anteriores."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué crees que pasaría si no hubiera atmósfera?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué puede suceder en la superficie de la Tierra como consecuencia"
+    },
+    {
+      "type": "paragraph",
+      "text": "de los movimientos constantes de las placas tectónicas que forman la"
+    },
+    {
+      "type": "paragraph",
+      "text": "corteza terrestre?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “La Tierra”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Algunos datos que conocemos de la Tierra"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Edad",
+        "Diámetro",
+        "Primera evidencia de vida",
+        "Número de especies vivientes"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "4 600 millones de años aproximadamente",
+        "Hace 3 500 millones de años",
+        "Al menos 10 millones"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "306"
+    },
+    {
+      "type": "page_marker",
+      "page": 308
+    },
+    {
+      "type": "paragraph",
+      "text": "El día y la noche"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Tierra siempre tiene dos caras: una de tez sombría, la otra de luz clara;"
+    },
+    {
+      "type": "paragraph",
+      "text": "una de piel cálida, la otra algo más fría."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambien ideas y en grupo respondan las siguientes preguntas.",
+        "¿Por qué hay día y noche?",
+        "¿Qué objetos o cuerpos celestes se observan durante el día y cuáles",
+        "durante la noche?",
+        "Anota las respuestas en tu cuaderno y revisa con otros integrantes",
+        "del Círculo de estudio las respuestas."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p308_y0359_x0143.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "A la Luna le han escrito los poetas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los que aman..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna es el satélite de la Tierra..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna es el único lugar extraterrestre"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el que han caminado los seres humanos..."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "307"
+    },
+    {
+      "type": "page_marker",
+      "page": 309
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué más sabes sobre la Luna?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "image",
+      "src": "images/p309_y0220_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna es el único satélite que tiene la Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiene menor masa que el planeta Tierra y un"
+    },
+    {
+      "type": "paragraph",
+      "text": "tamaño cercano a la cuarta parte de éste."
+    },
+    {
+      "type": "paragraph",
+      "text": "En la Luna no hay aire, ni agua, ni vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna no tiene movimiento libre por"
+    },
+    {
+      "type": "paragraph",
+      "text": "el espacio, pues la atracción que la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tierra ejerce sobre ella hace que ésta"
+    },
+    {
+      "type": "paragraph",
+      "text": "orbite alrededor de nuestro planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "El tiempo de rotación de la Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "alrededor de la Tierra es de 27.3 días."
+    },
+    {
+      "type": "paragraph",
+      "text": "El primer hombre que pisó la Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "fue el astronauta estadounidense Neil"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armstrong, el 21 de julio de 1969."
+    },
+    {
+      "type": "paragraph",
+      "text": "En la superficie de la Luna se observa infinidad,"
+    },
+    {
+      "type": "paragraph",
+      "text": "de cráteres. Éstos son huellas de miles de meteoritos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "formados de hierro y piedra, que han bombardeado la Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "desde hace millones de años. En la Tierra cada día penetran polvo y"
+    },
+    {
+      "type": "paragraph",
+      "text": "fragmentos de roca que se incendian al hacer fricción con el aire. Más de"
+    },
+    {
+      "type": "paragraph",
+      "text": "90% de los meteoritos que llegan a la Tierra son piedras."
+    },
+    {
+      "type": "paragraph",
+      "text": "El mayor meteorito conocido en el mundo se localiza en África del Sur;"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "cayó hace miles de años. Su peso se estima en 60 toneladas."
+    },
+    {
+      "type": "paragraph",
+      "text": "308"
+    },
+    {
+      "type": "page_marker",
+      "page": 310
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con tus compañeros.",
+        "¿Desde cuándo los seres humanos observan el cielo?",
+        "¿Qué resultados se han obtenido de esas observaciones?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "image",
+      "src": "images/p310_y0225_x0280.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Astronomía y"
+    },
+    {
+      "type": "paragraph",
+      "text": "astrología,"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿son lo mismo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Debido a que la astrología y la"
+    },
+    {
+      "type": "paragraph",
+      "text": "astronomía tienen que ver con el"
+    },
+    {
+      "type": "paragraph",
+      "text": "universo, a menudo han sido objeto"
+    },
+    {
+      "type": "paragraph",
+      "text": "de confusión."
+    },
+    {
+      "type": "paragraph",
+      "text": "La astronomía estudia de manera"
+    },
+    {
+      "type": "paragraph",
+      "text": "científica el universo, mientras que"
+    },
+    {
+      "type": "paragraph",
+      "text": "la astrología pretende adivinar el"
+    },
+    {
+      "type": "paragraph",
+      "text": "futuro mediante la observación de"
+    },
+    {
+      "type": "paragraph",
+      "text": "los astros."
+    },
+    {
+      "type": "paragraph",
+      "text": "A medida que la humanidad ha"
+    },
+    {
+      "type": "paragraph",
+      "text": "avanzado en conocimiento y entendido mejor su realidad, la astrología"
+    },
+    {
+      "type": "paragraph",
+      "text": "ha quedado relegada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sin disminuir la importancia histórica que ha tenido en la historia del"
+    },
+    {
+      "type": "paragraph",
+      "text": "hombre, hoy se considera una corriente espiritual o mística. Por ejemplo, en"
+    },
+    {
+      "type": "paragraph",
+      "text": "algunas revistas o periódicos hay una sección dedicada a los horóscopos en ésta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los astrólogos predicen el comportamiento de las personas, futuros sucesos y"
+    },
+    {
+      "type": "paragraph",
+      "text": "hasta su destino, basándose en que todo lo que sucede en su vida está escrito"
+    },
+    {
+      "type": "paragraph",
+      "text": "en las estrellas y su relación con los planetas."
+    },
+    {
+      "type": "paragraph",
+      "text": "La astronomía, en cambio, se dedica al estudio científico de los cuerpos"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "del espacio. Puede decirse que esta rama de la ciencia nació con las"
+    },
+    {
+      "type": "paragraph",
+      "text": "309"
+    },
+    {
+      "type": "page_marker",
+      "page": 311
+    },
+    {
+      "type": "paragraph",
+      "text": "observaciones de los primeros pobladores de la Tierra. Los conocimientos y"
+    },
+    {
+      "type": "paragraph",
+      "text": "explicaciones sobre el universo, así como los instrumentos para estudiarlo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "han ido avanzando gracias al desarrollo tanto de la ciencia como de las nuevas"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "tecnologías. Actualmente podemos observar el firmamento como nuestros"
+    },
+    {
+      "type": "paragraph",
+      "text": "antepasados jamás se hubieran imaginado."
+    },
+    {
+      "type": "image",
+      "src": "images/p311_y0170_x0060.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cambiar por"
+    },
+    {
+      "type": "paragraph",
+      "text": "Telescopio Hubble"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA, Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué instrumentos, máquinas y aparatos se usan en la exploración del"
+    },
+    {
+      "type": "paragraph",
+      "text": "espacio? Investiga preguntando a otras personas y anota sus respuestas"
+    },
+    {
+      "type": "paragraph",
+      "text": "en tu cuaderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "310"
+    },
+    {
+      "type": "page_marker",
+      "page": 312
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Todo lo que vemos a nuestro alrededor forma parte del universo. La historia"
+    },
+    {
+      "type": "paragraph",
+      "text": "del universo explica, a su vez, la historia del Sol, de nuestro planeta, de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Luna y los demás planetas que conocemos. El universo se encuentra en"
+    },
+    {
+      "type": "paragraph",
+      "text": "movimiento y esto se refleja en el comportamiento de los objetos del cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "o cuerpos celestes y en muchos de los fenómenos que ocurren en la Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los conocimientos que los seres humanos hemos alcanzado del universo nos"
+    },
+    {
+      "type": "paragraph",
+      "text": "permiten darnos cuenta de que muchos fenómenos terrestres están ligados"
+    },
+    {
+      "type": "paragraph",
+      "text": "a lo que ocurre en el resto del universo."
+    },
+    {
+      "type": "image",
+      "src": "images/p312_y0303_x0030.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vía Láctea."
+    },
+    {
+      "type": "paragraph",
+      "text": "311"
+    },
+    {
+      "type": "page_marker",
+      "page": 313
+    },
+    {
+      "type": "paragraph",
+      "text": "Tema\t 2\t Origen y evolución de la vida"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Desde las épocas más antiguas, los seres humanos nos hemos hecho",
+        "infinidad de preguntas acerca de nuestro origen: ¿De dónde venimos?",
+        "¿Desde cuándo estamos en la Tierra? ¿Cuándo y cómo apareció la vida?",
+        "Las respuestas a estas y otras interrogantes las podemos encontrar mediante",
+        "el estudio de la formación y transformación de la Tierra."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p313_y0237_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA Blue Marble, NASA Goddard Photo and Video, Fotopedia."
+    },
+    {
+      "type": "paragraph",
+      "text": "ara empezar..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Explica con tus palabras cómo crees que se originó la vida en el planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "312"
+    },
+    {
+      "type": "page_marker",
+      "page": 314
+    },
+    {
+      "type": "image",
+      "src": "images/p314_y-001_x0238.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "L"
+    },
+    {
+      "type": "paragraph",
+      "text": "os organismos vivos podían"
+    },
+    {
+      "type": "paragraph",
+      "text": "ser engendrados no sólo"
+    },
+    {
+      "type": "paragraph",
+      "text": "por seres de su misma especie,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sino también por plantas o por"
+    },
+    {
+      "type": "paragraph",
+      "text": "materia sin vida. Así, en China"
+    },
+    {
+      "type": "paragraph",
+      "text": "estaban convencidos de que algunos insectos, como los pulgones, nacían"
+    },
+    {
+      "type": "paragraph",
+      "text": "espontáneamente de la planta de bambú si se sembraban brotes de esta"
+    },
+    {
+      "type": "paragraph",
+      "text": "planta en tiempo cálido y húmedo. En Egipto se creía también que sapos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "ranas, serpientes, cocodrilos y ratas se formaban de limo del río Nilo. En el"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramayana, libro sagrado de la India, se describe el nacimiento espontáneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "de moscas y parásitos a partir de la basura. En Grecia, pensaban que plantas"
+    },
+    {
+      "type": "paragraph",
+      "text": "y animales se formaban de materia en descomposición, los seres humanos"
+    },
+    {
+      "type": "paragraph",
+      "text": "mismos procederían de gusanos generados espontáneamente."
+    },
+    {
+      "type": "paragraph",
+      "text": "En la Antigüedad, tanto en Europa como en Asia, esta forma de explicarse"
+    },
+    {
+      "type": "paragraph",
+      "text": "el origen de la vida se mantuvo durante cientos de años, hasta después"
+    },
+    {
+      "type": "paragraph",
+      "text": "de 1860."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué crees que llegaron a pensar de esta manera las personas de"
+    },
+    {
+      "type": "paragraph",
+      "text": "esa época?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee las siguientes respuestas y señala con ✓ la que consideres correcta:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Eran interpretaciones parciales y, por tanto, erróneas de lo que"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "(   )"
+    },
+    {
+      "type": "paragraph",
+      "text": "observaban cuando los restos de algún organismo entraba en"
+    },
+    {
+      "type": "paragraph",
+      "text": "estado de descomposición."
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. Porque las personas de esa época no se preocupaban por"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "(   )"
+    },
+    {
+      "type": "paragraph",
+      "text": "investigar y comprobar sus ideas y suposiciones."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. Porque así ocurrió en los inicios del mundo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "(   )"
+    },
+    {
+      "type": "paragraph",
+      "text": "313"
+    },
+    {
+      "type": "page_marker",
+      "page": 315
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambia y comenta tus respuestas con otros integrantes del Círcu-",
+        "lo de estudio."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p315_y0124_x-001.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Jastrow 2006, Wikimedia Commons.",
+        "Aristóteles"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "sí son los hechos: todo ser viene a la vida no"
+    },
+    {
+      "type": "paragraph",
+      "text": "sólo a partir del acoplamiento de los animales,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sino también a partir de la descomposición de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "tierra y del estiércol."
+    },
+    {
+      "type": "paragraph",
+      "text": "Aristóteles, filósofo griego."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee las siguientes explicaciones sobre el"
+    },
+    {
+      "type": "paragraph",
+      "text": "origen de la vida."
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Las explicaciones religiosas —por ejemplo"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "las de la Biblia— transmiten la idea de que existe"
+    },
+    {
+      "type": "paragraph",
+      "text": "un ser divino que creó el universo y al ser humano;"
+    },
+    {
+      "type": "paragraph",
+      "text": "para esto se recurre a narraciones que corresponden"
+    },
+    {
+      "type": "paragraph",
+      "text": "a la cultura del momento en que se escribió esta obra; en ella se"
+    },
+    {
+      "type": "paragraph",
+      "text": "narra que Dios creó al hombre del barro y luego sopló sobre él para"
+    },
+    {
+      "type": "paragraph",
+      "text": "infundirle vida. Después, el hombre fue sumido en un sueño profundo"
+    },
+    {
+      "type": "paragraph",
+      "text": "por Dios, éste le extrajo una costilla, y de ella formó a la primera"
+    },
+    {
+      "type": "paragraph",
+      "text": "mujer. De esta pareja, la primera en el mundo, surgieron todos los"
+    },
+    {
+      "type": "paragraph",
+      "text": "seres humanos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. Los mexicas, en la época prehispánica, establecieron cinco épocas"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "religiosas regidas, cada una, por un Sol distinto. En las épocas corres-"
+    },
+    {
+      "type": "paragraph",
+      "text": "pondientes a los cuatro soles anteriores a la actual (Quinto sol),"
+    },
+    {
+      "type": "paragraph",
+      "text": "todos los seres fueron destruidos por diferentes catástrofes. Los dioses,"
+    },
+    {
+      "type": "paragraph",
+      "text": "entonces, decidieron formar la época del Quinto sol, en la que se creó"
+    },
+    {
+      "type": "paragraph",
+      "text": "el Sol y la Luna. Los hombres fueron creados de los huesos de otros"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "hombres mezclándolos con sangre y maíz."
+    },
+    {
+      "type": "paragraph",
+      "text": "314"
+    },
+    {
+      "type": "page_marker",
+      "page": 316
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Wikimedia Commons.",
+        "Tales de",
+        "Mileto"
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p316_y-001_x-001.jpeg"
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. Otra forma de explicar el origen de la vida es la"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "que dan pensadores griegos, como Tales de Mileto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "y Demócrito. Ellos consideraban que la vida podría"
+    },
+    {
+      "type": "paragraph",
+      "text": "haber surgido del lodo, de la combinación del"
+    },
+    {
+      "type": "image",
+      "src": "images/p316_y0122_x0417.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Svante",
+        "Arrhenius",
+        "Wikimedia Commons."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "fuego con el agua o de la unión de otros"
+    },
+    {
+      "type": "paragraph",
+      "text": "elementos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "4. En 1908, Svante Arrhenius propuso que el desarrollo"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "de la vida en el planeta Tierra se propició por un"
+    },
+    {
+      "type": "paragraph",
+      "text": "microorganismo, es decir, un organismo muy pequeño,"
+    },
+    {
+      "type": "paragraph",
+      "text": "que llegó del espacio exterior, probablemente en un"
+    },
+    {
+      "type": "paragraph",
+      "text": "asteroide o meteorito proveniente de algún otro planeta"
+    },
+    {
+      "type": "paragraph",
+      "text": "en donde había vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Con cuál de las anteriores explicaciones estás de acuerdo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota el número que tiene y explica por qué."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Charles Darwin, un biólogo británico de escasos 20 años de edad, se"
+    },
+    {
+      "type": "paragraph",
+      "text": "preocupó por conocer las características de las especies animales y"
+    },
+    {
+      "type": "paragraph",
+      "text": "vegetales, cómo se originaron las diferencias entre las especies, así como"
+    },
+    {
+      "type": "paragraph",
+      "text": "las razones por las que algunas eran semejantes y otras muy"
+    },
+    {
+      "type": "image",
+      "src": "images/p316_y0579_x-001.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "J. Cameron, Wikimedia Commons.",
+        "Charles",
+        "Darwin"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "diferentes. En 1831 participó en una expedición de un"
+    },
+    {
+      "type": "paragraph",
+      "text": "barco inglés que tenía como misión revisar los mapas"
+    },
+    {
+      "type": "paragraph",
+      "text": "de las costas de América. A él se le encargó recolectar"
+    },
+    {
+      "type": "paragraph",
+      "text": "y registrar las plantas y animales que encontraran a"
+    },
+    {
+      "type": "paragraph",
+      "text": "su paso y llevar algunos de ellos a los museos."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "315"
+    },
+    {
+      "type": "page_marker",
+      "page": 317
+    },
+    {
+      "type": "image",
+      "src": "images/p317_y-001_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa el siguiente mapa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recorrido que realizó Darwin, entre 1831 y 1836, por las"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "costas de América del Sur y distintos lugares del Océano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pacífico."
+    },
+    {
+      "type": "paragraph",
+      "text": "316"
+    },
+    {
+      "type": "page_marker",
+      "page": 318
+    },
+    {
+      "type": "image",
+      "src": "images/p318_y-001_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "1.\t Inglaterra",
+        "5.\t Tierra de Fuego",
+        "9.\t Madagascar",
+        "2.\t Brasail",
+        "6.\t Galápagos",
+        "10.\tEl Cabo",
+        "3.\t Mar del Plata",
+        "7.\t Nueva Zelanda",
+        "11.\tAsunción",
+        "4.\t Malvinas",
+        "8.\t Tasmania",
+        "12\t Inglaterra"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué actividades crees que realizó Darwin durante este viaje para"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "estudiar las especies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "317"
+    },
+    {
+      "type": "page_marker",
+      "page": 319
+    },
+    {
+      "type": "paragraph",
+      "text": "Fíjate en el ejemplo y anota otras tres actividades en el orden que"
+    },
+    {
+      "type": "paragraph",
+      "text": "consideres conveniente."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ordenó y clasificó las especies animales y vegetales"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "que encontró."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "4. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Para qué crees que le sirvió a Darwin la gran cantidad de información"
+    },
+    {
+      "type": "paragraph",
+      "text": "que recogió acerca de las plantas y animales que encontró en territorios"
+    },
+    {
+      "type": "paragraph",
+      "text": "tan diferentes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "A partir del desarrollo de las actividades realizadas, revisa nuevamente tu"
+    },
+    {
+      "type": "paragraph",
+      "text": "primera opinión en relación con el origen de la vida y compleméntala si lo"
+    },
+    {
+      "type": "paragraph",
+      "text": "consideras necesario."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una de las conclusiones de Darwin fue que los organismos que están"
+    },
+    {
+      "type": "paragraph",
+      "text": "mejor adaptados a su medio tienen más posibilidades de sobrevivir y"
+    },
+    {
+      "type": "paragraph",
+      "text": "tener descendencia. Las generaciones descendientes de una especie"
+    },
+    {
+      "type": "paragraph",
+      "text": "cambian en respuesta a cambios azarosos, que serán seleccionados o"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "desechados por las condiciones del entorno."
+    },
+    {
+      "type": "paragraph",
+      "text": "318"
+    },
+    {
+      "type": "page_marker",
+      "page": 320
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Existen distintas formas de explicar el origen de la vida. Estas formas"
+    },
+    {
+      "type": "paragraph",
+      "text": "de explicación surgen en distintos momentos de la historia de los seres"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanos que, preocupados e interesados por comprender su origen y su"
+    },
+    {
+      "type": "paragraph",
+      "text": "presencia en el mundo, han formulado diferentes respuestas. Esas ideas están"
+    },
+    {
+      "type": "paragraph",
+      "text": "relacionadas con el pensamiento religioso de los pueblos, con la observación"
+    },
+    {
+      "type": "paragraph",
+      "text": "e interpretación de lo que sucede en el entorno y con la capacidad y esfuerzo"
+    },
+    {
+      "type": "paragraph",
+      "text": "de algunas personas en el estudio de la naturaleza."
+    },
+    {
+      "type": "paragraph",
+      "text": "La vida en sus inicios"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Te imaginas cómo eran los primeros organismos vivos que habitaron la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tierra?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Completa la siguiente ilustración. Une los puntos siguiendo la numeración"
+    },
+    {
+      "type": "paragraph",
+      "text": "y descubrirás cómo eran algunos de ellos."
+    },
+    {
+      "type": "image",
+      "src": "images/p320_y0428_x0000.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunas de las primeras formas de vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "319"
+    },
+    {
+      "type": "page_marker",
+      "page": 321
+    },
+    {
+      "type": "paragraph",
+      "text": "Señala tres características de los organismos que aparecieron."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. \b",
+        "3. \b"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Lee las siguientes preguntas y respóndelas en tu cuaderno.",
+        "¿Cuáles de esos animales existen en la actualidad?",
+        "¿Por qué crees que hayan cambiado las plantas y animales, tanto",
+        "en sus características como en la cantidad y diversidad de ellos?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa las siguientes ilustraciones."
+    },
+    {
+      "type": "image",
+      "src": "images/p321_y0383_x0311.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p321_y0384_x0066.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p321_y0563_x0311.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p321_y0563_x0065.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "320"
+    },
+    {
+      "type": "page_marker",
+      "page": 322
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué diferencias observas entre las plantas y animales de las ilustraciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Escribe tres."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota el número de la ilustración correspondiente a cada uno de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "textos siguientes:"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Esta época inició hace 4 000 millones de años, cuando la Tierra comenzó a",
+        "enfriarse. En este periodo surgen las primeras formas de vida, animales de",
+        "una sola célula y otros pluricelulares o de más células. Las primeras formas",
+        "de vida aparecieron hace aproximadamente 3 600 millones de años."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilustración número"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En esta época, que inicia hace unos 220 millones de años y termina hace 65",
+        "millones de años, surge una mayor cantidad de plantas y existe buen clima",
+        "y mayor alimento. Evolucionan muchos y más grandes grupos de reptiles,",
+        "entre ellos, los dinosaurios. Había dinosaurios que se alimentaban de plantas",
+        "y otros de la carne de otros animales. Algunos vivían en el agua, otros en",
+        "la tierra y unos más volaban. Al final de esta época se extinguieron los",
+        "dinosaurios. Algunos de los reptiles que sobrevivieron son los cocodrilos,",
+        "serpientes, lagartijas, iguanas y tortugas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilustración número"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Los organismos empiezan a evolucionar y comienzan a formarse grupos",
+        "nuevos. Aparecen animales de cuerpo blando, como las esponjas,"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "321"
+    },
+    {
+      "type": "page_marker",
+      "page": 323
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "los caracoles sin concha y las medusas. Surgen animales cubiertos con",
+        "placas duras, como las almejas, que dan origen a peces con esca-",
+        "mas, mandíbulas y dientes. También aparecieron plantas y algas marinas;",
+        "millones de años después lo harían las plantas en la Tierra. Surgieron",
+        "los insectos y algunos animales abandonaron el agua. Los peces más",
+        "fuertes evolucionaron y dieron lugar a los anfibios, como los sapos,",
+        "las ranas y los ajolotes, animales que pueden permanecer debajo del",
+        "agua y fuera de ella porque tienen pulmones."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilustración número"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Se desarrollan los mamíferos tanto en el medio acuático, ballenas y",
+        "delfines, como en el terrestre; los tigres que comían carne, los caballos",
+        "que se alimentaban de plantas. Las aves y los insectos se diversificaron.",
+        "También surgen los monos o primates, como los gorilas, los chimpancés",
+        "y los perezosos. Se piensa que los monos fueron evolucionando hasta",
+        "convertirse en los primeros seres humanos."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilustración número"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "La mayoría de los científicos está de acuerdo en que hace 65 millones",
+        "de años un asteroide gigantesco que viajaba por el espacio cien",
+        "veces más rápido que una bala, golpeó la Tierra y provocó una explosión",
+        "con una fuerza de millones de toneladas de dinamita. Ésta arrojó polvo",
+        "y gases a la atmósfera que ocultaron la luz solar por semanas o meses,",
+        "enfriando el planeta, provocando incendios y lluvia ácida. Muchas plantas",
+        "y animales, incluidos los dinosaurios, se extinguieron. Se cree que el sitio",
+        "donde ocurrió el impacto fue Chicxulub, un lugar situado en la península",
+        "de Yucatán, México."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Evolución en la Tierra”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "322"
+    },
+    {
+      "type": "page_marker",
+      "page": 324
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno las ideas que consideres más importantes del",
+        "texto de la Revista y coméntalas con los compañeros del Círculo de",
+        "estudio."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee las siguientes noticias."
+    },
+    {
+      "type": "image",
+      "src": "images/p324_y0195_x0037.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "pas explicaron que vivieron en"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tuxtla Gutiérrez, Chiapas. 21 de"
+    },
+    {
+      "type": "paragraph",
+      "text": "los mares y convivieron con los"
+    },
+    {
+      "type": "paragraph",
+      "text": "julio de 1998."
+    },
+    {
+      "type": "paragraph",
+      "text": "dinosaurios. Entre los fósiles se"
+    },
+    {
+      "type": "paragraph",
+      "text": "encontraron restos de una tor-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este día fueron encontrados res-"
+    },
+    {
+      "type": "paragraph",
+      "text": "tuga gigante que llegó a medir"
+    },
+    {
+      "type": "paragraph",
+      "text": "tos fósiles de cangrejos y tortugas"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 metros de largo. Su descubri-"
+    },
+    {
+      "type": "paragraph",
+      "text": "que vivieron hace 65 millones de"
+    },
+    {
+      "type": "paragraph",
+      "text": "miento ayudará a comprender"
+    },
+    {
+      "type": "paragraph",
+      "text": "años, éstos se encontraban entre"
+    },
+    {
+      "type": "paragraph",
+      "text": "por qué se extinguieron estas tor-"
+    },
+    {
+      "type": "paragraph",
+      "text": "rocas. Investigadores del Institu-"
+    },
+    {
+      "type": "paragraph",
+      "text": "tugas en ese tiempo."
+    },
+    {
+      "type": "paragraph",
+      "text": "to de Historia Natural de Chia-"
+    },
+    {
+      "type": "image",
+      "src": "images/p324_y0426_x0062.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dhzanette, Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "323"
+    },
+    {
+      "type": "page_marker",
+      "page": 325
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Los científicos dijeron que se",
+        "Argentina, mayo de 1999.",
+        "encontraban restos de dientes,",
+        "cráneos, huesos de patas y otras",
+        "Un grupo de científicos argen-",
+        "partes del cuerpo de cuatro ani-",
+        "tinos y canadienses descubrió",
+        "males; uno de ellos llegó a pesar",
+        "fósiles de dinosaurios carnívoros",
+        "unos 8 000 kilos y su cabeza me-",
+        "que vivieron hace 90 millones de",
+        "diría alrededor de 1.80 metros.",
+        "años en una región de Argentina.",
+        "Mapusaurus roseae"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p325_y0217_x0097.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué procedimientos crees que realizaron las personas que describen"
+    },
+    {
+      "type": "paragraph",
+      "text": "las noticias para hacer los descubrimientos? Anota tres de ellos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b",
+        "2. \b",
+        "3. \b"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En qué se benefician las personas con la información que se obtiene",
+        "de los descubrimientos de fósiles? Escribe tu respuesta en tu cua-",
+        "derno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "324"
+    },
+    {
+      "type": "page_marker",
+      "page": 326
+    },
+    {
+      "type": "paragraph",
+      "text": "La palabra fósil proviene del latín, idioma que hablaban los antiguos"
+    },
+    {
+      "type": "paragraph",
+      "text": "romanos; deriva de una palabra cuyo significado era “excavar”. Este"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "término se ha utilizado desde hace mucho tiempo para nombrar los restos"
+    },
+    {
+      "type": "paragraph",
+      "text": "o huellas de organismos que se encuentran en las capas de la Tierra y"
+    },
+    {
+      "type": "paragraph",
+      "text": "que se ponen al descubierto excavando."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con compañeros del Círculo de estudio la siguiente pregun-",
+        "ta: qué importancia tiene para los seres humanos el descubrimiento",
+        "de fósiles? Anota en tu cuaderno los comentarios que te parezcan",
+        "más importantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Los fósiles permiten, en general, conocer la historia de la vida sobre la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tierra, reconocer las condiciones ambientales que existieron en el pasado"
+    },
+    {
+      "type": "paragraph",
+      "text": "y, en muchos casos, calcular, con cierta exactitud, la edad de las rocas y"
+    },
+    {
+      "type": "paragraph",
+      "text": "capas que componen la corteza terrestre."
+    },
+    {
+      "type": "paragraph",
+      "text": "La evolución del ser humano"
+    },
+    {
+      "type": "image",
+      "src": "images/p326_y0472_x0044.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa la siguiente ilustración."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "325"
+    },
+    {
+      "type": "page_marker",
+      "page": 327
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe los cambios que fue presentando el cuerpo y los rasgos de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "cara, desde el primero de sus antepasados hasta la forma actual de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "seres humanos. Fíjate en el ejemplo."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "La posición del cuerpo se fue haciendo más derecha,"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "los dedos de las manos se fueron haciendo más cortos..."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe cómo te imaginas que fue cambiando también su forma de vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Nuestros antepasados”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué otros cambios crees que han ocurrido en la Tierra desde su"
+    },
+    {
+      "type": "paragraph",
+      "text": "formación?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Siempre ha tenido la misma forma la superficie de la Tierra?"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambia opiniones con otros integrantes del Círculo de estudio y",
+        "anota en tu cuaderno de trabajo tres de esos cambios."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "326"
+    },
+    {
+      "type": "page_marker",
+      "page": 328
+    },
+    {
+      "type": "image",
+      "src": "images/p328_y0044_x-001.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Luis Miguel Bugallo Sánchez. Este archivo está autorizado bajo la"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Desde su formación, la Tierra ha tenido"
+    },
+    {
+      "type": "paragraph",
+      "text": "grandes cambios. Las ideas que explican"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "la evolución de la Tierra suponen que"
+    },
+    {
+      "type": "paragraph",
+      "text": "de los primeros organismos —los"
+    },
+    {
+      "type": "paragraph",
+      "text": "microbios y las algas— se derivó"
+    },
+    {
+      "type": "paragraph",
+      "text": "una variedad de especies que"
+    },
+    {
+      "type": "paragraph",
+      "text": "fueron evolucionando a lo largo"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la historia de la Tierra,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sobreviviendo los más capaces"
+    },
+    {
+      "type": "paragraph",
+      "text": "de adaptarse a las condiciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "de un medio cambiante."
+    },
+    {
+      "type": "paragraph",
+      "text": "Esta explicación supone también"
+    },
+    {
+      "type": "paragraph",
+      "text": "que los seres humanos formamos"
+    },
+    {
+      "type": "paragraph",
+      "text": "parte de la evolución de la especie"
+    },
+    {
+      "type": "paragraph",
+      "text": "animal y que tuvieron que darse algunos"
+    },
+    {
+      "type": "paragraph",
+      "text": "cambios en nuestros antepasados, los monos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "para ser como somos hoy. La forma actual de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tierra es resultado de un lento movimiento de su corteza, que dio lugar a"
+    },
+    {
+      "type": "paragraph",
+      "text": "la creación de regiones diversas en climas y en formas de vida."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Lee las siguientes preguntas y respóndelas en tu cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué ha hecho posible que los seres humanos reúnan información"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la evolución de la Tierra y de los organismos que habitan en ella?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si tuvieras que dejar alguna huella de tu presencia en la Tierra, ¿qué"
+    },
+    {
+      "type": "paragraph",
+      "text": "dejarías y por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "327"
+    },
+    {
+      "type": "page_marker",
+      "page": 329
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Avances de la humanidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0134_x0046.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0138_x0316.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0140_x0409.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0147_x0171.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0258_x0188.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0260_x0423.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0261_x0043.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0268_x0315.png"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0375_x0335.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0378_x0175.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0380_x0047.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0380_x0445.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0491_x0225.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0495_x0417.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0495_x0053.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0603_x0048.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0604_x0216.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p329_y0614_x0379.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "328"
+    },
+    {
+      "type": "page_marker",
+      "page": 330
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno cuál de los descubrimientos representados en",
+        "la ilustración te parece más importante y por qué."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "En la historia de la humanidad, tanto en el pasado como en la actualidad,"
+    },
+    {
+      "type": "paragraph",
+      "text": "se pueden reconocer logros y conquistas importantes alcanzados por los"
+    },
+    {
+      "type": "paragraph",
+      "text": "seres humanos, como individuos y como grupos sociales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisemos algunos de ellos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los sumerios, pueblo que habitaba en una región de Mesopotamia, inven-"
+    },
+    {
+      "type": "paragraph",
+      "text": "taron la escritura, la rueda y la edificación de ciudades 3 000 años a. C."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thomas Edison (1847-1931) ha sido considerado uno de los inventores"
+    },
+    {
+      "type": "paragraph",
+      "text": "más productivos de todos los tiempos; inventó la bombilla eléctrica, la"
+    },
+    {
+      "type": "paragraph",
+      "text": "lámpara incandescente, el fonógrafo y otros 1 300 inventos más."
+    },
+    {
+      "type": "paragraph",
+      "text": "Investigadores de Alemania y Dinamarca han creado una abeja robot"
+    },
+    {
+      "type": "paragraph",
+      "text": "para comunicarse con las abejas reales, que se comunican entre sí por"
+    },
+    {
+      "type": "paragraph",
+      "text": "medio de una mezcla de canto y danza. La abeja robot, que está hecha"
+    },
+    {
+      "type": "paragraph",
+      "text": "de latón recubierto de cera de abeja y las alas de un trozo de una navaja"
+    },
+    {
+      "type": "paragraph",
+      "text": "para afeitar, puede mover las alas y reproducir el ruido que hacen las"
+    },
+    {
+      "type": "paragraph",
+      "text": "abejas. Ya se ha experimentado con este invento y las abejas siguieron a"
+    },
+    {
+      "type": "paragraph",
+      "text": "la abeja robot hasta 1 km de distancia."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Investiga y escribe en tu cuaderno una lista de inventos o acciones",
+        "producidas por el ser humano que representen avances para la hu-",
+        "manidad."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Encontramos una gran cantidad de inventos a lo largo de la historia de"
+    },
+    {
+      "type": "paragraph",
+      "text": "la humanidad. Una de las principales aportaciones de todos ellos es que"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "han hecho posible la creación de nuevos inventos."
+    },
+    {
+      "type": "paragraph",
+      "text": "329"
+    },
+    {
+      "type": "page_marker",
+      "page": 331
+    },
+    {
+      "type": "paragraph",
+      "text": "Los actos y las intenciones de las personas y de los grupos sociales no"
+    },
+    {
+      "type": "paragraph",
+      "text": "siempre contribuyen a crear condiciones de paz y bienestar. En ocasiones,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los avances de la ciencia y de la tecnología se emplean irresponsablemente"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "con fines destructivos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Haz una lista en tu cuaderno de hechos y acciones que propician daño"
+    },
+    {
+      "type": "paragraph",
+      "text": "a la integridad de las personas, a la de otros seres vivos y a la del"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta en su conjunto y que parecerían negar la evolución de la especie"
+    },
+    {
+      "type": "paragraph",
+      "text": "humana. Fíjate en el ejemplo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las guerras entre países, la tala incontrolable de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "bosques, la contaminación de ríos y mares, los odios"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "raciales, la violencia y el narcotráfico."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten la siguiente pregunta: qué podríamos hacer cada uno de",
+        "nosotros para contribuir a superar los obstáculos que nos impiden",
+        "ser cada vez mejores?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflexionar acerca del origen de la vida y de las diferentes explicaciones acerca"
+    },
+    {
+      "type": "paragraph",
+      "text": "de éste nos permite ampliar nuestra comprensión del mundo. De igual forma,"
+    },
+    {
+      "type": "paragraph",
+      "text": "el conocimiento de las formas en que la vida terrestre evolucionó nos facilita la"
+    },
+    {
+      "type": "paragraph",
+      "text": "comprensión de las características de los distintos organismos vivos que existen"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la actualidad. Los seres humanos nos caracterizamos por tener una actitud"
+    },
+    {
+      "type": "paragraph",
+      "text": "de búsqueda permanente. Nuestros antepasados nos heredaron el interés por"
+    },
+    {
+      "type": "paragraph",
+      "text": "tener respuestas, cada vez más satisfactorias, a preguntas que la humanidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "se ha hecho desde hace miles de años. La evolución, biológica y social de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanidad nos hace actuar con decisión para conquistar nuevos conocimientos"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "y explicaciones más amplias del mundo del que formamos parte."
+    },
+    {
+      "type": "paragraph",
+      "text": "330"
+    },
+    {
+      "type": "page_marker",
+      "page": 332
+    },
+    {
+      "type": "paragraph",
+      "text": "3\t Estaciones, eclipses y mareas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tema"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Los movimientos de la Tierra, así como los de algunos cuerpos",
+        "celestes, provocan cambios en el planeta; estos cambios, a la vez, influyen",
+        "en sus habitantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara empezar..."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cuántas épocas o estaciones del año conoces? Anótalas."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En algunos lugares existen características que diferencian a las",
+        "estaciones del año. En grupo, mencionen las que conozcan. Después,",
+        "escribe algunas de ellas. Fíjate en el ejemplo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Estación:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estación:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Invierno"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "El clima es muy frío."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estación:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estación:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "331"
+    },
+    {
+      "type": "page_marker",
+      "page": 333
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Durante cada una de las estaciones del año, el estado del tiempo",
+        "adquiere características distintas. Describe en tu cuaderno las acti-",
+        "vidades que llevas a cabo durante dos de las estaciones del año que",
+        "más te gustan, la forma en que te vistes y algunas de las fiestas o",
+        "celebraciones tradicionales en esas estaciones."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué ocurren las estaciones? ¿Por qué cambia el tiempo? ¿Qué"
+    },
+    {
+      "type": "paragraph",
+      "text": "tiene que ver el Sol con las estaciones del año? Si consideras necesario"
+    },
+    {
+      "type": "paragraph",
+      "text": "investiga y comenta tus respuestas con otros compañeros"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fenómenos espectaculares"
+    },
+    {
+      "type": "image",
+      "src": "images/p333_y0317_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E"
+    },
+    {
+      "type": "paragraph",
+      "text": "ran como las diez de la mañana; la luz"
+    },
+    {
+      "type": "paragraph",
+      "text": "del Sol empezó a perder intensidad, una"
+    },
+    {
+      "type": "paragraph",
+      "text": "sombra comenzó a tapar el Sol, éste ya no picaba"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la piel y la temperatura empezó a bajar, el"
+    },
+    {
+      "type": "paragraph",
+      "text": "ambiente lucía como si trajera uno anteojos"
+    },
+    {
+      "type": "paragraph",
+      "text": "para el Sol… la gente se veía emocionada, en"
+    },
+    {
+      "type": "paragraph",
+      "text": "un instante parecían las siete de la noche y en"
+    },
+    {
+      "type": "paragraph",
+      "text": "lugar del Sol se observaba, a través de los lentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "que nos recomendaron usar, un disco negro"
+    },
+    {
+      "type": "paragraph",
+      "text": "rodeado por un anillo de fuego… a los tres o"
+    },
+    {
+      "type": "paragraph",
+      "text": "cuatro minutos, el disco negro empezó a dejar"
+    },
+    {
+      "type": "paragraph",
+      "text": "de tapar al Sol, la temperatura se volvió a elevar,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la intensidad de la luz retomó su brillo, fue como"
+    },
+    {
+      "type": "paragraph",
+      "text": "un amanecer…"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "332"
+    },
+    {
+      "type": "page_marker",
+      "page": 334
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué crees que presenció la persona que hizo la narración anterior?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Has presenciado un eclipse de Sol o de Luna? Describe tu experiencia."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "image",
+      "src": "images/p334_y0304_x0228.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunos pueblos prehispánicos pensaban"
+    },
+    {
+      "type": "paragraph",
+      "text": "que cuando había un eclipse, un"
+    },
+    {
+      "type": "paragraph",
+      "text": "jaguar se comía al Sol. Para evitar"
+    },
+    {
+      "type": "paragraph",
+      "text": "que dejara de brillar el Sol,"
+    },
+    {
+      "type": "paragraph",
+      "text": "hacían sacrificios."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los chinos creían que un"
+    },
+    {
+      "type": "paragraph",
+      "text": "dragón se comía al Sol y"
+    },
+    {
+      "type": "paragraph",
+      "text": "por eso había eclipses. Para"
+    },
+    {
+      "type": "paragraph",
+      "text": "que el dragón soltara al Sol"
+    },
+    {
+      "type": "paragraph",
+      "text": "y se alejara asustado, hacían"
+    },
+    {
+      "type": "paragraph",
+      "text": "mucho ruido con cacerolas"
+    },
+    {
+      "type": "paragraph",
+      "text": "y cohetes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunos pueblos antiguos"
+    },
+    {
+      "type": "paragraph",
+      "text": "interpretaban a los eclipses como"
+    },
+    {
+      "type": "paragraph",
+      "text": "presagios de guerra. El día 10 técpatl"
+    },
+    {
+      "type": "paragraph",
+      "text": "del calendario azteca, correspondiente"
+    },
+    {
+      "type": "paragraph",
+      "text": "al año de 1476, día en el que hubo un"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "eclipse, los mexicas destruyeron a los de Ocuitlán."
+    },
+    {
+      "type": "paragraph",
+      "text": "333"
+    },
+    {
+      "type": "page_marker",
+      "page": 335
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué es lo que realmente pasa cuando ocurre un eclipse?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Pregunta a los vecinos cómo creen que ocurren los eclipses y qué",
+        "influencia tienen en las personas y en los animales. Anota los resul-",
+        "tados de tu consulta en tu cuaderno y escribe tu propia explicación."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa la siguiente ilustración y lee el texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Un eclipse es un fenómeno natural que se produce cuando un cuerpo celeste"
+    },
+    {
+      "type": "paragraph",
+      "text": "oculta a otro y la sombra que se provoca se proyecta en un tercer cuerpo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observar directamente un eclipse de Sol causa quemaduras en los ojos, pero"
+    },
+    {
+      "type": "paragraph",
+      "text": "no causa ningún otro mal, como muchas personas piensan."
+    },
+    {
+      "type": "image",
+      "src": "images/p335_y0493_x0032.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Penumbra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sol"
+    },
+    {
+      "type": "paragraph",
+      "text": "Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sombra"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "334"
+    },
+    {
+      "type": "page_marker",
+      "page": 336
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Los eclipses”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Con la información de la Revista, contesta las siguientes preguntas en tu"
+    },
+    {
+      "type": "paragraph",
+      "text": "cuaderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasaría con la sombra que propicia un eclipse de Sol si la Luna"
+    },
+    {
+      "type": "paragraph",
+      "text": "fuera más grande que la Tierra?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿En cuántas regiones o lugares de la Tierra se podría observar el eclipse"
+    },
+    {
+      "type": "paragraph",
+      "text": "en forma total, si ésta no tuviera movimiento de rotación?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasaría en un eclipse de Luna si la Tierra fuera del mismo tamaño"
+    },
+    {
+      "type": "paragraph",
+      "text": "que ese satélite?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué tipo de explicación darías a las personas que demuestren temor o"
+    },
+    {
+      "type": "paragraph",
+      "text": "preocupación ante un eclipse?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota en las líneas el tipo de eclipse al que se refiere cada texto:"
+    },
+    {
+      "type": "image",
+      "src": "images/p336_y0411_x0069.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p336_y0413_x0303.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La blanca Luna no se bronceó porque"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Luna se convirtió en un fiero jaguar"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra se lo impidió."
+    },
+    {
+      "type": "paragraph",
+      "text": "y de pura envidia te comenzó a devorar."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "335"
+    },
+    {
+      "type": "page_marker",
+      "page": 337
+    },
+    {
+      "type": "paragraph",
+      "text": "Desastres naturales y"
+    },
+    {
+      "type": "paragraph",
+      "text": "no tan naturales"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Encuentra los nombres de cuatro desastres que ocurren en la naturaleza,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fíjate en el ejemplo."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "A",
+        "L",
+        "E",
+        "V",
+        "O",
+        "S",
+        "O",
+        "M",
+        "L",
+        "P",
+        "T",
+        "I",
+        "M",
+        "O",
+        "R",
+        "A",
+        "T",
+        "O",
+        "I",
+        "L",
+        "A",
+        "N",
+        "E",
+        "H",
+        "A",
+        "G",
+        "I",
+        "R",
+        "T",
+        "A",
+        "N",
+        "C",
+        "F",
+        "U",
+        "S",
+        "J",
+        "L",
+        "E",
+        "R",
+        "N",
+        "T",
+        "E",
+        "R",
+        "R",
+        "E",
+        "M",
+        "O",
+        "T",
+        "O",
+        "E",
+        "I",
+        "N",
+        "P",
+        "A",
+        "Q",
+        "A",
+        "N",
+        "I",
+        "E",
+        "T",
+        "O",
+        "D",
+        "C",
+        "C",
+        "U",
+        "R",
+        "I",
+        "T",
+        "P",
+        "A",
+        "L",
+        "I",
+        "R",
+        "A",
+        "I",
+        "D",
+        "A",
+        "O",
+        "R",
+        "L",
+        "J",
+        "O",
+        "R",
+        "N",
+        "A",
+        "D",
+        "D",
+        "T",
+        "U",
+        "U",
+        "I",
+        "N",
+        "U",
+        "N",
+        "D",
+        "A",
+        "C",
+        "I",
+        "O",
+        "N",
+        "A",
+        "T",
+        "M",
+        "O",
+        "S",
+        "F",
+        "E",
+        "R",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con otros integrantes del Círculo de estudio si alguno o",
+        "algunos han experimentado un desastre natural y cómo lo vivieron."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "336"
+    },
+    {
+      "type": "page_marker",
+      "page": 338
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee y comenta con tus compañeros los siguientes textos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Septiembre de 1985, Ciudad de México. Sismo: 4 287 muertos y 37 300",
+        "damnificados.",
+        "Octubre de 1997, Oaxaca y Guerrero. Huracán: 200 muertos y 4 000",
+        "damnificados.",
+        "Septiembre de 1909, Nuevo León. Inundación: 2 000 personas ahogadas."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambien opiniones y comentarios en relación con los textos y",
+        "comenten las siguientes preguntas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo afectan a los seres humanos esos hechos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Hasta dónde podemos intervenir las personas para disminuir sus efectos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Centro Nacional de Prevención de Desastres (cenapred) registró"
+    },
+    {
+      "type": "paragraph",
+      "text": "97 fenómenos considerados como destructivos por causar la muerte"
+    },
+    {
+      "type": "paragraph",
+      "text": "de más de 100 personas, ocurridos entre 1900 y 1999: sismos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "huracanes, maremotos, incendios forestales, inundaciones y erupciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "de volcanes, entre otros."
+    },
+    {
+      "type": "image",
+      "src": "images/p338_y0557_x0062.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kyle Andrew Brown, Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "337"
+    },
+    {
+      "type": "page_marker",
+      "page": 339
+    },
+    {
+      "type": "paragraph",
+      "text": "Sismos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee la siguiente nota periodística."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p339_y0105_x0064.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p339_y0134_x0311.png"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Se registran"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "sismos en"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ciudad de"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "México,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Acapulco"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "y otros estados"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acapulco, Gro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Autoridades de Protección Civil"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la zona de Valles Centrales se"
+    },
+    {
+      "type": "paragraph",
+      "text": "de Guerrero informaron que al-"
+    },
+    {
+      "type": "paragraph",
+      "text": "sintieron con mayor intensidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "gunas viviendas resultaron afec-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mientras que en Tlaxcala se dijo"
+    },
+    {
+      "type": "paragraph",
+      "text": "tadas por los sismos registrados"
+    },
+    {
+      "type": "paragraph",
+      "text": "que los sismos no ocasionaron"
+    },
+    {
+      "type": "paragraph",
+      "text": "esta madrugada, mientras que en"
+    },
+    {
+      "type": "paragraph",
+      "text": "afectaciones materiales ni huma-"
+    },
+    {
+      "type": "paragraph",
+      "text": "otros estados no se reportaron"
+    },
+    {
+      "type": "paragraph",
+      "text": "nas, aunque de forma preventiva"
+    },
+    {
+      "type": "paragraph",
+      "text": "daños materiales ni víctimas. La"
+    },
+    {
+      "type": "paragraph",
+      "text": "se realiza un monitoreo en los 60"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad Estatal de Protección Ci-"
+    },
+    {
+      "type": "paragraph",
+      "text": "municipios del estado."
+    },
+    {
+      "type": "paragraph",
+      "text": "vil de Guerrero señaló que lleva"
+    },
+    {
+      "type": "paragraph",
+      "text": "En el Distrito Federal, 14 familias"
+    },
+    {
+      "type": "paragraph",
+      "text": "a cabo recorridos de revisión en"
+    },
+    {
+      "type": "paragraph",
+      "text": "fueron desalojadas esta madruga-"
+    },
+    {
+      "type": "paragraph",
+      "text": "municipios de la Costa Grande"
+    },
+    {
+      "type": "paragraph",
+      "text": "da de un edificio en la delegación"
+    },
+    {
+      "type": "paragraph",
+      "text": "ya que en esa zona tuvo su epi-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Benito Juárez, presuntamente afec-"
+    },
+    {
+      "type": "paragraph",
+      "text": "centro el temblor de 6.3 grados"
+    },
+    {
+      "type": "paragraph",
+      "text": "tado por los sismos de la madru-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Richter."
+    },
+    {
+      "type": "paragraph",
+      "text": "gada de este viernes. Personal de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Autoridades de Protección Ci-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dirección de Protección Civil de"
+    },
+    {
+      "type": "paragraph",
+      "text": "vil de Oaxaca reportaron que por"
+    },
+    {
+      "type": "paragraph",
+      "text": "la delegación Benito Juárez pro-"
+    },
+    {
+      "type": "paragraph",
+      "text": "estos movimientos telúricos no"
+    },
+    {
+      "type": "paragraph",
+      "text": "cedieron a la evacuación de las"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "se registraron afectaciones, y sólo"
+    },
+    {
+      "type": "paragraph",
+      "text": "familias."
+    },
+    {
+      "type": "paragraph",
+      "text": "338"
+    },
+    {
+      "type": "page_marker",
+      "page": 340
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Con tus compañeros, contesta la siguiente pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si el centro del temblor o epicentro fue en Acapulco,"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿por qué también se sintió en otros estados cercanos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los sismos suceden por movimientos de la corteza terrestre. La corteza"
+    },
+    {
+      "type": "paragraph",
+      "text": "superficial de la Tierra está dividida en una serie de placas, algo parecido"
+    },
+    {
+      "type": "paragraph",
+      "text": "a un rompecabezas. Éstas pueden chocar y provocar sismos que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "propagan en ondas, desde el lugar de origen denominado epicentro"
+    },
+    {
+      "type": "paragraph",
+      "text": "hasta donde lleguen las ondas, causando un temblor o sismo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante 1999, uno de los desastres que más afectó a estados del"
+    },
+    {
+      "type": "paragraph",
+      "text": "centro y sur del país fue el de las inundaciones. Éstas fueron causadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "por lluvias continuas que disminuyeron la capacidad de absorción del"
+    },
+    {
+      "type": "paragraph",
+      "text": "suelo. Algunas de las consecuencias de este tipo de desastre fueron la"
+    },
+    {
+      "type": "paragraph",
+      "text": "pérdida de vidas humanas, animales, cosechas, otros bienes materiales"
+    },
+    {
+      "type": "paragraph",
+      "text": "y graves daños en extensas áreas dedicadas al cultivo. Otra causa"
+    },
+    {
+      "type": "paragraph",
+      "text": "importante de las inundaciones son los huracanes o ciclones que son"
+    },
+    {
+      "type": "paragraph",
+      "text": "tormentas tropicales con vientos que pueden alcanzar velocidades"
+    },
+    {
+      "type": "paragraph",
+      "text": "mayores a 118 km/h."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué podemos hacer ante estos fenómenos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una experta en desastres dice que: “Los terremotos, erupciones volcánicas"
+    },
+    {
+      "type": "paragraph",
+      "text": "y tifones no pueden ser previstos, pero sí se pueden tomar algunas"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "medidas para antes y después del desastre”."
+    },
+    {
+      "type": "paragraph",
+      "text": "339"
+    },
+    {
+      "type": "page_marker",
+      "page": 341
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En grupo opinen sobre el testimonio anterior. Después, digan qué",
+        "medidas de prevención conocen."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "abías"
+    },
+    {
+      "type": "paragraph",
+      "text": "que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los perros aúllan, los pandas gimen y el agua de los pozos burbujea antes de"
+    },
+    {
+      "type": "paragraph",
+      "text": "un terremoto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los riesgos y peligros de algunos fenómenos naturales se convierten en"
+    },
+    {
+      "type": "paragraph",
+      "text": "desastres si ocurren donde vive gente. Por desgracia, la población, motivada"
+    },
+    {
+      "type": "paragraph",
+      "text": "por distintas razones, como la desinformación, la falta de prevención, la pobreza,"
+    },
+    {
+      "type": "paragraph",
+      "text": "el crecimiento demográfico, la migración en busca de fuentes de trabajo, la"
+    },
+    {
+      "type": "paragraph",
+      "text": "falta de planeación, entre otras, se ubica en lugares de riesgo. En muchas"
+    },
+    {
+      "type": "paragraph",
+      "text": "ocasiones, las consecuencias de los desastres se deben a errores humanos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee los siguientes ejemplos."
+    },
+    {
+      "type": "image",
+      "src": "images/p341_y0421_x0342.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E"
+    },
+    {
+      "type": "paragraph",
+      "text": "n la ciudad de México viven casi"
+    },
+    {
+      "type": "paragraph",
+      "text": "20 millones de personas, a pesar de"
+    },
+    {
+      "type": "paragraph",
+      "text": "ser una zona sísmica y volcánica. Existen,"
+    },
+    {
+      "type": "paragraph",
+      "text": "además, miles de familias asentadas en"
+    },
+    {
+      "type": "paragraph",
+      "text": "barrancas y zonas de minas."
+    },
+    {
+      "type": "paragraph",
+      "text": "En el Sur y el Oeste de los Estados"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidos de Norteamérica se presentan con"
+    },
+    {
+      "type": "paragraph",
+      "text": "frecuencia sequías, incendios, huracanes"
+    },
+    {
+      "type": "paragraph",
+      "text": "y terremotos, sin embargo, en los próxi-"
+    },
+    {
+      "type": "paragraph",
+      "text": "mos años se espera, un crecimiento de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "población de entre 30 y 50% de la actual"
+    },
+    {
+      "type": "paragraph",
+      "text": "de estas zonas."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "340"
+    },
+    {
+      "type": "page_marker",
+      "page": 342
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Existe irresponsabilidad de las personas al ubicarse en zonas de",
+        "riesgo? Por qué se propician estos riesgos?",
+        "Discutan e intercambien comentarios acerca de los ejemplos",
+        "anteriores."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una mirada"
+    },
+    {
+      "type": "paragraph",
+      "text": "al cielo"
+    },
+    {
+      "type": "paragraph",
+      "text": "abías"
+    },
+    {
+      "type": "paragraph",
+      "text": "que..."
+    },
+    {
+      "type": "image",
+      "src": "images/p342_y0213_x0333.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las erupciones volcánicas provocan grandes"
+    },
+    {
+      "type": "paragraph",
+      "text": "R.E. Wilcox, U.S. Geological Survey, Wikimedia Commons."
+    },
+    {
+      "type": "paragraph",
+      "text": "desastres en los lugares donde se localizan;"
+    },
+    {
+      "type": "paragraph",
+      "text": "cuando se dan estos fenómenos naturales"
+    },
+    {
+      "type": "paragraph",
+      "text": "ocasionan cambios en el paisaje y modifican"
+    },
+    {
+      "type": "paragraph",
+      "text": "la forma de vida de los seres vivos que habitan"
+    },
+    {
+      "type": "paragraph",
+      "text": "cerca. Un ejemplo de erupción que transformó"
+    },
+    {
+      "type": "paragraph",
+      "text": "la forma de vivir de las comunidades de"
+    },
+    {
+      "type": "paragraph",
+      "text": "los alrededores fue el volcán Paricutín, en"
+    },
+    {
+      "type": "paragraph",
+      "text": "Michoacán, que comenzó a surgir el 20 de febrero de 1943; uno de los pueblos"
+    },
+    {
+      "type": "paragraph",
+      "text": "más dañados fue Parangaricutiro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Se ha declarado al 9 de octubre el Día de la Reducción de Desastres"
+    },
+    {
+      "type": "paragraph",
+      "text": "Naturales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "image",
+      "src": "images/p342_y0528_x0346.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "V"
+    },
+    {
+      "type": "paragraph",
+      "text": "arios países donaron 40 millones de dólares"
+    },
+    {
+      "type": "paragraph",
+      "text": "a Guatemala, para apoyar los esfuerzos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "reconstrucción tras los daños ocasionados por"
+    },
+    {
+      "type": "paragraph",
+      "text": "el huracán Mitch, durante el mes de octubre de"
+    },
+    {
+      "type": "paragraph",
+      "text": "1998, que dejó 9 000 muertos. El donativo será"
+    },
+    {
+      "type": "paragraph",
+      "text": "utilizado para fortalecer la producción agrícola"
+    },
+    {
+      "type": "paragraph",
+      "text": "y diseñar programas para prevenir desastres y"
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "luchar contra epidemias."
+    },
+    {
+      "type": "paragraph",
+      "text": "341"
+    },
+    {
+      "type": "page_marker",
+      "page": 343
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Qué opinas de la cooperación entre países para aligerar los efectos",
+        "destructivos de los desastres naturales? Escribe tu opinión en tu",
+        "cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Sociedad y desastres”."
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los movimientos y desplazamientos de la Tierra, la Luna y el Sol se combinan"
+    },
+    {
+      "type": "paragraph",
+      "text": "y son causa de algunos cambios que se dan en forma regular en la Tierra."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las estaciones del año son cambios que se dan de manera cíclica; podemos"
+    },
+    {
+      "type": "paragraph",
+      "text": "esperar que cada cierto tiempo se presenten y prever nuestras actividades."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otros fenómenos, como los eclipses, simplemente son sucesos que ocurren"
+    },
+    {
+      "type": "paragraph",
+      "text": "eventualmente y que nos recuerdan que existe una cercanía con el Sol y"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Luna, al igual que las mareas, provocadas por la atracción permanente"
+    },
+    {
+      "type": "paragraph",
+      "text": "de estos astros. Finalmente, los desastres son también una consecuencia del"
+    },
+    {
+      "type": "paragraph",
+      "text": "movimiento constante de los componentes del planeta; podemos hacer"
+    },
+    {
+      "type": "paragraph",
+      "text": "muy poco para evitarlos, pero sí podemos prevenirnos y protegernos"
+    },
+    {
+      "type": "paragraph",
+      "text": "para enfrentarlos con mejores defensas y actuar oportunamente una vez"
+    },
+    {
+      "type": "paragraph",
+      "text": "que han ocurrido."
+    },
+    {
+      "type": "paragraph",
+      "text": "UNIDAD 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "342"
+    }
+  ]
+}
