@@ -1,0 +1,130 @@
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    healthcheck:
+      disable: true
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-chatpdf}
+      POSTGRES_USER: ${POSTGRES_USER:-chatpdf}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in deploy/.env.prod}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB} -h localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: ..
+      dockerfile: services/api/Dockerfile
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-prod}
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-chatpdf}}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+      DATA_DIR: ${DATA_DIR:-/data}
+      # En prod, normalmente NO necesitas CORS si accedes vía la Web (same-origin).
+      CORS_ORIGINS: ${CORS_ORIGINS:-}
+    user: "10001:10001"
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - chatpdf_data:/data
+    depends_on:
+      - postgres
+      - redis
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health').read()\" >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  worker:
+    build:
+      context: ..
+      dockerfile: services/worker/Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-chatpdf}}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      DATA_DIR: ${DATA_DIR:-/data}
+    user: "10001:10001"
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - chatpdf_data:/data
+    depends_on:
+      - postgres
+      - redis
+
+  worker_ml:
+    profiles: ["ml"]
+    build:
+      context: ..
+      dockerfile: services/worker/Dockerfile.ml
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-chatpdf}}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      DATA_DIR: ${DATA_DIR:-/data}
+    user: "10001:10001"
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - chatpdf_data:/data
+    depends_on:
+      - postgres
+      - redis
+
+  web:
+    build:
+      context: ..
+      dockerfile: services/web/Dockerfile
+    restart: unless-stopped
+    environment:
+      API_INTERNAL_BASE_URL: ${API_INTERNAL_BASE_URL:-http://api:8000}
+    user: "10001:10001"
+    security_opt:
+      - no-new-privileges:true
+    depends_on:
+      - api
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://localhost:3000').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
+  chatpdf_data:
+  caddy_data:
+  caddy_config:

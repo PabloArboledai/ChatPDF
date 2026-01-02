@@ -58,6 +58,49 @@ Servicios:
 - Web: http://localhost:3000
 - API: http://localhost:8000/health
 
+## Producción (VPS + dominio + HTTPS)
+
+Este repo incluye un despliegue “production-like” con Docker Compose + Caddy (TLS automático).
+
+### Requisitos en el VPS
+
+- Docker + Docker Compose plugin instalados.
+- Puertos 80/443 abiertos (firewall del proveedor + UFW si aplica).
+- Un dominio apuntando (A/AAAA) al VPS.
+
+### 1) Configurar variables
+
+En tu VPS:
+
+```bash
+cd ChatPDF
+cp deploy/.env.prod.example deploy/.env.prod
+```
+
+Edita `deploy/.env.prod`:
+- `DOMAIN` (tu dominio)
+- `ACME_EMAIL`
+- `POSTGRES_PASSWORD` (larga)
+
+Nota Cloudflare: para que Caddy pueda emitir el certificado con HTTP-01, el registro suele necesitar estar en modo “DNS only” durante la primera emisión. Luego puedes volver a habilitar el proxy si quieres.
+
+### 2) Levantar el stack
+
+```bash
+docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d --build
+```
+
+Para habilitar clustering (worker ML pesado):
+
+```bash
+docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod --profile ml up -d --build
+```
+
+### 3) Verificar
+
+- Web: `https://<tu-dominio>`
+- Health API (interno, pero puedes exponerlo si lo necesitas): `docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod logs -n 100 api`
+
 ## Descargar PDF desde Google Drive (si es público)
 
 ```bash
