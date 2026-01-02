@@ -90,6 +90,8 @@ Nota Cloudflare: para que Caddy pueda emitir el certificado con HTTP-01, el regi
 docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d --build
 ```
 
+Guía ampliada (VPS + DNS + scripts): [deploy/PRODUCTION.md](deploy/PRODUCTION.md)
+
 Para habilitar clustering (worker ML pesado):
 
 ```bash
