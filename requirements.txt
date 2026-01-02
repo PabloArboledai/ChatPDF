@@ -1,0 +1,5 @@
+pdfplumber>=0.7.6
+sentence-transformers>=2.2.2
+scikit-learn>=1.2.0
+numpy>=1.24.0
+fsspec>=2023.1.0
