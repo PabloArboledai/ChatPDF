@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { clientApi } from "@/lib/api";
 import Toast from "@/components/Toast";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import Tooltip from "@/components/Tooltip";
 
 type JobType = "export_all" | "markdown" | "clustering";
 
@@ -207,7 +208,14 @@ export default function UploadForm() {
 
         <div className="grid gap-4 md:grid-cols-2">
           <div>
-            <label className="mb-1 block text-sm font-medium">Tipo de job</label>
+            <label className="mb-1 flex items-center gap-2 text-sm font-medium">
+              Tipo de job
+              <Tooltip content="Elige el tipo de procesamiento: multi-formato (recomendado), Markdown, o clustering">
+                <svg className="h-4 w-4 text-black/40 dark:text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </Tooltip>
+            </label>
             <select
               className="w-full rounded-lg border border-black/10 bg-transparent px-3 py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20 dark:border-white/10"
               value={jobType}
@@ -257,7 +265,14 @@ export default function UploadForm() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium">Escala títulos</label>
+            <label className="mb-1 flex items-center gap-2 text-sm font-medium">
+              Escala títulos
+              <Tooltip content="Ajusta el tamaño relativo de los títulos detectados (1.0 - 4.0)">
+                <svg className="h-4 w-4 text-black/40 dark:text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </Tooltip>
+            </label>
             <input
               className="w-full rounded-lg border border-black/10 bg-transparent px-3 py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20 dark:border-white/10"
               type="number"
@@ -271,7 +286,14 @@ export default function UploadForm() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium">TOC: páginas a escanear</label>
+            <label className="mb-1 flex items-center gap-2 text-sm font-medium">
+              TOC: páginas a escanear
+              <Tooltip content="Número de páginas al inicio del documento donde buscar el índice">
+                <svg className="h-4 w-4 text-black/40 dark:text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </Tooltip>
+            </label>
             <input
               className="w-full rounded-lg border border-black/10 bg-transparent px-3 py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20 dark:border-white/10"
               type="number"
@@ -287,7 +309,14 @@ export default function UploadForm() {
         {jobType === "export_all" && (
           <div className="grid gap-4 md:grid-cols-2">
             <div>
-              <label className="mb-1 block text-sm font-medium">Segmentación</label>
+              <label className="mb-1 flex items-center gap-2 text-sm font-medium">
+                Segmentación
+                <Tooltip content="auto: detecta automáticamente, headings: usa títulos, toc: usa tabla de contenido">
+                  <svg className="h-4 w-4 text-black/40 dark:text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </Tooltip>
+              </label>
               <select
                 className="w-full rounded-lg border border-black/10 bg-transparent px-3 py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20 dark:border-white/10"
                 value={mode}
