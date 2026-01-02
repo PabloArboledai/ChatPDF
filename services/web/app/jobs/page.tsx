@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { serverApiBaseUrl } from "@/lib/api";
+import { AutoRefresh } from "@/components/AutoRefresh";
 
 type Job = {
   id: number;
@@ -40,17 +41,19 @@ async function fetchJobs(): Promise<Job[]> {
 
 export default async function JobsPage() {
   const jobs = await fetchJobs();
+  const hasInProgressJobs = jobs.some(j => j.status === "running" || j.status === "queued");
 
   return (
     <div className="space-y-6">
       <div className="flex items-end justify-between">
-        <div>
+        <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-purple-400">
             Jobs
           </h1>
           <p className="mt-1 text-base text-black/70 dark:text-white/70">
             Lista de trabajos recientes.
           </p>
+          {hasInProgressJobs && <AutoRefresh enabled={true} intervalMs={10000} />}
         </div>
         <div className="flex items-center gap-2">
           <a
