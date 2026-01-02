@@ -265,9 +265,108 @@
         input[type="file"] {
             display: none;
         }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal.show {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .modal-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .modal-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        .modal-input:focus {
+            border-color: #667eea;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .modal-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .modal-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .modal-btn.primary:hover {
+            background: #5568d3;
+        }
+
+        .modal-btn.secondary {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .modal-btn.secondary:hover {
+            background: #d0d0d0;
+        }
     </style>
 </head>
 <body>
+    <!-- Modal for delegation task input -->
+    <div id="delegateModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">¿Qué tarea deseas delegar al agente en la nube?</div>
+            <textarea 
+                id="delegateTaskInput" 
+                class="modal-input" 
+                rows="4" 
+                placeholder="Ej: Analizar el contenido del PDF y generar un resumen ejecutivo"
+            ></textarea>
+            <div class="modal-buttons">
+                <button class="modal-btn secondary" onclick="closeDelegateModal()">Cancelar</button>
+                <button class="modal-btn primary" onclick="submitDelegation()">Delegar</button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>📄 ChatPDF</h1>
@@ -403,10 +502,25 @@
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }
 
-        // Delegate to cloud agent
-        async function delegateToCloud() {
-            const task = prompt('¿Qué tarea deseas delegar al agente en la nube?', 
-                'Analizar el contenido del PDF y generar un resumen');
+        // Delegate to cloud agent - show modal
+        function delegateToCloud() {
+            const modal = document.getElementById('delegateModal');
+            const input = document.getElementById('delegateTaskInput');
+            input.value = 'Analizar el contenido del PDF y generar un resumen ejecutivo';
+            modal.classList.add('show');
+            input.focus();
+        }
+
+        // Close delegate modal
+        function closeDelegateModal() {
+            const modal = document.getElementById('delegateModal');
+            modal.classList.remove('show');
+        }
+
+        // Submit delegation
+        async function submitDelegation() {
+            const input = document.getElementById('delegateTaskInput');
+            const task = input.value.trim();
             
             if (!task) return;
 
@@ -427,6 +541,7 @@
                 const result = await response.json();
                 
                 if (result.success) {
+                    closeDelegateModal();
                     addMessage('assistant', 
                         `✅ Tarea preparada para delegación al agente en la nube: "${task}". 
                         Por favor, confirma los cambios pendientes para proceder.`);
@@ -451,20 +566,43 @@
                     return;
                 }
 
-                listDiv.innerHTML = result.changes.map(change => `
-                    <div class="pending-item">
-                        <strong>${change.type}</strong><br>
-                        <small>${change.task}</small>
-                        <div class="actions">
-                            <button class="confirm-btn" onclick="confirmChange('${change.id}')">
-                                ✓ Confirmar
-                            </button>
-                            <button class="reject-btn" onclick="rejectChange('${change.id}')">
-                                ✗ Rechazar
-                            </button>
-                        </div>
-                    </div>
-                `).join('');
+                // Clear existing content
+                listDiv.innerHTML = '';
+                
+                // Create elements safely using DOM methods to prevent XSS
+                result.changes.forEach(change => {
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'pending-item';
+                    
+                    const typeStrong = document.createElement('strong');
+                    typeStrong.textContent = change.type;
+                    
+                    const taskSmall = document.createElement('small');
+                    taskSmall.textContent = change.task;
+                    
+                    const actionsDiv = document.createElement('div');
+                    actionsDiv.className = 'actions';
+                    
+                    const confirmBtn = document.createElement('button');
+                    confirmBtn.className = 'confirm-btn';
+                    confirmBtn.textContent = '✓ Confirmar';
+                    confirmBtn.onclick = () => confirmChange(change.id);
+                    
+                    const rejectBtn = document.createElement('button');
+                    rejectBtn.className = 'reject-btn';
+                    rejectBtn.textContent = '✗ Rechazar';
+                    rejectBtn.onclick = () => rejectChange(change.id);
+                    
+                    actionsDiv.appendChild(confirmBtn);
+                    actionsDiv.appendChild(rejectBtn);
+                    
+                    itemDiv.appendChild(typeStrong);
+                    itemDiv.appendChild(document.createElement('br'));
+                    itemDiv.appendChild(taskSmall);
+                    itemDiv.appendChild(actionsDiv);
+                    
+                    listDiv.appendChild(itemDiv);
+                });
             } catch (error) {
                 console.error('Error loading pending changes:', error);
             }

@@ -3,6 +3,7 @@ ChatPDF - A chat interface for PDF documents with cloud agent delegation
 """
 import os
 import json
+import uuid
 from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
 
@@ -98,7 +99,6 @@ def delegate_to_cloud():
         return jsonify({'error': 'No task specified'}), 400
     
     # Create a change ID for this delegation
-    import uuid
     change_id = str(uuid.uuid4())
     
     # Store as pending change that requires confirmation
