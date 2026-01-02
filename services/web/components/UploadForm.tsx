@@ -122,44 +122,56 @@ export default function UploadForm() {
 
   const jobTypeHelp =
     jobType === "export_all"
-      ? "Exporta por temas en varios formatos (recomendado)."
+      ? "📦 Exporta por temas en varios formatos (recomendado)."
       : jobType === "markdown"
-        ? "Genera Markdown por tema (rápido para lectura)."
-        : "Agrupa texto por similitud (útil para organizar).";
+        ? "📝 Genera Markdown por tema (rápido para lectura)."
+        : "🔍 Agrupa texto por similitud (útil para organizar).";
+
+  const jobTypeIcon =
+    jobType === "export_all"
+      ? "📦"
+      : jobType === "markdown"
+        ? "📝"
+        : "🔍";
 
   return (
     <form
-      className="rounded-2xl border border-black/10 p-6 dark:border-white/10"
+      className="rounded-2xl border border-black/10 bg-white/50 p-6 shadow-sm backdrop-blur-sm dark:border-white/10 dark:bg-white/5"
       onSubmit={(e) => {
         e.preventDefault();
         void submit();
       }}
     >
-      <div className="flex flex-col gap-5">
-        <div className="space-y-2">
+      <div className="flex flex-col gap-6">
+        <div className="space-y-3">
           <div className="flex items-end justify-between gap-3">
             <div>
-              <div className="text-sm font-medium">Archivo PDF</div>
-              <div className="mt-1 text-xs text-black/60 dark:text-white/60">
+              <div className="flex items-center gap-2 text-base font-semibold">
+                <span>📄</span>
+                <span>Archivo PDF</span>
+              </div>
+              <div className="mt-1 text-sm text-black/60 dark:text-white/60">
                 Arrastra y suelta, o haz clic para seleccionar.
               </div>
             </div>
             {file && (
               <button
                 type="button"
-                className="rounded-full border border-black/10 px-3 py-1.5 text-xs hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
+                className="rounded-full border border-red-500/30 bg-red-500/10 px-3 py-1.5 text-xs text-red-600 transition-colors hover:bg-red-500/20 dark:text-red-400"
                 onClick={() => setFile(null)}
               >
-                Quitar
+                ✕ Quitar
               </button>
             )}
           </div>
 
           <label
-            className={`flex cursor-pointer flex-col items-center justify-center rounded-2xl border border-dashed p-6 text-center transition-colors ${
+            className={`flex cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-dashed p-8 text-center transition-all ${
               isDragging
-                ? "border-black/30 bg-black/5 dark:border-white/30 dark:bg-white/5"
-                : "border-black/10 hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
+                ? "border-blue-500 bg-blue-50 shadow-md dark:bg-blue-950/30"
+                : file
+                  ? "border-green-500/50 bg-green-50 dark:bg-green-950/30"
+                  : "border-black/10 hover:border-blue-500/50 hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
             }`}
             onDragEnter={(e) => {
               e.preventDefault();
@@ -190,36 +202,45 @@ export default function UploadForm() {
               accept="application/pdf"
               onChange={(e) => setFile(e.target.files?.[0] || null)}
             />
-            <div className="text-sm">
+            <div className="text-4xl mb-3">{file ? "✅" : "📁"}</div>
+            <div className="text-base font-medium">
               {file ? (
-                <span className="font-medium">{file.name}</span>
+                <span className="text-green-600 dark:text-green-400">{file.name}</span>
+              ) : isDragging ? (
+                <span className="text-blue-600 dark:text-blue-400">Suelta el archivo aquí</span>
               ) : (
-                <span className="font-medium">Seleccionar PDF</span>
+                <span>Seleccionar PDF o arrastrar aquí</span>
               )}
             </div>
-            <div className="mt-1 text-xs text-black/60 dark:text-white/60">
-              {file ? formatBytes(file.size) : "Solo archivos .pdf"}
+            <div className="mt-2 text-sm text-black/60 dark:text-white/60">
+              {file ? formatBytes(file.size) : "Solo archivos .pdf, máximo 100MB"}
             </div>
           </label>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2">
           <div>
-            <label className="mb-1 block text-sm font-medium">Tipo de job</label>
+            <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+              <span>{jobTypeIcon}</span>
+              <span>Tipo de job</span>
+            </label>
             <select
               className={inputBase}
               value={jobType}
               onChange={(e) => setJobType(e.target.value as JobType)}
             >
-              <option value="export_all">Exportación multi-formato</option>
-              <option value="markdown">Markdown por tema</option>
-              <option value="clustering">Clustering (TXT)</option>
+              <option value="export_all">📦 Exportación multi-formato</option>
+              <option value="markdown">📝 Markdown por tema</option>
+              <option value="clustering">🔍 Clustering (TXT)</option>
             </select>
-            <p className="mt-2 text-xs text-black/60 dark:text-white/60">{jobTypeHelp}</p>
+            <p className="mt-2 text-sm text-black/60 dark:text-white/60">{jobTypeHelp}</p>
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium">Página inicial</label>
+            <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+              <span>📍</span>
+              <span>Página inicial</span>
+            </label>
             <input
               className={inputBase}
               type="number"
@@ -230,17 +251,24 @@ export default function UploadForm() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium">Página final (opcional)</label>
+            <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+              <span>🏁</span>
+              <span>Página final</span>
+              <span className="text-xs font-normal text-black/50 dark:text-white/50">(opcional)</span>
+            </label>
             <input
               className={inputBase}
               value={endPage}
               onChange={(e) => setEndPage(e.target.value)}
-              placeholder="(vacío = hasta el final)"
+              placeholder="Vacío = hasta el final"
             />
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium">TOC: páginas a escanear</label>
+            <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+              <span>📑</span>
+              <span>TOC: páginas a escanear</span>
+            </label>
             <input
               className={inputBase}
               type="number"
@@ -252,16 +280,19 @@ export default function UploadForm() {
           </div>
         </div>
 
-        <details className="rounded-2xl border border-black/10 p-4 dark:border-white/10">
-          <summary className="cursor-pointer select-none text-sm font-medium">
-            Ajustes avanzados
-            <span className="ml-2 text-xs text-black/60 dark:text-white/60">
+        <details className="rounded-2xl border border-purple-500/20 bg-purple-50/50 p-4 dark:border-purple-500/20 dark:bg-purple-950/20">
+          <summary className="cursor-pointer select-none text-sm font-semibold">
+            ⚙️ Ajustes avanzados
+            <span className="ml-2 text-xs font-normal text-black/60 dark:text-white/60">
               (opcional)
             </span>
           </summary>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             <div>
-              <label className="mb-1 block text-sm font-medium">Regex tema</label>
+              <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                <span>🔤</span>
+                <span>Regex tema</span>
+              </label>
               <input
                 className={inputBase}
                 value={topicRegex}
@@ -273,7 +304,10 @@ export default function UploadForm() {
             </div>
 
             <div>
-              <label className="mb-1 block text-sm font-medium">Escala títulos</label>
+              <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                <span>📏</span>
+                <span>Escala títulos</span>
+              </label>
               <input
                 className={inputBase}
                 type="number"
@@ -288,19 +322,25 @@ export default function UploadForm() {
             {jobType === "export_all" && (
               <>
                 <div>
-                  <label className="mb-1 block text-sm font-medium">Segmentación</label>
+                  <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                    <span>✂️</span>
+                    <span>Segmentación</span>
+                  </label>
                   <select
                     className={inputBase}
                     value={mode}
                     onChange={(e) => setMode(e.target.value)}
                   >
-                    <option value="auto">auto</option>
-                    <option value="headings">headings</option>
-                    <option value="toc">toc</option>
+                    <option value="auto">🤖 auto</option>
+                    <option value="headings">📋 headings</option>
+                    <option value="toc">📑 toc</option>
                   </select>
                 </div>
                 <div>
-                  <label className="mb-1 block text-sm font-medium">Formatos</label>
+                  <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                    <span>📄</span>
+                    <span>Formatos</span>
+                  </label>
                   <div className="flex flex-wrap gap-2">
                     {(["md", "html", "docx", "pdf", "txt", "json"] as const).map((f) => {
                       const checked = formats.includes(f);
@@ -308,10 +348,10 @@ export default function UploadForm() {
                         <button
                           key={f}
                           type="button"
-                          className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${
+                          className={`rounded-full border px-3 py-1.5 text-xs font-medium transition-all ${
                             checked
-                              ? "border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/10"
-                              : "border-black/10 hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
+                              ? "border-purple-500 bg-purple-500 text-white shadow-sm"
+                              : "border-black/20 hover:border-purple-500/50 hover:bg-purple-50 dark:border-white/20 dark:hover:bg-purple-950/30"
                           }`}
                           onClick={() => {
                             setFormats((prev) =>
@@ -319,7 +359,7 @@ export default function UploadForm() {
                             );
                           }}
                         >
-                          {f}
+                          {checked ? "✓ " : ""}{f}
                         </button>
                       );
                     })}
@@ -334,7 +374,10 @@ export default function UploadForm() {
             {jobType === "clustering" && (
               <>
                 <div>
-                  <label className="mb-1 block text-sm font-medium">Modelo</label>
+                  <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                    <span>🤖</span>
+                    <span>Modelo</span>
+                  </label>
                   <input
                     className={inputBase}
                     value={model}
@@ -342,7 +385,10 @@ export default function UploadForm() {
                   />
                 </div>
                 <div>
-                  <label className="mb-1 block text-sm font-medium">Min chars</label>
+                  <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                    <span>📊</span>
+                    <span>Min chars</span>
+                  </label>
                   <input
                     className={inputBase}
                     type="number"
@@ -353,12 +399,16 @@ export default function UploadForm() {
                   />
                 </div>
                 <div>
-                  <label className="mb-1 block text-sm font-medium">Clusters (opcional)</label>
+                  <label className="mb-2 flex items-center gap-2 text-sm font-semibold">
+                    <span>🎯</span>
+                    <span>Clusters</span>
+                    <span className="text-xs font-normal text-black/50 dark:text-white/50">(opcional)</span>
+                  </label>
                   <input
                     className={inputBase}
                     value={nClusters}
                     onChange={(e) => setNClusters(e.target.value)}
-                    placeholder="(vacío = heurística)"
+                    placeholder="Vacío = heurística"
                   />
                 </div>
               </>
@@ -367,24 +417,49 @@ export default function UploadForm() {
         </details>
 
         {error && (
-          <div className="rounded-xl border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm">
-            {error}
+          <div className="animate-shake rounded-xl border border-red-500/50 bg-red-50 px-4 py-3 text-sm text-red-600 shadow-sm dark:bg-red-950/30 dark:text-red-400">
+            <div className="flex items-start gap-2">
+              <span className="text-base">⚠️</span>
+              <div className="flex-1">{error}</div>
+            </div>
           </div>
         )}
 
-        <div className="flex flex-wrap items-center gap-3">
+        {createdJobId && (
+          <div className="animate-fade-in rounded-xl border border-green-500/50 bg-green-50 px-4 py-3 text-sm text-green-600 shadow-sm dark:bg-green-950/30 dark:text-green-400">
+            <div className="flex items-start gap-2">
+              <span className="text-base">✅</span>
+              <div className="flex-1">
+                Job creado exitosamente. <a className="font-semibold underline" href={`/jobs/${createdJobId}`}>Ver job #{createdJobId}</a>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <button
-            className="inline-flex h-11 items-center justify-center rounded-full bg-foreground px-5 text-background disabled:opacity-60"
+            className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-6 font-semibold text-white shadow-md transition-all hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed dark:from-blue-500 dark:to-purple-500"
             disabled={submitting || !file}
             type="submit"
           >
-            {submitting ? "Creando…" : "Crear job"}
+            {submitting ? (
+              <>
+                <span className="animate-spin">⏳</span>
+                <span>Creando…</span>
+              </>
+            ) : (
+              <>
+                <span>🚀</span>
+                <span>Crear job</span>
+              </>
+            )}
           </button>
           <a
-            className="inline-flex h-11 items-center justify-center rounded-full border border-black/10 px-5 text-sm hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
+            className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-black/10 px-6 text-sm transition-colors hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
             href="/jobs"
           >
-            Ver jobs
+            <span>📋</span>
+            <span>Ver jobs</span>
           </a>
           {createdJobId && (
             <a className="text-sm underline" href={`/jobs/${createdJobId}`}>
