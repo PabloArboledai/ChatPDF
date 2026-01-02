@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatPDF - Delegar al Agente en la Nube</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 900px;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #f8f9fa;
+            border-right: 1px solid #e0e0e0;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .sidebar h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .upload-section {
+            margin-bottom: 20px;
+        }
+
+        .upload-btn {
+            width: 100%;
+            padding: 10px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .upload-btn:hover {
+            background: #5568d3;
+        }
+
+        .delegate-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .delegate-btn {
+            width: 100%;
+            padding: 12px;
+            background: #764ba2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background 0.3s;
+            margin-bottom: 10px;
+        }
+
+        .delegate-btn:hover {
+            background: #5f3d82;
+        }
+
+        .pending-changes {
+            margin-top: 20px;
+        }
+
+        .pending-item {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        .pending-item .actions {
+            margin-top: 8px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .confirm-btn, .reject-btn {
+            flex: 1;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        .confirm-btn {
+            background: #28a745;
+            color: white;
+        }
+
+        .reject-btn {
+            background: #dc3545;
+            color: white;
+        }
+
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #fafafa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .message.user .message-content {
+            background: #667eea;
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.assistant .message-content {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-bottom-left-radius: 4px;
+        }
+
+        .input-area {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        #messageInput {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #messageInput:focus {
+            border-color: #667eea;
+        }
+
+        .send-btn {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .send-btn:hover {
+            background: #5568d3;
+        }
+
+        .status-message {
+            padding: 10px;
+            margin: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 ChatPDF</h1>
+            <p>Chatea con tus PDFs y delega al agente en la nube</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="upload-section">
+                    <h3>Subir Archivo</h3>
+                    <input type="file" id="fileInput" accept=".pdf">
+                    <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                        📁 Seleccionar PDF
+                    </button>
+                    <div id="fileStatus" style="margin-top: 10px; font-size: 12px; color: #666;"></div>
+                </div>
+
+                <div class="delegate-section">
+                    <h3>Delegación</h3>
+                    <button class="delegate-btn" onclick="delegateToCloud()">
+                        ☁️ Delegar al Agente en la Nube
+                    </button>
+                    <p style="font-size: 12px; color: #666;">
+                        Envía tareas complejas al agente en la nube para procesamiento avanzado.
+                    </p>
+                </div>
+
+                <div class="pending-changes">
+                    <h3>Cambios Pendientes</h3>
+                    <div id="pendingChangesList"></div>
+                </div>
+            </div>
+
+            <div class="chat-area">
+                <div class="messages" id="messages">
+                    <div class="message assistant">
+                        <div class="message-content">
+                            ¡Hola! Soy tu asistente ChatPDF. Sube un archivo PDF y podré ayudarte a analizarlo. 
+                            También puedes delegar tareas complejas al agente en la nube.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="input-container">
+                        <input 
+                            type="text" 
+                            id="messageInput" 
+                            placeholder="Escribe tu mensaje..."
+                            onkeypress="if(event.key === 'Enter') sendMessage()"
+                        >
+                        <button class="send-btn" onclick="sendMessage()">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // File upload handling
+        document.getElementById('fileInput').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    document.getElementById('fileStatus').innerHTML = 
+                        `✅ ${result.filename}`;
+                    addMessage('assistant', `Archivo "${result.filename}" cargado correctamente. ¿En qué puedo ayudarte?`);
+                } else {
+                    document.getElementById('fileStatus').innerHTML = 
+                        `❌ Error al cargar`;
+                }
+            } catch (error) {
+                console.error('Error uploading file:', error);
+                document.getElementById('fileStatus').innerHTML = 
+                    `❌ Error de conexión`;
+            }
+        });
+
+        // Chat functionality
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+
+            // Add user message to chat
+            addMessage('user', message);
+            input.value = '';
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    addMessage('assistant', result.response);
+                }
+            } catch (error) {
+                console.error('Error sending message:', error);
+                addMessage('assistant', 'Lo siento, hubo un error al procesar tu mensaje.');
+            }
+        }
+
+        function addMessage(type, content) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = content;
+            
+            messageDiv.appendChild(contentDiv);
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        // Delegate to cloud agent
+        async function delegateToCloud() {
+            const task = prompt('¿Qué tarea deseas delegar al agente en la nube?', 
+                'Analizar el contenido del PDF y generar un resumen');
+            
+            if (!task) return;
+
+            try {
+                const response = await fetch('/api/delegate-to-cloud', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        task: task,
+                        parameters: {
+                            timestamp: new Date().toISOString()
+                        }
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    addMessage('assistant', 
+                        `✅ Tarea preparada para delegación al agente en la nube: "${task}". 
+                        Por favor, confirma los cambios pendientes para proceder.`);
+                    loadPendingChanges();
+                }
+            } catch (error) {
+                console.error('Error delegating to cloud:', error);
+                addMessage('assistant', 'Error al delegar la tarea.');
+            }
+        }
+
+        // Load pending changes
+        async function loadPendingChanges() {
+            try {
+                const response = await fetch('/api/pending-changes');
+                const result = await response.json();
+                
+                const listDiv = document.getElementById('pendingChangesList');
+                
+                if (result.changes.length === 0) {
+                    listDiv.innerHTML = '<p style="font-size: 12px; color: #999;">No hay cambios pendientes</p>';
+                    return;
+                }
+
+                listDiv.innerHTML = result.changes.map(change => `
+                    <div class="pending-item">
+                        <strong>${change.type}</strong><br>
+                        <small>${change.task}</small>
+                        <div class="actions">
+                            <button class="confirm-btn" onclick="confirmChange('${change.id}')">
+                                ✓ Confirmar
+                            </button>
+                            <button class="reject-btn" onclick="rejectChange('${change.id}')">
+                                ✗ Rechazar
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading pending changes:', error);
+            }
+        }
+
+        // Confirm change
+        async function confirmChange(changeId) {
+            try {
+                const response = await fetch('/api/confirm-changes', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        change_id: changeId,
+                        action: 'confirm'
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    addMessage('assistant', 
+                        `✅ Cambios confirmados. La tarea "${result.change.task}" ha sido delegada al agente en la nube.`);
+                    loadPendingChanges();
+                }
+            } catch (error) {
+                console.error('Error confirming change:', error);
+            }
+        }
+
+        // Reject change
+        async function rejectChange(changeId) {
+            try {
+                const response = await fetch('/api/confirm-changes', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        change_id: changeId,
+                        action: 'reject'
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    addMessage('assistant', '❌ Cambios rechazados.');
+                    loadPendingChanges();
+                }
+            } catch (error) {
+                console.error('Error rejecting change:', error);
+            }
+        }
+
+        // Load pending changes on page load
+        loadPendingChanges();
+        
+        // Refresh pending changes every 5 seconds
+        setInterval(loadPendingChanges, 5000);
+    </script>
+</body>
+</html>
