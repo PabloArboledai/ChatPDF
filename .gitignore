@@ -1,15 +1,7 @@
-.venv/
-__pycache__/
+uploads/
 *.pyc
-
-# PDFs y descargas locales
-libro.pdf
-
-# Salidas generadas por los scripts
-output/
-output_md/
-output_all/
-
-# Cachés/salidas locales de la GUI
-.cache/
-output_ui/
+__pycache__/
+.env
+*.pdf
+venv/
+.venv/

@@ -1,9 +1,2 @@
-pdfplumber>=0.7.6
-sentence-transformers>=2.2.2
-scikit-learn>=1.2.0
-numpy>=1.24.0
-gdown>=4.6.0
-pymupdf>=1.24.0
-python-docx>=1.1.2
-Pillow>=10.0.0
-streamlit>=1.32.0
+Flask==3.0.0
+Werkzeug==3.0.1
