@@ -1,14 +1,19 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 
 import { clientApi } from "@/lib/api";
+import Toast from "@/components/Toast";
+import LoadingSpinner from "@/components/LoadingSpinner";
 
 type JobType = "export_all" | "markdown" | "clustering";
 
 export default function UploadForm() {
+  const router = useRouter();
   const [jobType, setJobType] = useState<JobType>("export_all");
   const [file, setFile] = useState<File | null>(null);
+  const [dragActive, setDragActive] = useState(false);
 
   const [mode, setMode] = useState("auto");
   const [formats, setFormats] = useState<string[]>(["md", "pdf"]);
@@ -27,6 +32,8 @@ export default function UploadForm() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [createdJobId, setCreatedJobId] = useState<number | null>(null);
+  const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState("");
 
   const endPageInt = useMemo(() => {
     const s = endPage.trim();
@@ -92,15 +99,55 @@ export default function UploadForm() {
 
       const data = (await resp.json()) as { id: number };
       setCreatedJobId(data.id);
-    } catch (e: any) {
-      setError(e?.message || "Error creando el job");
+      setToastMessage("Job creado exitosamente");
+      setShowToast(true);
+      
+      // Redirect after short delay
+      setTimeout(() => {
+        router.push(`/jobs/${data.id}`);
+      }, 1500);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Error creando el job");
     } finally {
       setSubmitting(false);
     }
   }
 
+  const handleDrag = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.type === "dragenter" || e.type === "dragover") {
+      setDragActive(true);
+    } else if (e.type === "dragleave") {
+      setDragActive(false);
+    }
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDragActive(false);
+
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      const droppedFile = e.dataTransfer.files[0];
+      if (droppedFile.type === "application/pdf") {
+        setFile(droppedFile);
+      } else {
+        setError("Por favor, sube solo archivos PDF.");
+      }
+    }
+  };
+
   return (
     <div className="rounded-2xl border border-black/10 bg-background p-6 dark:border-white/10">
+      {showToast && (
+        <Toast 
+          message={toastMessage} 
+          type="success" 
+          onClose={() => setShowToast(false)} 
+        />
+      )}
+      
       <div className="flex flex-col gap-5">
         <div className="space-y-2">
           <div>
@@ -111,13 +158,38 @@ export default function UploadForm() {
           </div>
 
           <label
-            className="group flex cursor-pointer items-center justify-between gap-4 rounded-xl border border-dashed border-black/20 bg-black/5 px-4 py-4 transition-colors hover:bg-black/10 focus-within:ring-2 focus-within:ring-foreground/20 dark:border-white/20 dark:bg-white/5 dark:hover:bg-white/10"
+            className={`group flex cursor-pointer items-center justify-between gap-4 rounded-xl border px-4 py-4 transition-all ${
+              dragActive
+                ? "border-foreground/50 bg-foreground/5 scale-[1.02]"
+                : "border-dashed border-black/20 bg-black/5 hover:bg-black/10 dark:border-white/20 dark:bg-white/5 dark:hover:bg-white/10"
+            } focus-within:ring-2 focus-within:ring-foreground/20`}
             aria-label="Seleccionar archivo PDF"
+            onDragEnter={handleDrag}
+            onDragLeave={handleDrag}
+            onDragOver={handleDrag}
+            onDrop={handleDrop}
           >
-            <div className="min-w-0">
-              <div className="text-sm font-medium">Seleccionar PDF</div>
-              <div className="truncate text-sm text-black/60 dark:text-white/60">
-                {file ? file.name : "Arrastra y suelta aquí o haz clic para elegir"}
+            <div className="flex min-w-0 items-center gap-3">
+              {file ? (
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-500/10">
+                  <svg className="h-5 w-5 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              ) : (
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-black/5 dark:bg-white/5">
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                  </svg>
+                </div>
+              )}
+              <div className="min-w-0">
+                <div className="text-sm font-medium">
+                  {file ? file.name : "Seleccionar PDF"}
+                </div>
+                <div className="truncate text-sm text-black/60 dark:text-white/60">
+                  {file ? `${(file.size / 1024 / 1024).toFixed(2)} MB` : "Arrastra y suelta aquí o haz clic para elegir"}
+                </div>
               </div>
             </div>
             <span className="shrink-0 rounded-full border border-black/10 bg-background px-3 py-1 text-xs text-black/80 group-hover:bg-black/5 dark:border-white/10 dark:text-white/80 dark:group-hover:bg-white/5">
@@ -289,18 +361,33 @@ export default function UploadForm() {
         )}
 
         {error && (
-          <div className="rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm">
-            {error}
+          <div className="flex items-center gap-3 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm">
+            <svg className="h-5 w-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>{error}</span>
           </div>
         )}
 
         <div className="flex items-center gap-3">
           <button
-            className="inline-flex h-11 items-center justify-center rounded-full bg-foreground px-5 text-background transition-opacity disabled:opacity-60"
-            disabled={submitting}
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-all hover:scale-105 disabled:scale-100 disabled:opacity-60"
+            disabled={submitting || !file}
             onClick={submit}
           >
-            {submitting ? "Creando…" : "Crear job"}
+            {submitting ? (
+              <>
+                <LoadingSpinner size="sm" />
+                Creando...
+              </>
+            ) : (
+              <>
+                <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                </svg>
+                Crear job
+              </>
+            )}
           </button>
           {createdJobId && (
             <a className="text-sm underline" href={`/jobs/${createdJobId}`}>
