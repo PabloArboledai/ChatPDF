@@ -13,6 +13,22 @@ type Job = {
   error: string;
 };
 
+function statusLabel(status: string) {
+  const s = (status || "").toLowerCase();
+  if (s === "succeeded") return "Completado";
+  if (s === "running") return "En progreso";
+  if (s === "queued") return "En cola";
+  if (s === "failed") return "Falló";
+  return status || "—";
+}
+
+function statusClass(status: string) {
+  const s = (status || "").toLowerCase();
+  if (s === "succeeded") return "border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/10";
+  if (s === "failed") return "border-red-500/30 bg-red-500/10";
+  return "border-black/10 dark:border-white/10";
+}
+
 async function fetchJob(id: string): Promise<Job | null> {
   const base = serverApiBaseUrl();
   const res = await fetch(`${base}/jobs/${id}`, { cache: "no-store" });
@@ -39,6 +55,7 @@ export default async function JobDetailPage({
   }
 
   const canDownload = job.status === "succeeded";
+  const isFailed = job.status === "failed";
 
   return (
     <div className="space-y-4">
@@ -46,12 +63,20 @@ export default async function JobDetailPage({
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Job #{job.id}</h1>
           <p className="text-sm text-black/60 dark:text-white/60">
-            Refresca la página para ver cambios.
+            Si está en progreso, refresca para ver cambios.
           </p>
         </div>
-        <Link href="/jobs" className="underline">
-          Jobs
-        </Link>
+        <div className="flex items-center gap-2">
+          <a
+            href={`/jobs/${job.id}`}
+            className="rounded-full border border-black/10 px-4 py-2 text-sm hover:bg-black/5 dark:border-white/10 dark:hover:bg-white/5"
+          >
+            Actualizar
+          </a>
+          <Link href="/jobs" className="rounded-full bg-foreground px-4 py-2 text-sm text-background hover:opacity-90">
+            Volver
+          </Link>
+        </div>
       </div>
 
       <div className="rounded-2xl border border-black/10 p-6 dark:border-white/10">
@@ -62,7 +87,11 @@ export default async function JobDetailPage({
           </div>
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Estado</dt>
-            <dd className="text-sm">{job.status}</dd>
+            <dd className="text-sm">
+              <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs ${statusClass(job.status)}`}>
+                {statusLabel(job.status)}
+              </span>
+            </dd>
           </div>
           <div>
             <dt className="text-xs text-black/60 dark:text-white/60">Archivo</dt>
@@ -73,6 +102,13 @@ export default async function JobDetailPage({
             <dd className="text-sm">{job.error || "—"}</dd>
           </div>
         </dl>
+
+        {isFailed && job.error && (
+          <div className="mt-5 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm">
+            <div className="font-medium">El job falló</div>
+            <div className="mt-1 text-black/80 dark:text-white/80">{job.error}</div>
+          </div>
+        )}
 
         <div className="mt-5 flex flex-wrap items-center gap-3">
           <a
@@ -86,7 +122,9 @@ export default async function JobDetailPage({
             Descargar ZIP
           </a>
           <span className="text-xs text-black/60 dark:text-white/60">
-            El ZIP incluye todos los outputs del job.
+            {canDownload
+              ? "El ZIP incluye todos los outputs del job."
+              : "Disponible cuando el job termine."}
           </span>
         </div>
       </div>
