@@ -22,6 +22,10 @@ La forma más cómoda de usar todas las acciones del sistema es la GUI local (we
 streamlit run app.py
 ```
 
+Atajos:
+- `make gui`
+- VS Code: **Terminal → Run Task… → ChatPDF: Run GUI (Streamlit)**
+
 Desde la GUI puedes:
 - Subir/seleccionar un PDF
 - Ejecutar: exportación multi-formato, Markdown por tema, o clustering

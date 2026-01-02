@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ChatPDF: Run GUI (Streamlit)",
+      "type": "shell",
+      "command": "/workspaces/ChatPDF/.venv/bin/python -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
