@@ -1,0 +1,3 @@
+Created instance: 7699437a-91d9-418d-9b44-d95a6489fc8e
+Fetch details (including IP) with:
+  curl -H 'Authorization: Bearer TO5MI6UX2KIIMWIBIWBSS5XKFXO5YFDJGOAQ' https://api.vultr.com/v2/instances/7699437a-91d9-418d-9b44-d95a6489fc8e

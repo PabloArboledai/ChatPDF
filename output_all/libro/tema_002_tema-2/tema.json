@@ -1,0 +1,7480 @@
+{
+  "title": "Tema 2",
+  "meta": {
+    "source_pdf": "libro.pdf",
+    "start_page": 174,
+    "end_page": 260,
+    "images": [
+      {
+        "page": 174,
+        "src": "images/p174_y0375_x0060.jpeg"
+      },
+      {
+        "page": 174,
+        "src": "images/p174_y0375_x0287.jpeg"
+      },
+      {
+        "page": 174,
+        "src": "images/p174_y0547_x0112.jpeg"
+      },
+      {
+        "page": 176,
+        "src": "images/p176_y0090_x0287.jpeg"
+      },
+      {
+        "page": 177,
+        "src": "images/p177_y0447_x0096.jpeg"
+      },
+      {
+        "page": 178,
+        "src": "images/p178_y0090_x0312.jpeg"
+      },
+      {
+        "page": 178,
+        "src": "images/p178_y0465_x0289.jpeg"
+      },
+      {
+        "page": 179,
+        "src": "images/p179_y0246_x0316.jpeg"
+      },
+      {
+        "page": 180,
+        "src": "images/p180_y0306_x0292.jpeg"
+      },
+      {
+        "page": 180,
+        "src": "images/p180_y0306_x0092.jpeg"
+      },
+      {
+        "page": 181,
+        "src": "images/p181_y0160_x0089.jpeg"
+      },
+      {
+        "page": 182,
+        "src": "images/p182_y0185_x0071.jpeg"
+      },
+      {
+        "page": 184,
+        "src": "images/p184_y0425_x0061.jpeg"
+      },
+      {
+        "page": 185,
+        "src": "images/p185_y0130_x0033.jpeg"
+      },
+      {
+        "page": 185,
+        "src": "images/p185_y0131_x0310.jpeg"
+      },
+      {
+        "page": 186,
+        "src": "images/p186_y0274_x0107.jpeg"
+      },
+      {
+        "page": 187,
+        "src": "images/p187_y0422_x0033.jpeg"
+      },
+      {
+        "page": 188,
+        "src": "images/p188_y0286_x0062.jpeg"
+      },
+      {
+        "page": 189,
+        "src": "images/p189_y0451_x0083.jpeg"
+      },
+      {
+        "page": 191,
+        "src": "images/p191_y0340_x0042.jpeg"
+      },
+      {
+        "page": 191,
+        "src": "images/p191_y0341_x0290.jpeg"
+      },
+      {
+        "page": 191,
+        "src": "images/p191_y0535_x0042.jpeg"
+      },
+      {
+        "page": 191,
+        "src": "images/p191_y0535_x0290.jpeg"
+      },
+      {
+        "page": 193,
+        "src": "images/p193_y0168_x0031.jpeg"
+      },
+      {
+        "page": 193,
+        "src": "images/p193_y0168_x0238.jpeg"
+      },
+      {
+        "page": 193,
+        "src": "images/p193_y0338_x0238.jpeg"
+      },
+      {
+        "page": 193,
+        "src": "images/p193_y0342_x0117.jpeg"
+      },
+      {
+        "page": 193,
+        "src": "images/p193_y0416_x0035.jpeg"
+      },
+      {
+        "page": 195,
+        "src": "images/p195_y0155_x0112.jpeg"
+      },
+      {
+        "page": 195,
+        "src": "images/p195_y0159_x0323.jpeg"
+      },
+      {
+        "page": 195,
+        "src": "images/p195_y0349_x0371.jpeg"
+      },
+      {
+        "page": 195,
+        "src": "images/p195_y0371_x0105.jpeg"
+      },
+      {
+        "page": 196,
+        "src": "images/p196_y0279_x0304.jpeg"
+      },
+      {
+        "page": 196,
+        "src": "images/p196_y0424_x0097.jpeg"
+      },
+      {
+        "page": 198,
+        "src": "images/p198_y0116_x0064.jpeg"
+      },
+      {
+        "page": 198,
+        "src": "images/p198_y0116_x0288.jpeg"
+      },
+      {
+        "page": 199,
+        "src": "images/p199_y0241_x0104.png"
+      },
+      {
+        "page": 200,
+        "src": "images/p200_y0144_x0309.jpeg"
+      },
+      {
+        "page": 200,
+        "src": "images/p200_y0144_x0061.jpeg"
+      },
+      {
+        "page": 200,
+        "src": "images/p200_y0330_x0250.jpeg"
+      },
+      {
+        "page": 200,
+        "src": "images/p200_y0330_x0063.jpeg"
+      },
+      {
+        "page": 201,
+        "src": "images/p201_y0462_x0317.jpeg"
+      },
+      {
+        "page": 202,
+        "src": "images/p202_y0526_x0286.jpeg"
+      },
+      {
+        "page": 204,
+        "src": "images/p204_y0284_x0061.jpeg"
+      },
+      {
+        "page": 206,
+        "src": "images/p206_y0411_x0059.jpeg"
+      },
+      {
+        "page": 208,
+        "src": "images/p208_y0343_x0078.jpeg"
+      },
+      {
+        "page": 209,
+        "src": "images/p209_y0147_x0037.jpeg"
+      },
+      {
+        "page": 209,
+        "src": "images/p209_y0248_x0314.jpeg"
+      },
+      {
+        "page": 209,
+        "src": "images/p209_y0347_x0037.jpeg"
+      },
+      {
+        "page": 209,
+        "src": "images/p209_y0448_x0313.jpeg"
+      },
+      {
+        "page": 209,
+        "src": "images/p209_y0547_x0037.jpeg"
+      },
+      {
+        "page": 211,
+        "src": "images/p211_y0172_x0321.jpeg"
+      },
+      {
+        "page": 212,
+        "src": "images/p212_y0305_x0065.jpeg"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0111_x0124.jpeg"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0433_x0215.jpeg"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0433_x0390.jpeg"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0468_x0226.png"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0530_x0403.jpeg"
+      },
+      {
+        "page": 213,
+        "src": "images/p213_y0558_x0226.png"
+      },
+      {
+        "page": 214,
+        "src": "images/p214_y0404_x0062.jpeg"
+      },
+      {
+        "page": 214,
+        "src": "images/p214_y0405_x0317.jpeg"
+      },
+      {
+        "page": 218,
+        "src": "images/p218_y0138_x0062.jpeg"
+      },
+      {
+        "page": 220,
+        "src": "images/p220_y0091_x0288.jpeg"
+      },
+      {
+        "page": 223,
+        "src": "images/p223_y0170_x-001.jpeg"
+      },
+      {
+        "page": 224,
+        "src": "images/p224_y0170_x0046.jpeg"
+      },
+      {
+        "page": 225,
+        "src": "images/p225_y-001_x0317.jpeg"
+      },
+      {
+        "page": 226,
+        "src": "images/p226_y-001_x-001.jpeg"
+      },
+      {
+        "page": 227,
+        "src": "images/p227_y0134_x-001.jpeg"
+      },
+      {
+        "page": 228,
+        "src": "images/p228_y0134_x-001.jpeg"
+      },
+      {
+        "page": 229,
+        "src": "images/p229_y-001_x-001.jpeg"
+      },
+      {
+        "page": 230,
+        "src": "images/p230_y-001_x-001.jpeg"
+      },
+      {
+        "page": 231,
+        "src": "images/p231_y0277_x0317.jpeg"
+      },
+      {
+        "page": 231,
+        "src": "images/p231_y0278_x0035.jpeg"
+      },
+      {
+        "page": 232,
+        "src": "images/p232_y0091_x0288.jpeg"
+      },
+      {
+        "page": 232,
+        "src": "images/p232_y0277_x-001.jpeg"
+      },
+      {
+        "page": 236,
+        "src": "images/p236_y0359_x0061.jpeg"
+      },
+      {
+        "page": 238,
+        "src": "images/p238_y0457_x0061.jpeg"
+      },
+      {
+        "page": 243,
+        "src": "images/p243_y-001_x0249.jpeg"
+      },
+      {
+        "page": 244,
+        "src": "images/p244_y-001_x-001.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0397_x0084.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0413_x0311.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0422_x0402.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0465_x0073.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0498_x0270.jpeg"
+      },
+      {
+        "page": 246,
+        "src": "images/p246_y0503_x0171.jpeg"
+      },
+      {
+        "page": 247,
+        "src": "images/p247_y0338_x0023.jpeg"
+      },
+      {
+        "page": 248,
+        "src": "images/p248_y0050_x0061.jpeg"
+      },
+      {
+        "page": 250,
+        "src": "images/p250_y0090_x0196.jpeg"
+      },
+      {
+        "page": 250,
+        "src": "images/p250_y0534_x0335.jpeg"
+      },
+      {
+        "page": 250,
+        "src": "images/p250_y0561_x0067.jpeg"
+      },
+      {
+        "page": 251,
+        "src": "images/p251_y0361_x0007.png"
+      },
+      {
+        "page": 252,
+        "src": "images/p252_y0350_x0062.jpeg"
+      },
+      {
+        "page": 253,
+        "src": "images/p253_y0458_x0058.jpeg"
+      },
+      {
+        "page": 253,
+        "src": "images/p253_y0493_x0396.jpeg"
+      },
+      {
+        "page": 254,
+        "src": "images/p254_y-001_x0032.jpeg"
+      },
+      {
+        "page": 254,
+        "src": "images/p254_y0224_x0059.jpeg"
+      },
+      {
+        "page": 255,
+        "src": "images/p255_y-001_x0373.jpeg"
+      },
+      {
+        "page": 255,
+        "src": "images/p255_y0343_x-001.jpeg"
+      },
+      {
+        "page": 255,
+        "src": "images/p255_y0364_x0263.jpeg"
+      },
+      {
+        "page": 256,
+        "src": "images/p256_y0107_x0062.jpeg"
+      },
+      {
+        "page": 258,
+        "src": "images/p258_y0186_x0000.jpeg"
+      },
+      {
+        "page": 260,
+        "src": "images/p260_y0412_x0061.jpeg"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "type": "page_marker",
+      "page": 174
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tema 2"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "¿Por qué cambian las cosas?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Seguramente has observado o pensado acerca de algunos de los cambios",
+        "que a diario ocurren en los objetos, las personas, los animales, las plantas,",
+        "el clima, la lluvia y el paisaje. En esta unidad revisaremos algunos de los",
+        "factores que provocan los cambios. Por ejemplo, el cambio originado por",
+        "la acción de la luz, del viento, del agua y el aumento o disminución de la",
+        "temperatura, entre otros."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ara empezar…"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Observa las imágenes y contesta las siguientes preguntas.",
+        "Comenta tus respuestas con los compañeras del Círculo de estudio."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p174_y0375_x0060.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p174_y0375_x0287.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commons de Atribución-Compartir-Igual 3.0 Unported, 2.5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commons Genérica de Atribución-Compartir-Igual 3.0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genérica, 2.0 Genérica y 1.0 Genérica."
+    },
+    {
+      "type": "image",
+      "src": "images/p174_y0547_x0112.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "173"
+    },
+    {
+      "type": "page_marker",
+      "page": 175
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué cambios se observan en las ilustraciones? Explica, ¿por qué sucede"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro cada uno de esos cambios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra \b \b \b \b \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué sucede cuando una puerta de madera o un pedazo de cartón"
+    },
+    {
+      "type": "paragraph",
+      "text": "están expuestos a la lluvia o al Sol?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Sabes cuántos ingredientes se necesitan para preparar el mole? Escríbelos."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 174"
+    },
+    {
+      "type": "page_marker",
+      "page": 176
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué sucede con todos esos ingredientes cuando se prepara el mole?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza \b \b"
+    },
+    {
+      "type": "image",
+      "src": "images/p176_y0090_x0287.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se \b \b transforman \b \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en el paréntesis de la izquierda Sí o No, de acuerdo con lo",
+        "que piensas de cada una de las situaciones descritas. Fíjate en el",
+        "ejemplo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "(  )"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un pedazo de alambre de cobre, ¿cambia su naturaleza? es decir,"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿deja de ser cobre cuando pasa a formar parte de cables para transportar corriente eléctrica?"
+    },
+    {
+      "type": "paragraph",
+      "text": "(  )"
+    },
+    {
+      "type": "paragraph",
+      "text": "El jugo de uva, al fermentarse para convertirse en vino, ¿cambia"
+    },
+    {
+      "type": "paragraph",
+      "text": "su naturaleza?, ¿deja de ser jugo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "(  )"
+    },
+    {
+      "type": "paragraph",
+      "text": "El agua, al descender la temperatura, se congela, ¿deja de ser"
+    },
+    {
+      "type": "paragraph",
+      "text": "agua?"
+    },
+    {
+      "type": "paragraph",
+      "text": "(  )"
+    },
+    {
+      "type": "paragraph",
+      "text": "El carbón que se utiliza para cocinar, al arder, ¿deja de ser"
+    },
+    {
+      "type": "paragraph",
+      "text": "carbón?"
+    },
+    {
+      "type": "paragraph",
+      "text": "(  )"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las verduras que comemos y son digeridas por nuestro organismo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿dejan de ser verduras?"
+    },
+    {
+      "type": "paragraph",
+      "text": "175"
+    },
+    {
+      "type": "page_marker",
+      "page": 177
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisa tus respuestas con el grupo y, de ser necesario, explica cada",
+        "una de ellas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Realiza las actividades de la ficha \"Hay de cambios a cambios\"."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Subraya y comenta en el Círculo de estudio las ideas principales del",
+        "siguiente texto."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Hay cambios que no afectan la naturaleza o composición química de las"
+    },
+    {
+      "type": "paragraph",
+      "text": "sustancias, es decir, no provocan que una sustancia se transforme en otra;"
+    },
+    {
+      "type": "paragraph",
+      "text": "a esto se le conoce como cambios físicos. Por ejemplo, cuando golpeamos"
+    },
+    {
+      "type": "paragraph",
+      "text": "una roca con un martillo se forman pedazos de roca pequeños y cuando"
+    },
+    {
+      "type": "paragraph",
+      "text": "el agua se congela se transforma en hielo. En ambos casos, hay cambios"
+    },
+    {
+      "type": "paragraph",
+      "text": "únicamente en las características físicas, es decir, en la apariencia o la"
+    },
+    {
+      "type": "paragraph",
+      "text": "forma de la roca y del agua. Por el contrario, existen otros cambios con los"
+    },
+    {
+      "type": "paragraph",
+      "text": "que se puede alterar la naturaleza o composición original de las sustancias."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por ejemplo, cuando el carbón arde, las cenizas que quedan de él no tienen"
+    },
+    {
+      "type": "paragraph",
+      "text": "las características del carbón, su naturaleza cambió, dejo de ser carbón"
+    },
+    {
+      "type": "paragraph",
+      "text": "para convertirse en ceniza; a estos cambios se les llama cambios químicos."
+    },
+    {
+      "type": "image",
+      "src": "images/p177_y0447_x0096.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen las respuestas de el ejercicio de la página anterior y digan qué",
+        "tipo de cambio se describe en cada situación."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "176"
+    },
+    {
+      "type": "page_marker",
+      "page": 178
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasa cuando hervimos agua?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza \b"
+    },
+    {
+      "type": "image",
+      "src": "images/p178_y0090_x0312.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se \b transforman \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen sus respuestas y comenten qué cambios se observan en el",
+        "agua y qué los provoca. Anota en tu cuaderno las ideas principales",
+        "de la conversación."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando un cuerpo o sustancia recibe"
+    },
+    {
+      "type": "image",
+      "src": "images/p178_y0465_x0289.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "calor, su temperatura aumenta. Entre más se calienta un cuerpo o una"
+    },
+    {
+      "type": "paragraph",
+      "text": "sustancia, las moléculas se mueven con mayor rapidez. Por ejemplo, al"
+    },
+    {
+      "type": "paragraph",
+      "text": "calentar el agua, sus moléculas, que estaban casi en reposo, se mueven"
+    },
+    {
+      "type": "paragraph",
+      "text": "cada vez más rápido hasta que, al hervir, las fuerzas que las mantenían"
+    },
+    {
+      "type": "paragraph",
+      "text": "unidas se rompen y el agua empieza a evaporarse, es decir, pasa al estado"
+    },
+    {
+      "type": "paragraph",
+      "text": "gaseoso. Por el contrario, cuando el agua cambia a hielo, sus moléculas se"
+    },
+    {
+      "type": "paragraph",
+      "text": "mueven cada vez más despacio al estar más juntas."
+    },
+    {
+      "type": "paragraph",
+      "text": "177"
+    },
+    {
+      "type": "page_marker",
+      "page": 179
+    },
+    {
+      "type": "paragraph",
+      "text": "Cambios en el agua por contaminación"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "El agua potable es indispensable para la existencia de todas las formas"
+    },
+    {
+      "type": "paragraph",
+      "text": "de vida, incluyendo la humana. Ésta es consumida por el ser humano y los"
+    },
+    {
+      "type": "paragraph",
+      "text": "demás seres vivos sin riesgo de contraer enfermedades."
+    },
+    {
+      "type": "paragraph",
+      "text": "El agua potable puede contener una cierta cantidad de microorganismos"
+    },
+    {
+      "type": "paragraph",
+      "text": "patógenos, minerales y otros elementos químicos; es incolora, inodora,"
+    },
+    {
+      "type": "paragraph",
+      "text": "transparente y de sabor insípido. Con ella se realizan gran parte de"
+    },
+    {
+      "type": "paragraph",
+      "text": "las actividades de la vida diaria"
+    },
+    {
+      "type": "image",
+      "src": "images/p179_y0246_x0316.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "y, debido a los múltiples usos que tiene, es fácil de contaminar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las industrias generan cada día más productos químicos para el"
+    },
+    {
+      "type": "paragraph",
+      "text": "aseo del hogar y de las personas, así como para aumentar la producción"
+    },
+    {
+      "type": "paragraph",
+      "text": "de alimentos."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Qué productos utilizas para limpiar tu casa?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Menciona cuatro."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b 178"
+    },
+    {
+      "type": "page_marker",
+      "page": 180
+    },
+    {
+      "type": "paragraph",
+      "text": "La utilización de diferentes productos para limpiar nuestra casa cambia las"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "características o propiedades del agua, debido a la suma de com-puestos"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "químicos que contienen los productos de limpieza y que provocan un cambio"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se en la calidad del agua."
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este cambio en el agua potable podemos reconocerlo al observar la"
+    },
+    {
+      "type": "paragraph",
+      "text": "aparición de un color y un olor en el agua, que no se tenían antes de"
+    },
+    {
+      "type": "paragraph",
+      "text": "agregar el producto de limpieza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque existen plantas de tratamiento para limpiar el agua, éstas son"
+    },
+    {
+      "type": "paragraph",
+      "text": "insuficientes, por lo que el agua que llega a los ríos, lagos, lagunas y mares"
+    },
+    {
+      "type": "paragraph",
+      "text": "muchas veces está contaminada."
+    },
+    {
+      "type": "image",
+      "src": "images/p180_y0306_x0292.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p180_y0306_x0092.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con tus compañeros la siguiente pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué podríamos hacer para disminuir la contaminación del agua por"
+    },
+    {
+      "type": "paragraph",
+      "text": "productos de limpieza?"
+    },
+    {
+      "type": "paragraph",
+      "text": "abías que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La espuma de los detergentes contiene sustancias químicas que al acumularse"
+    },
+    {
+      "type": "paragraph",
+      "text": "en los ecosistemas acuáticos provocan el incremento de algas y plantas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "como el lirio, que limitan la producción del oxígeno necesario para otros"
+    },
+    {
+      "type": "paragraph",
+      "text": "organismos del lugar."
+    },
+    {
+      "type": "paragraph",
+      "text": "179"
+    },
+    {
+      "type": "page_marker",
+      "page": 181
+    },
+    {
+      "type": "paragraph",
+      "text": "Tanto las plantas acuáticas como las terrestres son organismos autosuficientes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "que, a diferencia de los animales, pueden producir sus propios alimentos"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "por medio de un proceso químico llamado fotosíntesis, en el que la luz solar"
+    },
+    {
+      "type": "paragraph",
+      "text": "es de gran importancia."
+    },
+    {
+      "type": "image",
+      "src": "images/p181_y0160_x0089.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las algas se pueden percibir como un limo verde azul sobre la superficie"
+    },
+    {
+      "type": "paragraph",
+      "text": "de las aguas estancadas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios en la naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "El girasol, una planta que sigue al sol..."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Platiquen en el Círculo de estudio por qué una planta se orienta hacia",
+        "la luz del Sol."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La fotosíntesis es un proceso que llevan a cabo, además de las plantas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "las algas y algunos tipos de bacterias."
+    },
+    {
+      "type": "paragraph",
+      "text": "180"
+    },
+    {
+      "type": "page_marker",
+      "page": 182
+    },
+    {
+      "type": "paragraph",
+      "text": "En la fotosíntesis las plantas transforman la energía solar o luminosa en"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía química. El producto principal de ese proceso es la glucosa, un"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "tipo de azúcar. Para fabricarla, los vegetales necesitan dos compuestos:"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "el agua que absorben por las raíces y el dióxido de carbono* que las"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "hojas de las plantas terrestres toman del aire y las acuáticas del que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "encuentra disuelto en el agua."
+    },
+    {
+      "type": "image",
+      "src": "images/p182_y0185_x0071.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "luz solar oxígeno (O2) dióxido de carbono (CO2) sales minerales"
+    },
+    {
+      "type": "paragraph",
+      "text": "agua"
+    },
+    {
+      "type": "paragraph",
+      "text": "El color verde de las plantas se debe a una sustancia llamada clorofila,"
+    },
+    {
+      "type": "paragraph",
+      "text": "que es la responsable de capturar la energía luminosa para la fotosíntesis;"
+    },
+    {
+      "type": "paragraph",
+      "text": "la clorofila se encuentra dentro de cada célula vegetal."
+    },
+    {
+      "type": "paragraph",
+      "text": "*Dióxido de carbono: gas que forma parte del aire y que utilizan las plantas durante"
+    },
+    {
+      "type": "paragraph",
+      "text": "la fotosíntesis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los animales lo producen como sustancia de desecho de la respiración."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fuente: Leonor Díaz, Alejandra González, Hilda Infante et al. Ciencias I. Énfasis en"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biología. Primer grado, Vol. I. Telesecundaria, México, sep-ilce, pp. 167-168."
+    },
+    {
+      "type": "paragraph",
+      "text": "181"
+    },
+    {
+      "type": "page_marker",
+      "page": 183
+    },
+    {
+      "type": "paragraph",
+      "text": "Un producto de desecho de la fotosíntesis es el oxígeno, el cual se libera"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "al ambiente a través de unos poros que se encuentran en las hojas de las"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra plantas."
+    },
+    {
+      "type": "paragraph",
+      "text": "De esta manera, así como la gasolina aporta la energía que los automóviles"
+    },
+    {
+      "type": "paragraph",
+      "text": "necesitan para funcionar, la glucosa proporciona la energía que todos los"
+    },
+    {
+      "type": "paragraph",
+      "text": "seres vivos necesitan para vivir."
+    },
+    {
+      "type": "paragraph",
+      "text": "En resumen, el proceso de fotosíntesis se representa de la siguiente manera:"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "luz solar",
+        "agua   +   dióxido de carbono",
+        "glucosa   +   oxígeno",
+        "Gas que es absorbido",
+        "Entra por",
+        "clorofila",
+        "Producto que",
+        "Gas que",
+        "del aire por las hojas.",
+        "las raíces.",
+        "proporciona la",
+        "se libera al",
+        "energía química",
+        "ambiente.",
+        "Transformación que",
+        "que la planta",
+        "requiere la presencia",
+        "necesita.",
+        "de luz solar y clorofila."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo contribuyen al desarrollo de la vida en la Tierra algunos de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "cambios que ocurren en las plantas?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b 182"
+    },
+    {
+      "type": "page_marker",
+      "page": 184
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen sus respuestas y, de ser necesario, amplíenlas o modifíquenlas",
+        "de acuerdo con la información de la Unidad 2 de este módulo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las plantas no tienen ojos, nariz u oídos como otros seres vivos. Sin embargo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "son capaces de percibir características del ambiente, por ejemplo, la fuerza"
+    },
+    {
+      "type": "paragraph",
+      "text": "del viento, la cercanía de un organismo, la presencia, intensidad y duración del"
+    },
+    {
+      "type": "paragraph",
+      "text": "sol. Incluso son capaces de reaccionar ante esas propiedades ambientales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por ejemplo, una planta cerca de una ventana se orienta o busca la luz del"
+    },
+    {
+      "type": "paragraph",
+      "text": "sol. Esta reacción es controlada por sustancias químicas u hormonas que"
+    },
+    {
+      "type": "paragraph",
+      "text": "produce la planta y que hacen que ésta se dirija o crezca en dirección al sol;"
+    },
+    {
+      "type": "paragraph",
+      "text": "este fenómeno se llama fototropismo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las plantas también perciben, reconocen la hora del día y la época del"
+    },
+    {
+      "type": "paragraph",
+      "text": "año. Regulan su descanso durante los periodos de oscuridad y, en el día,"
+    },
+    {
+      "type": "paragraph",
+      "text": "producen néctar para atraer a insectos que les ayudan en el proceso de"
+    },
+    {
+      "type": "paragraph",
+      "text": "reproducción. Cuando los días se acortan y el otoño se acerca, algunos"
+    },
+    {
+      "type": "paragraph",
+      "text": "árboles y plantas pierden sus hojas para evitar la pérdida de agua, es"
+    },
+    {
+      "type": "paragraph",
+      "text": "decir, se preparan para las inclemencias del invierno."
+    },
+    {
+      "type": "image",
+      "src": "images/p184_y0425_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los días cortos del otoño son la señal para cambiar."
+    },
+    {
+      "type": "paragraph",
+      "text": "183"
+    },
+    {
+      "type": "page_marker",
+      "page": 185
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Conversen acerca de comportamientos de animales que estén",
+        "relacionados con las estaciones del año. Después, anota en tu",
+        "cuaderno los comportamientos que más te interesen."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p185_y0130_x0033.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p185_y0131_x0310.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "IJsberen op Spitsbergen, Martha de Jong-Lantink, Fotopedia."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Al acercarse el invierno, algunas aves"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los osos duermen durante largas temporadas viajan o migran a otros lugares en busca de"
+    },
+    {
+      "type": "paragraph",
+      "text": "alimento y mejores condiciones ambientales."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué influyen los cambios de estación en los seres vivos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué crees que los seres humanos crearon, desde tiempos remotos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "instrumentos para medir el tiempo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b 184"
+    },
+    {
+      "type": "page_marker",
+      "page": 186
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen sus respuestas y comenten la siguiente pregunta: qué da origen",
+        "al día, a la noche y a las estaciones del año? Escribe en tu cuaderno los",
+        "comentarios que te parezcan más interesantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se transforman ara saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Los ciclos en la Tierra”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Conversen acerca de los cambios que se efectúan en la superficie y",
+        "en lo profundo de la tierra firme, las acumulaciones de agua, en los",
+        "gases que forman el aire."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p186_y0274_x0107.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto y subraya las ideas principales."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E"
+    },
+    {
+      "type": "paragraph",
+      "text": "n el planeta se presentan continuamente cambios o modificaciones en la"
+    },
+    {
+      "type": "paragraph",
+      "text": "tierra, el agua y el aire. Algunos de esos cambios se manifiestan mediante"
+    },
+    {
+      "type": "paragraph",
+      "text": "la actividad volcánica, tempestades, sismos o temblores, formación de grietas"
+    },
+    {
+      "type": "paragraph",
+      "text": "y cadenas montañosas en los fondos marinos, acumulación de gases que"
+    },
+    {
+      "type": "paragraph",
+      "text": "pueden ser tóxicos, transformación de algunos de los componentes, vivos o"
+    },
+    {
+      "type": "paragraph",
+      "text": "no vivos. Esos cambios hacen que la Tierra, en su totalidad, se encuentre en"
+    },
+    {
+      "type": "paragraph",
+      "text": "transformación constante."
+    },
+    {
+      "type": "paragraph",
+      "text": "185"
+    },
+    {
+      "type": "page_marker",
+      "page": 187
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Explica en tu cuaderno cómo se relacionan algunos de esos cambios."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisen sus respuestas y mencionen alguno de los ciclos revisados en la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad 2. Por ejemplo, el ciclo de vida de una planta o un animal. Explica"
+    },
+    {
+      "type": "paragraph",
+      "text": "brevemente algunas de sus características."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa la siguiente ilustración."
+    },
+    {
+      "type": "image",
+      "src": "images/p187_y0422_x0033.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Nubes de lluvia",
+        "Formación de nubes",
+        "Precipitación",
+        "Evapotranspiración",
+        "Evaporación",
+        "Río",
+        "Arroyo",
+        "Infitración",
+        "Manantial",
+        "Aguas subterráneas",
+        "Infiltración al océano",
+        "Océano"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "186"
+    },
+    {
+      "type": "page_marker",
+      "page": 188
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Conversen acerca de las siguientes preguntas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué cambios observas en el agua en la ilustración anterior?"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué importancia crees que tienen esos cambios para la vida?"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cuándo empieza y termina este ciclo?"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Anota en tu cuaderno las ideas principales de la conversación."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Busca en un periódico o revista una noticia relacionada con alteraciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "al ciclo del agua. Después, pégala en tu cuaderno y anota las causas y"
+    },
+    {
+      "type": "paragraph",
+      "text": "consecuencias de esas alteraciones."
+    },
+    {
+      "type": "image",
+      "src": "images/p188_y0286_x0062.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "U.S. Navy photo. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vista de Sendai, inundada tras el terremoto de 2011 y el posterior tsunami."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Crees que los cambios en el ciclo del agua tienen consecuencias en la"
+    },
+    {
+      "type": "paragraph",
+      "text": "vida? ¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 187"
+    },
+    {
+      "type": "page_marker",
+      "page": 189
+    },
+    {
+      "type": "paragraph",
+      "text": "ara saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Otros cambios cíclicos”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elabora en tu cuaderno un texto con las ideas centrales del artículo de"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Revista."
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "El ser humano, desde épocas remotas, se ha preguntado acerca de las"
+    },
+    {
+      "type": "paragraph",
+      "text": "causas que provocan diversos cambios que ocurren en la naturaleza. Como"
+    },
+    {
+      "type": "paragraph",
+      "text": "resultado de la observación, el registro de información, la experimentación"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la consulta persistente se han reconocido algunos factores que influyen"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la naturaleza física o química de un objeto, un ser vivo o un fenómeno"
+    },
+    {
+      "type": "paragraph",
+      "text": "natural. La luz, el calor, el viento, el movimiento del agua, entre otras"
+    },
+    {
+      "type": "paragraph",
+      "text": "causas, provocan transformaciones en la materia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios cíclicos propician y dan continuidad a todos los procesos que"
+    },
+    {
+      "type": "paragraph",
+      "text": "hacen posible el desarrollo de la vida. Mantienen y garantizan la renovación"
+    },
+    {
+      "type": "paragraph",
+      "text": "del ambiente. Esto sucede siempre que la acción de otros factores naturales"
+    },
+    {
+      "type": "paragraph",
+      "text": "o provocados por el ser humano no dificulten o impidan la renovación."
+    },
+    {
+      "type": "image",
+      "src": "images/p189_y0451_x0083.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal Emergency Management Agency. wikipedia 188"
+    },
+    {
+      "type": "page_marker",
+      "page": 190
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "La energía y su relación"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza con el cambio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tema y la sociedad se"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "La palabra energía es parte de nuestro lenguaje cotidiano; decimos: “se",
+        "me acabó la energía”, “a este niño le sobra energía”, “la energía eléctrica",
+        "es parte del desarrollo de los pueblos”, “hay alimentos que me dan más",
+        "energía”, pero, ¿qué otros significados puede tener la palabra energía?",
+        "¿Qué tipos de energía existen? ¿Cómo se relaciona la energía con los",
+        "cambios de la naturaleza?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman ara empezar…"
+    },
+    {
+      "type": "paragraph",
+      "text": "El mismo Sol que decolora las flores caídas en el pasto, alza la bugambilia."
+    },
+    {
+      "type": "paragraph",
+      "text": "En el borde del árbol la hoja abandona su color y dice sobre la cal del muro su silencio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Suena el espacio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vive el insecto en el césped su mundo de espadas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pausa de pájaros."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corren niños y perros."
+    },
+    {
+      "type": "paragraph",
+      "text": "Antonio Deltoro, poeta mexicano."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿A qué se refiere el poema anterior?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué hace que la bugambilia crezca?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué hace posible que niños y perros corran?"
+    },
+    {
+      "type": "paragraph",
+      "text": "189"
+    },
+    {
+      "type": "page_marker",
+      "page": 191
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe tus respuestas en tu cuaderno. Después, platica con tus",
+        "compañeros acerca de ellas y, en grupo, traten de definir qué es",
+        "energía. Pueden consultar un diccionario. Anota la conclusión a la",
+        "que llegaron."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Piensa acerca de las actividades que realizas diariamente desde que te"
+    },
+    {
+      "type": "paragraph",
+      "text": "levantas: ¿Qué te permite preparar tu desayuno? ¿Qué hace posible que"
+    },
+    {
+      "type": "paragraph",
+      "text": "puedas trabajar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa las siguientes ilustraciones."
+    },
+    {
+      "type": "image",
+      "src": "images/p191_y0340_x0042.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p191_y0341_x0290.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p191_y0535_x0042.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p191_y0535_x0290.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "190"
+    },
+    {
+      "type": "page_marker",
+      "page": 192
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten la siguiente pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué hace posible que una persona, animal o máquina realice un trabajo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota la conclusión a la que llegaron."
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Traza una ✓ en aquellas palabras que relaciones con la palabra energía."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fíjate en el ejemplo."
+    },
+    {
+      "type": "paragraph",
+      "text": "fuerza ✓ átomo voluntad movimiento agua sol cambio persona carbón"
+    },
+    {
+      "type": "paragraph",
+      "text": "molino luz alimento trabajo azúcar calor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Explica en tu cuaderno por qué marcaste esas palabras."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto y comenta las ideas más importantes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "L"
+    },
+    {
+      "type": "paragraph",
+      "text": "a energía se define como la capacidad para hacer un trabajo, y está"
+    },
+    {
+      "type": "paragraph",
+      "text": "estrechamente vinculada al cambio. La energía es una propiedad de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "objetos, que permite explicar los cambios en la interacción de un objeto"
+    },
+    {
+      "type": "paragraph",
+      "text": "con otro. Por ejemplo, para mover un balón de futbol interactúan tu pie"
+    },
+    {
+      "type": "paragraph",
+      "text": "y el balón: el pie transfiere energía al balón al golpearlo para ponerlo en"
+    },
+    {
+      "type": "paragraph",
+      "text": "movimiento. Durante la interacción de tu pie con el balón, es decir, durante"
+    },
+    {
+      "type": "paragraph",
+      "text": "el golpe, se aplicó una fuerza que produce el desplazamiento del balón. Así,"
+    },
+    {
+      "type": "paragraph",
+      "text": "al aplicar una fuerza para poner en movimiento el balón hubo un gasto de"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía, por ello se dice que el trabajo es el resultado de aplicar una fuerza."
+    },
+    {
+      "type": "paragraph",
+      "text": "191"
+    },
+    {
+      "type": "page_marker",
+      "page": 193
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el artículo “Tipos de fuerzas”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Traza una ✗ sobre el número de la ilustración que crees representa la"
+    },
+    {
+      "type": "paragraph",
+      "text": "capacidad de hacer un trabajo."
+    },
+    {
+      "type": "image",
+      "src": "images/p193_y0168_x0031.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p193_y0168_x0238.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p193_y0338_x0238.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p193_y0342_x0117.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p193_y0416_x0035.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisa con el grupo tus respuestas y comenta las siguientes preguntas."
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "En la ilustración número 1, ¿se realiza trabajo?",
+        "En la ilustración número 3, ¿quién hace trabajo?",
+        "Si ninguno de los grupos representados en la ilustración número 4"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "fuera capaz de mover al otro, ¿se realizaría trabajo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Se realiza trabajo sólo cuando hay un desplazamiento. Así, en las ilus-"
+    },
+    {
+      "type": "paragraph",
+      "text": "traciones anteriores se observa que la persona representada en la"
+    },
+    {
+      "type": "paragraph",
+      "text": "ilustración número 1 ejerce una fuerza sobre la caja, pero por más"
+    },
+    {
+      "type": "paragraph",
+      "text": "192"
+    },
+    {
+      "type": "page_marker",
+      "page": 194
+    },
+    {
+      "type": "paragraph",
+      "text": "intentos que hace no es capaz de moverla; por tanto, no hace trabajo."
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un objeto, como el resorte de la ilustración 3, puede realizar trabajo. La"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía es lo que le da al resorte la capacidad para hacer trabajo, es"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "decir, para levantar el muñeco en el momento en que se destapa la caja."
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "La energía fue transmitida al resorte cuando una fuerza lo comprimió."
+    },
+    {
+      "type": "paragraph",
+      "text": "Es posible dar energía a un cuerpo que no la tiene."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe con tus propias palabras la definición de energía; utiliza",
+        "algunos de los ejemplos de las actividades anteriores."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten sus respuestas. Después, conversen acerca de las diferentes",
+        "manifestaciones de energía que se conocen. Anota tres de ellas."
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b 193"
+    },
+    {
+      "type": "page_marker",
+      "page": 195
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno la importancia que tienen los distintos tipos",
+        "de energía para realizar las actividades de tu vida diaria."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa y comenta qué tipos de energía se ilustran."
+    },
+    {
+      "type": "image",
+      "src": "images/p195_y0155_x0112.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p195_y0159_x0323.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p195_y0349_x0371.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p195_y0371_x0105.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Existen distintas formas de energía; todas ellas se encuentran estrechamente"
+    },
+    {
+      "type": "paragraph",
+      "text": "relacionadas con la vida en la Tierra. Entre ellas se encuentran las siguientes:"
+    },
+    {
+      "type": "paragraph",
+      "text": "solar, eléctrica, química, calorífica o térmica, eólica o producida por el"
+    },
+    {
+      "type": "paragraph",
+      "text": "viento, de las olas del mar, cinética o del movimiento, nuclear, geotérmica"
+    },
+    {
+      "type": "paragraph",
+      "text": "o del calor interno de la Tierra."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno las tres formas de energía más utilizadas",
+        "en tu comunidad y los principales usos que se le da."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "194"
+    },
+    {
+      "type": "page_marker",
+      "page": 196
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Responde en tu cuaderno: cuál es la energía más costosa?, cuál",
+        "es la más difícil de obtener?, qué podemos hacer para cuidar su",
+        "consumo?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se transforman"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía eléctrica!",
+        "•\t Junta y trata de planchar de",
+        "una sola vez la ropa. Primero",
+        "plancha la ropa que necesita",
+        "menor cantidad de calor.",
+        "•\t No seques la ropa con la plan-",
+        "cha, utiliza el calor del sol.",
+        "•\t Aprovecha la luz natural, la del",
+        "sol. Siempre que sea posible",
+        "trabaja junto a una ventana.",
+        "•\t Pinta las paredes y el techo de",
+        "color blanco o de colores cla-",
+        "ros, esto mejora la iluminación."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p196_y0279_x0304.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p196_y0424_x0097.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "195"
+      ]
+    },
+    {
+      "type": "page_marker",
+      "page": 197
+    },
+    {
+      "type": "paragraph",
+      "text": "La energía del Sol"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta,"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten acerca de las transformaciones de energía representadas",
+        "en la ilustración. Recuerdas lo que ocurre en las plantas verdes",
+        "gracias a la energía solar?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía eléctrica!",
+        "Para utilizar menos el",
+        "aire acondicionado y la",
+        "calefacción, siembra árboles",
+        "frondosos en los lados sur",
+        "y oeste de tu casa. Éstos",
+        "mantendrán un clima",
+        "agradable en el verano y la",
+        "protegerán en el invierno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las transformaciones de la energía solar"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe un uso que se da a la energía del Sol."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 196"
+    },
+    {
+      "type": "page_marker",
+      "page": 198
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten las siguientes ilustraciones."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se"
+    },
+    {
+      "type": "image",
+      "src": "images/p198_y0116_x0064.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p198_y0116_x0288.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commons Genérica de Atribución/Compartir-Igual 3.0."
+    },
+    {
+      "type": "paragraph",
+      "text": "También se puede obtener energía"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sol, fuente de energía natural."
+    },
+    {
+      "type": "paragraph",
+      "text": "a través de celdas solares."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vitamina D"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sol contribuye a fortalecer nuestros huesos."
+    },
+    {
+      "type": "paragraph",
+      "text": "197"
+    },
+    {
+      "type": "page_marker",
+      "page": 199
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto y escribe en tu cuaderno tres ejemplos de cómo los"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro seres vivos transformamos la energía que recibimos del Sol."
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E"
+    },
+    {
+      "type": "paragraph",
+      "text": "l Sol es nuestra principal fuente de energía. Las plantas utilizan"
+    },
+    {
+      "type": "paragraph",
+      "text": "aproximadamente 2 % de la energía solar que llega a la Tierra. Con ella"
+    },
+    {
+      "type": "paragraph",
+      "text": "elaboran miles de millones de toneladas de alimentos. Las plantas y sus productos"
+    },
+    {
+      "type": "paragraph",
+      "text": "son consumidos por los animales y los seres humanos, quienes transformamos"
+    },
+    {
+      "type": "paragraph",
+      "text": "este alimento en energía para movernos, realizar diferentes actividades y eliminar"
+    },
+    {
+      "type": "paragraph",
+      "text": "una parte de ésta en forma de calor."
+    },
+    {
+      "type": "image",
+      "src": "images/p199_y0241_x0104.png"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía eléctrica!",
+        "Apaga focos o aparatos",
+        "eléctricos cuando no hagas",
+        "uso de ellos."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "abías que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La luz que llega a nuestras casas proviene generalmente de las plantas"
+    },
+    {
+      "type": "paragraph",
+      "text": "hidroeléctricas. Estas plantas requieren de la construcción de presas con grandes"
+    },
+    {
+      "type": "paragraph",
+      "text": "cantidades de agua para generar la energía; sin embargo, el agua que se guarda"
+    },
+    {
+      "type": "paragraph",
+      "text": "en las presas disminuye la cantidad que llega a los ríos, lagos y lagunas. Si puedes"
+    },
+    {
+      "type": "paragraph",
+      "text": "utilizar la energía del Sol, hazlo; ésta no contamina, ni el aire ni el agua."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno tres ejemplos de cómo los seres vivos",
+        "transformamos la energía que recibimos del Sol."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Distintos tipos de energía”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "198"
+    },
+    {
+      "type": "page_marker",
+      "page": 200
+    },
+    {
+      "type": "paragraph",
+      "text": "Energía térmica o calorífica"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "El calor es otra forma de energía, y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué usos tiene?"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "image",
+      "src": "images/p200_y0144_x0309.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p200_y0144_x0061.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p200_y0330_x0250.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p200_y0330_x0063.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tony Hisgett. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo utilizas diariamente este tipo de energía?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 199"
+    },
+    {
+      "type": "page_marker",
+      "page": 201
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Ayuda a la digestión cocinar ciertos alimentos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí     No"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten sus respuestas. Después, reflexionen sobre qué sucede",
+        "con la energía calorífica cuando un metal, comida u otra sustancia se",
+        "calienta o se quema.",
+        "Escoge uno de los comentarios más importantes y escríbelo en tu",
+        "cuaderno."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p201_y0462_x0317.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía!",
+        "Cocina los alimentos con la",
+        "flama más baja posible y tapa el",
+        "recipiente. La tapa conserva el",
+        "calor en el recipiente. Una flama",
+        "intensa calienta el aire alrededor",
+        "del recipiente y esto es un",
+        "desperdicio innecesario. Cuida la",
+        "energía y tu bolsillo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "200"
+    },
+    {
+      "type": "page_marker",
+      "page": 202
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe el nombre de los combustibles que más se usan en tu",
+        "comunidad."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la \b sociedad se transforman \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Revisen su respuesta y comenten la siguiente pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Desde cuándo se utilizan esos combustibles? Menciona qué cambios"
+    },
+    {
+      "type": "paragraph",
+      "text": "favorables y desfavorables han causado en el ambiente."
+    },
+    {
+      "type": "paragraph",
+      "text": "La observación de los distintos cambios que produce el calor llevó a"
+    },
+    {
+      "type": "paragraph",
+      "text": "algunos científicos a pensar en la posibilidad de utilizar esta fuente"
+    },
+    {
+      "type": "paragraph",
+      "text": "de energía para usos diversos. En el siglo xviii, James Watt inventó la"
+    },
+    {
+      "type": "paragraph",
+      "text": "máquina de vapor. Este invento fue el inicio de grandes cambios para la"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanidad; a partir de la máquina de vapor surgió la locomotora y se"
+    },
+    {
+      "type": "paragraph",
+      "text": "modificó el transporte, el comercio, la industria y la minería. Esto generó"
+    },
+    {
+      "type": "paragraph",
+      "text": "un aumento en el uso de un combustible: el carbón."
+    },
+    {
+      "type": "image",
+      "src": "images/p202_y0526_x0286.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "József Süveg. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios propiciados por la máquina de vapor marcaron una etapa conocida como la Revolución"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrial, que se  inició en Inglaterra, se extendió por el resto de Europa"
+    },
+    {
+      "type": "paragraph",
+      "text": "y, más tarde, por otras partes del mundo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Locomotora de vía estrecha."
+    },
+    {
+      "type": "paragraph",
+      "text": "201"
+    },
+    {
+      "type": "page_marker",
+      "page": 203
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué cambios trajo el uso de la máquina de vapor?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, \b la Tierra \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten el texto anterior y mencionen algunos cambios nocivos en",
+        "el ambiente provocados por el desarrollo industrial."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo imaginas que afecta a la Tierra el calor que se libera de las"
+    },
+    {
+      "type": "paragraph",
+      "text": "fábricas y transportes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Tierra tiene calor"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Has escuchado hablar de que la Tierra se está calentando o de que el"
+    },
+    {
+      "type": "paragraph",
+      "text": "clima está cambiando?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Desde hace algunas décadas, varios investigadores han reportado un"
+    },
+    {
+      "type": "paragraph",
+      "text": "aumento en el bióxido de carbono, como consecuencia del incremento"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el número de automóviles, aviones, fábricas y la disminución de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "bosques. Los medios de transporte y las industrias producen bióxido de"
+    },
+    {
+      "type": "paragraph",
+      "text": "202"
+    },
+    {
+      "type": "page_marker",
+      "page": 204
+    },
+    {
+      "type": "paragraph",
+      "text": "carbono (CO2) y otros gases al quemar combustibles fósiles, que son los"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "que utilizan para su funcionamiento. El aumento en estos gases genera"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "graves consecuencias para el medio ambiente de la Tierra, como el efecto"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se invernadero y el cambio climático."
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "El bióxido de carbono forma una cubierta que envuelve a la Tierra y"
+    },
+    {
+      "type": "paragraph",
+      "text": "retiene mayor cantidad de luz solar; como consecuencia, el aire que rodea"
+    },
+    {
+      "type": "paragraph",
+      "text": "a la Tierra se calienta. A esto se le conoce como efecto invernadero."
+    },
+    {
+      "type": "paragraph",
+      "text": "A los cambios ambientales que se presentan en la Tierra por el efecto"
+    },
+    {
+      "type": "paragraph",
+      "text": "invernadero, se les conoce como cambio climático."
+    },
+    {
+      "type": "image",
+      "src": "images/p204_y0284_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiación"
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiación"
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiación solar 102 de baja solar reflejada 239 frecuencia entrante"
+    },
+    {
+      "type": "paragraph",
+      "text": "saliente"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflejada por las nubes, aerosoles y la atmósfera 341"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ventana 169 79 W/m2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Absorbida atmosférica por la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Emitida atmósfera por la atmósfera"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gases efecto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Calor invernadero latente"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflejada por la superficie 356 333"
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiación 161 retornada 396"
+    },
+    {
+      "type": "paragraph",
+      "text": "Evapo-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Convección"
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiación"
+    },
+    {
+      "type": "paragraph",
+      "text": "Absorbida 333 trans de la por la"
+    },
+    {
+      "type": "paragraph",
+      "text": "Absorbida piración superficie superficie por la superficie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Absorción neta 0,9 W/m2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Balance anual de energía de la Tierra desarrollado por Trenberth, Fasullo y Kiehl de"
+    },
+    {
+      "type": "paragraph",
+      "text": "la NCAR en 2008."
+    },
+    {
+      "type": "paragraph",
+      "text": "203"
+    },
+    {
+      "type": "page_marker",
+      "page": 205
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Investiga con algún profesor de Biología o Geografía o consultando",
+        "alguna página de internet, cuáles son las consecuencias del efecto",
+        "invernadero y del cambio climático? y, qué medidas se están aplicando",
+        "para reducir dichos problemas ambientales? Con esta información,",
+        "completa la siguiente tabla."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Efecto invernadero"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "consecuencias",
+        "medidas"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Cambio climático"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "consecuencias",
+        "medidas"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "204"
+    },
+    {
+      "type": "page_marker",
+      "page": 206
+    },
+    {
+      "type": "paragraph",
+      "text": "De las medidas establecidas contra el efecto invernadero y el cambio"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "climático, elige aquellas que puedes aplicar de manera personal y que"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza estás dispuesto a comprometerte a realizar."
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta tu respuesta con tus compañeros."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “El calentamiento de la Tierra”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber más..."
+    },
+    {
+      "type": "image",
+      "src": "images/p206_y0411_x0059.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La radiación solar es reflejada por la atmósfera y la superficie terrestre"
+    },
+    {
+      "type": "paragraph",
+      "text": "ATMÓSFERA 205"
+    },
+    {
+      "type": "page_marker",
+      "page": 207
+    },
+    {
+      "type": "paragraph",
+      "text": "La electricidad, fuente de energía"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Haz un inventario de objetos o aparatos relacionados con la energía"
+    },
+    {
+      "type": "paragraph",
+      "text": "eléctrica y los usos que se les da. Fíjate en el ejemplo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Objeto o aparato"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uso"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "foco",
+        "radio"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "para alumbrar"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Imagina qué sucedería si no hubiera energía eléctrica. En tu cuaderno,",
+        "escribe las ideas principales de tu reflexión."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisen sus respuestas. Después, comenten la siguiente pregunta: ¿Qué"
+    },
+    {
+      "type": "paragraph",
+      "text": "importancia tiene la energía eléctrica en los cambios de una comunidad?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota las opiniones más importantes."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 206"
+    },
+    {
+      "type": "page_marker",
+      "page": 208
+    },
+    {
+      "type": "paragraph",
+      "text": "abías"
+    },
+    {
+      "type": "paragraph",
+      "text": "La que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "En 1881 se inició el servicio público de electricidad en México. Esto"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "modificó la forma de vida, en particular, de las poblaciones urbanas."
+    },
+    {
+      "type": "paragraph",
+      "text": "El molcajete se cambió por la licuadora, el refrigerador de hielo por el"
+    },
+    {
+      "type": "paragraph",
+      "text": "refrigerador eléctrico, las lámparas de petróleo por el foco, los calentadores de"
+    },
+    {
+      "type": "paragraph",
+      "text": "leña por calentadores eléctricos. Las fábricas ampliaron los turnos de trabajo al"
+    },
+    {
+      "type": "paragraph",
+      "text": "poder contar con mejor iluminación y maquinaria con una nueva fuente de"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía. Cambió la vida cotidiana, pero también la forma de trabajar,"
+    },
+    {
+      "type": "paragraph",
+      "text": "producir y consumir. Actualmente la tecnología ha permitido sustituir los"
+    },
+    {
+      "type": "paragraph",
+      "text": "focos incandescentes por lámparas flourescentes compactas que consumen"
+    },
+    {
+      "type": "paragraph",
+      "text": "menos electricidad."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía eléctrica!",
+        "•",
+        "Revisa periódicamente que tu instalación eléctrica no tenga fugas.",
+        "Para ello, desconecta todos los aparatos, apaga las luces y observa",
+        "el disco del medidor. Si éste sigue girando, hay una fuga. Llama",
+        "inmediatamente al electricista.",
+        "•",
+        "Sustituye tus focos comunes por lámparas fluorescentes ahorradoras;",
+        "duran 10 veces más y consumen 4 veces menos energía eléctrica.",
+        "•",
+        "Comprueba que la puerta de tu refrigerador selle perfectamente",
+        "colocando una hoja de papel entre ésta y el cuerpo del refrigerador; si",
+        "se desliza al jalarla, hay que cambiar el  sello. Ábrelo lo menos posible.",
+        "•",
+        "Apaga aparatos eléctricos cuando no se estén utilizando.",
+        "•",
+        "Plancha la mayor cantidad posible de ropa en cada ocasión."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p208_y0343_x0078.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "207"
+    },
+    {
+      "type": "page_marker",
+      "page": 209
+    },
+    {
+      "type": "paragraph",
+      "text": "La electricidad, a diferencia del petróleo y el carbón, no es un recurso"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "natural; es un producto que el ser humano ha transformado. Llevar la"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía eléctrica a diferentes lugares ha significado un gran esfuerzo y"
+    },
+    {
+      "type": "paragraph",
+      "text": "tiene un gran costo. Por esta razón es importante usarla racionalmente."
+    },
+    {
+      "type": "image",
+      "src": "images/p209_y0147_x0037.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p209_y0248_x0314.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p209_y0347_x0037.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p209_y0448_x0313.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p209_y0547_x0037.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "El camino que la luz recorrió antes de que encendieras un foco."
+    },
+    {
+      "type": "paragraph",
+      "text": "208"
+    },
+    {
+      "type": "page_marker",
+      "page": 210
+    },
+    {
+      "type": "paragraph",
+      "text": "Existen varias formas de generar la electricidad. Se puede producir"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "mediante la combustión de gas natural y petróleo, que es la llamada"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía termoeléctrica, la más usada en nuestro país; también mediante"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "la combustión del carbón: energía carboeléctrica; a partir del calor del"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "interior de la Tierra: energía geotermoeléctrica; y de la fuerza del viento:"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía eólica. Hasta el momento, no se ha logrado almacenar la electricidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "producida en la naturaleza, por ejemplo, la electricidad de los relámpagos."
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Energía eólica o del viento para"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber producir electricidad”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Escribe algunas ventajas de utilizar la energía del viento para producir"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía eléctrica."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b abías que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las líneas de distribución en México para llevar electricidad a casas, hospitales,"
+    },
+    {
+      "type": "paragraph",
+      "text": "talleres, escuelas, fábricas, alumbrado público, sistemas de bombeo de agua"
+    },
+    {
+      "type": "paragraph",
+      "text": "potable y drenaje miden más de 500 000 kilómetros, que equivalen a 13.7"
+    },
+    {
+      "type": "paragraph",
+      "text": "vueltas alrededor de nuestro planeta."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¡Ahorremos energía eléctrica!",
+        "Para encender y calentar un automóvil, bastan 31 segundos; no aceleres",
+        "en el momento de arrancar. Se ahorra combustible si se maneja a una",
+        "velocidad constante de aproximadamente 80 km/h."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "209"
+    },
+    {
+      "type": "page_marker",
+      "page": 211
+    },
+    {
+      "type": "paragraph",
+      "text": "La energía nuclear, una energía cuestionada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el fragmento de la siguiente noticia."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Cientos de japoneses afectados por radiación",
+        "Tokio, Japón, 7 de octubre de 1999.",
+        "US_Navy",
+        "Crece el número de personas que",
+        "fueron expuestas a la radiación en el",
+        "accidente nuclear ocurrido el pasado",
+        "jueves 30 de septiembre en la planta de",
+        "procesamiento de uranio de Tokaimura,",
+        "lugar situado a 140 kilómetros al norte",
+        "de la capital de Japón, Tokio.",
+        "Informes recientes de movimientos",
+        "la localidad autorizó a los habitantes a",
+        "ecologistas afirmaron que: “El número",
+        "regresar a sus domicilios.",
+        "ya se ha elevado a varios cientos de",
+        "Fuentes",
+        "cercanas",
+        "al",
+        "gobierno",
+        "personas. Como resultado del accidente",
+        "aseguraron que no se revisó el sistema",
+        "nuclear, las personas podrían tener",
+        "de seguridad de la planta, a pesar de",
+        "problemas de salud a largo plazo”.",
+        "que ya había ocurrido un accidente",
+        "Se notificó la presencia de tasas",
+        "durante 1997. En ese entonces, decenas",
+        "elevadas de radiación en el lugar,",
+        "de empleados fueron expuestos a",
+        "horas después de que el gobierno de",
+        "radiaciones nucleares."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p211_y0172_x0321.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué opinas del contenido de la noticia anterior?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comenten sus respuestas y digan qué otras cosas saben de la energía nuclear."
+    },
+    {
+      "type": "paragraph",
+      "text": "210"
+    },
+    {
+      "type": "page_marker",
+      "page": 212
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En grupo, platiquen acerca de las ventajas y desventajas de usar",
+        "la energía nuclear o atómica. Después, escribe en tu cuaderno las",
+        "conclusiones a las que llegaron."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investiga cuál es su origen y qué otras aplicaciones tiene este tipo de"
+    },
+    {
+      "type": "paragraph",
+      "text": "energía. La contribución de la energía nuclear para satisfacer la demanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "de energía eléctrica a nivel mundial se ha incrementado fuertemente"
+    },
+    {
+      "type": "paragraph",
+      "text": "desde 1954 hasta la fecha. A pesar de que la energía nucleoeléctrica"
+    },
+    {
+      "type": "paragraph",
+      "text": "es relativamente nueva, tiene casi el mismo nivel de producción que la"
+    },
+    {
+      "type": "paragraph",
+      "text": "electricidad obtenida por plantas hidroeléctricas a nivel mundial. En 1997,"
+    },
+    {
+      "type": "paragraph",
+      "text": "la nucleoelectricidad representó aproximadamente 17% del total generado"
+    },
+    {
+      "type": "paragraph",
+      "text": "en todo el mundo, mientras que la hidroelectricidad contribuyó con 18%."
+    },
+    {
+      "type": "image",
+      "src": "images/p212_y0305_x0065.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Central térmica de Compostilla II, en Cubillos del Sil, León (España)."
+    },
+    {
+      "type": "paragraph",
+      "text": "211"
+    },
+    {
+      "type": "page_marker",
+      "page": 213
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Recuerdas cómo está formado un átomo? ¿Cómo se produce la energía"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro nuclear?"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0111_x0124.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante la Segunda Guerra Mundial, se utilizaron dos bombas atómicas que"
+    },
+    {
+      "type": "paragraph",
+      "text": "destruyeron todo a su paso."
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0433_x0215.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0433_x0390.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0468_x0226.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Energía"
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0530_x0403.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neutrón"
+    },
+    {
+      "type": "image",
+      "src": "images/p213_y0558_x0226.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uranio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Moderador"
+    },
+    {
+      "type": "paragraph",
+      "text": "El uranio, elemento metálico naturalmente radioactivo, es el combustible que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "utiliza para producir energía nuclear."
+    },
+    {
+      "type": "paragraph",
+      "text": "212"
+    },
+    {
+      "type": "page_marker",
+      "page": 214
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Existen diferentes tipos de energía: solar, térmica o calorífica, química,"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "eléctrica, geotérmica, eólica y nuclear, entre otras. Del total de energía"
+    },
+    {
+      "type": "paragraph",
+      "text": "que se produce, casi la mitad se pierde al ser transformada y transportada,"
+    },
+    {
+      "type": "paragraph",
+      "text": "a esto debemos añadir el mal uso que se hace de ella. Una de las primeras"
+    },
+    {
+      "type": "paragraph",
+      "text": "formas que utilizó el ser humano para obtener energía fue quemando"
+    },
+    {
+      "type": "paragraph",
+      "text": "leña y otros materiales. Después, con la Revolución industrial se empezó"
+    },
+    {
+      "type": "paragraph",
+      "text": "a usar el carbón y, posteriormente, el petróleo y el gas natural. En la"
+    },
+    {
+      "type": "paragraph",
+      "text": "actualidad, hay una distribución y un uso desigual de la energía: si"
+    },
+    {
+      "type": "paragraph",
+      "text": "bien hay sociedades altamente industrializadas que consumen elevadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "cantidades y variedades de energía, en cambio, existen otras que, aunque"
+    },
+    {
+      "type": "paragraph",
+      "text": "son productoras de energía, tienen un consumo mínimo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Es indispensable que cuidemos la energía y apoyemos el desarrollo y uso"
+    },
+    {
+      "type": "paragraph",
+      "text": "de aquellas que provoquen menos deterioro en el ambiente."
+    },
+    {
+      "type": "image",
+      "src": "images/p214_y0404_x0062.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p214_y0405_x0317.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "213"
+    },
+    {
+      "type": "page_marker",
+      "page": 215
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Nuestra influencia en los cambios"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, tema\t 4 de la naturaleza y de la sociedad la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Existen diversas maneras en que los seres humanos influimos en la",
+        "transformación de la naturaleza y de la sociedad, de las cuales formamos",
+        "parte. El siglo xx, por ejemplo, se caracterizó por cambios sociales",
+        "importantes y grandes adelantos científicos y tecnológicos, mediante los",
+        "cuales se obtuvieron los principales conceptos de la ciencia moderna,",
+        "entre ellos el conocimiento de que la materia está formada por ciertas",
+        "unidades básicas: el átomo y la célula. También porque ocurrieron",
+        "acontecimientos vergonzosos para la humanidad, como las guerras",
+        "mundiales, la guerra de Vietnam, la guerra en la ex urss..."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara empezar…"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recuerda y reflexiona en relación con las unidades y temas anteriores."
+    },
+    {
+      "type": "paragraph",
+      "text": "Haz una lista de cambios que han propiciado en la vida de los seres"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanos algunos conocimientos y descubrimientos que la humanidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "ha desarrollado. Fíjate en el ejemplo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Descubrimiento"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cambios producidos"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Descubrimiento",
+        "Electricidad. Alrededor",
+        "de 1880 se inventaron las",
+        "bombillas eléctricas. La corriente",
+        "eléctrica logró calentar e hizo",
+        "brillar un filamento de metal."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Las personas dejaron de usar el fuego para",
+        "alumbrarse en la oscuridad, las calles",
+        "pudieron ser iluminadas y fue posible",
+        "realizar otras actividades que antes era",
+        "imposible llevar a cabo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "214"
+    },
+    {
+      "type": "page_marker",
+      "page": 216
+    },
+    {
+      "type": "paragraph",
+      "text": "Descubrimiento"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cambios producidos"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Rueda. Se inventó hace más de",
+        "5 000 años; las primeras ruedas",
+        "eran de madera.",
+        "Microscopio. En 1590 se",
+        "inventó el primer microscopio",
+        "compuesto (de dos o más",
+        "lentes), que permitió observar",
+        "objetos invisibles a simple vista.",
+        "Penicilina. En 1928 el científico",
+        "Alexander Fleming descubrió",
+        "un hongo que podía matar las",
+        "bacterias. Esto iba a revolucionar",
+        "el tratamiento de las infecciones.",
+        "Imprenta. En 1450 Johannes",
+        "Gutenberg, herrero alemán,",
+        "inventó la imprenta de tipos",
+        "móviles en Europa."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Contar con el microscopio y conocer",
+        "acerca de los microbios dañinos para los",
+        "seres humanos permitió crear medicinas",
+        "para combatirlos y así controlar ciertas",
+        "enfermedades."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza y la sociedad se transforman"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "los demás casos en tu cuaderno."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cómo fue aprovechada la naturaleza y el conocimiento sobre ella"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "para producir los inventos anteriores? Observa el ejemplo y describe"
+    },
+    {
+      "type": "paragraph",
+      "text": "215"
+    },
+    {
+      "type": "page_marker",
+      "page": 217
+    },
+    {
+      "type": "paragraph",
+      "text": "Ejemplo:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando se inventó la luz eléctrica, se aplicaron los conocimientos que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "tenían acerca de las cargas eléctricas que existen en la naturaleza y sobre"
+    },
+    {
+      "type": "paragraph",
+      "text": "la forma en que producen energía, además de la resistencia y consistencia"
+    },
+    {
+      "type": "paragraph",
+      "text": "de los materiales para conducir calor."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Qué razones tienen los seres humanos para crear inventos?",
+        "Intercambia comentarios con otros integrantes del Círculo de estudio",
+        "e identifica, al menos, dos razones. Anótalas en tu cuaderno."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Los inventos desempeñan un papel importante en nuestra vida. A"
+    },
+    {
+      "type": "paragraph",
+      "text": "veces, facilitándonos lo que necesitamos para vivir, protegiéndonos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "enfermedades o del clima; en otras ocasiones para ahorrarnos un valioso"
+    },
+    {
+      "type": "paragraph",
+      "text": "tiempo y esfuerzo en nuestras actividades cotidianas. La naturaleza se ve"
+    },
+    {
+      "type": "paragraph",
+      "text": "transformada por la acción humana. Se da forma a la madera, al hierro,"
+    },
+    {
+      "type": "paragraph",
+      "text": "al vidrio, produciendo objetos útiles con significado social y de beneficio"
+    },
+    {
+      "type": "paragraph",
+      "text": "general. Es una forma en que los seres humanos desarrollan su capacidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "creativa y satisfacen sus necesidades básicas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee la siguiente noticia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "L"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "a capa de ozono está debajo de su",
+        "La reducción de ozono tiene que ver",
+        "nivel normal; este fenómeno es",
+        "con el aumento en el uso de productos",
+        "conocido como “agujero de ozono”.",
+        "en aerosol. Esto está afectando al",
+        "El ozono forma una pequeña capa",
+        "planeta.",
+        "en la atmósfera terrestre, y protege a",
+        "los seres vivos de los rayos del Sol,",
+        "Los productos en aerosol cuya eti-",
+        "absorbiendo los rayos ultravioleta",
+        "queta indique que no contaminan el",
+        "que pueden provocar, entre otras",
+        "ambiente son los únicos que se deben",
+        "alteraciones, cáncer de piel.",
+        "usar."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "216"
+    },
+    {
+      "type": "page_marker",
+      "page": 218
+    },
+    {
+      "type": "paragraph",
+      "text": "Muchas personas consideran que los productos en aerosol son de fácil"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "manejo y útiles en la vida diaria. Sin embargo, los costos de su utilización"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza son altos para el ambiente y la vida humana."
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman"
+    },
+    {
+      "type": "image",
+      "src": "images/p218_y0138_x0062.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "No daña la capa de ozono"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué debe hacerse para disminuir o evitar el problema que causan esos"
+    },
+    {
+      "type": "paragraph",
+      "text": "productos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b \b \b 217"
+    },
+    {
+      "type": "page_marker",
+      "page": 219
+    },
+    {
+      "type": "paragraph",
+      "text": "abías que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "La necesidad del ser humano de comunicarse, de dejar huella con sus ideas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sus problemas, sus técnicas, su trabajo, en fin, con su cultura, dio origen a la"
+    },
+    {
+      "type": "paragraph",
+      "text": "escritura, el gran descubrimiento que permitió que hoy tengamos memoria de"
+    },
+    {
+      "type": "paragraph",
+      "text": "lo sucedido. Los sumerios, habitantes de la llanura que hay entre los ríos Tigris"
+    },
+    {
+      "type": "paragraph",
+      "text": "y Éufrates, ubicada en lo que hoy es Iraq, inventaron la rueda y la escritura y"
+    },
+    {
+      "type": "paragraph",
+      "text": "edificaron las primeras ciudades hacia el año 3 000 a. C."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Transformación, enriquecimiento o alteración de la naturaleza?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Has escuchado hablar del maíz transgénico?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si tu respuesta fue afirmativa, explica qué es lo que sabes acerca de este"
+    },
+    {
+      "type": "paragraph",
+      "text": "tipo de maíz."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b \b \b 218"
+    },
+    {
+      "type": "page_marker",
+      "page": 220
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "image",
+      "src": "images/p220_y0091_x0288.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "C"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la on técnicas modernas se ha sociedad se logrado producir un tipo de"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman maíz modificado y diseñado para resistir a los herbicidas y producir"
+    },
+    {
+      "type": "paragraph",
+      "text": "una sustancia tóxica que mata insectos que se alimentan del maíz."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunas organizaciones en defensa del ambiente, como Greenpeace,"
+    },
+    {
+      "type": "paragraph",
+      "text": "organización mundial en defensa del ambiente, consideran que los"
+    },
+    {
+      "type": "paragraph",
+      "text": "organismos creados así representan un riesgo para el ambiente, porque son"
+    },
+    {
+      "type": "paragraph",
+      "text": "productos nuevos en la naturaleza, no han pasado la prueba de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "evolución y porque son resultado de procedimientos acerca de los cuales"
+    },
+    {
+      "type": "paragraph",
+      "text": "no hay suficiente información."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué sabes de la producción de maíz, vegetales u organismos mediante"
+    },
+    {
+      "type": "paragraph",
+      "text": "procedimientos distintos a los que se habían usado hasta ahora?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b 219"
+    },
+    {
+      "type": "page_marker",
+      "page": 221
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “El maíz transgénico”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Identifica las ideas principales del texto de la Revista. Comenta con",
+        "tus compañeros acerca de ellas. Escribe algunas de las opiniones que",
+        "te parezcan más importantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué tipo de actitud crees que deberíamos de tener ante los distintos"
+    },
+    {
+      "type": "paragraph",
+      "text": "avances de la ciencia y la tecnología? ¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b \b \b 220"
+    },
+    {
+      "type": "page_marker",
+      "page": 222
+    },
+    {
+      "type": "paragraph",
+      "text": "Con nuestra acción, hombres y mujeres participamos en los cambios"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la naturaleza y la sociedad. Transformamos los objetos y aplicamos"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "los principios de la naturaleza en la creación de inventos que nos"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "ayudan a mejorar las condiciones en que vivimos y obtener comodidad,"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "satisfacción y bienestar. Otros cambios que provocamos son resultado"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la aplicación de la ciencia y la tecnología aunque, en ocasiones, las"
+    },
+    {
+      "type": "paragraph",
+      "text": "consecuencias son perjudiciales para la vida en el planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otras formas de cambiar el paisaje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios que provoca el ser humano tienen consecuencias en el"
+    },
+    {
+      "type": "paragraph",
+      "text": "ambiente y en sí mismo. Por consiguiente, el camino de la humanidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "ha sido difícil, con aprendizajes, descubrimientos, adelantos tecnológicos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "explicaciones y conocimiento científico de los fenómenos naturales, pero"
+    },
+    {
+      "type": "paragraph",
+      "text": "también con retrocesos, errores que se repiten, guerras en las que los"
+    },
+    {
+      "type": "paragraph",
+      "text": "inventos se aplican en forma negativa."
+    },
+    {
+      "type": "paragraph",
+      "text": "El siglo xx pasará a la historia de la humanidad como el siglo de los enormes"
+    },
+    {
+      "type": "paragraph",
+      "text": "avances científicos y tecnológicos, pero también el de las grandes guerras:"
+    },
+    {
+      "type": "paragraph",
+      "text": "la primera y la segunda Guerras Mundiales."
+    },
+    {
+      "type": "paragraph",
+      "text": "La Primera Guerra Mundial fue un conflicto internacional ocurrido"
+    },
+    {
+      "type": "paragraph",
+      "text": "entre 1914 y 1918. Durante éste, Alemania, el Imperio austro-húngaro,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turquía y Bulgaria se enfrentaron a Francia, Gran Bretaña, Rusia, Bélgica,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Serbia, Japón, Italia, Rumania, EUA, Grecia y Portugal, entre otros. En"
+    },
+    {
+      "type": "paragraph",
+      "text": "esta guerra, murieron aproximadamente nueve millones de personas y"
+    },
+    {
+      "type": "paragraph",
+      "text": "cambiaron las fronteras políticas europeas; se formaron nuevos países:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yugoslavia, Checoslovaquia, Polonia, Finlandia, Estonia, Lituania y Letonia,"
+    },
+    {
+      "type": "paragraph",
+      "text": "naciones que, a partir de esta guerra, proclamaron su independencia."
+    },
+    {
+      "type": "paragraph",
+      "text": "221"
+    },
+    {
+      "type": "page_marker",
+      "page": 223
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa los siguientes mapas de Europa, compáralos e identifica los"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "cambios que ocurrieron en los límites de los países antes y después de la"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Primera Guerra Mundial. Escribe los cambios en tu cuaderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Antes de la Primera Guerra Mundial"
+    },
+    {
+      "type": "image",
+      "src": "images/p223_y0170_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noruega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar del Norte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gran Bretaña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Atlántico"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bélgica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rusia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Austria-Hungría"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Serbia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rumania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Montenegro"
+    },
+    {
+      "type": "paragraph",
+      "text": "España"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Negro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Italia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Albania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos francés"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imperio otomano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos español"
+    },
+    {
+      "type": "paragraph",
+      "text": "Túnez"
+    },
+    {
+      "type": "paragraph",
+      "text": "Argelia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Mediterráneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Libia 222"
+    },
+    {
+      "type": "paragraph",
+      "text": "Egipto"
+    },
+    {
+      "type": "page_marker",
+      "page": 224
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Después de la Primera Guerra Mundial"
+    },
+    {
+      "type": "image",
+      "src": "images/p224_y0170_x0046.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finlandia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noruega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estonia del Norte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gran Bretaña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Letonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lituania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prusia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Atlántico"
+    },
+    {
+      "type": "paragraph",
+      "text": "URSS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bélgica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Polonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checoslovaquia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Austria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hungría"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rumania"
+    },
+    {
+      "type": "paragraph",
+      "text": "España"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yugoslavia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Negro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Italia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Albania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos francés"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imperio otomano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos español"
+    },
+    {
+      "type": "paragraph",
+      "text": "Túnez"
+    },
+    {
+      "type": "paragraph",
+      "text": "Siria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Argelia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Mediterráneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Transjordania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Palestina"
+    },
+    {
+      "type": "paragraph",
+      "text": "Libia 223"
+    },
+    {
+      "type": "paragraph",
+      "text": "Egipto"
+    },
+    {
+      "type": "page_marker",
+      "page": 225
+    },
+    {
+      "type": "image",
+      "src": "images/p225_y-001_x0317.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La Segunda Guerra Mundial fue"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro un conflicto que se vivió de 1939 a planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "1945. En su afán imperialista Ale- mania, Italia y Japón se enfrentaron"
+    },
+    {
+      "type": "paragraph",
+      "text": "con países aliados:* Gran Bretaña,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zona"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zona"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia, EUA, la URSS (Unión de británica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Polonia soviética"
+    },
+    {
+      "type": "paragraph",
+      "text": "Repúblicas Socialistas Soviéticas) y"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania otros países. En esta guerra murie-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oriental"
+    },
+    {
+      "type": "paragraph",
+      "text": "Occidental ron más de 40 millones de perso-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zona nas, de los cuales seis millones fue-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checoslovaquia americana ron judíos exterminados en campos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zona francesa de concentración. Los avances de la ciencia y la tecnología fueron uti-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Austria lizados como parte de las técnicas militares para consumar el enfren-"
+    },
+    {
+      "type": "paragraph",
+      "text": "tamiento armado."
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Atlántico"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esta guerra determinó el reparto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anexado por la U.R.S.S."
+    },
+    {
+      "type": "paragraph",
+      "text": "de Europa en dos grandes bloques:"
+    },
+    {
+      "type": "paragraph",
+      "text": "capitalismo y socialismo; así surgie-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Perdido por Alemania ron nuevas alianzas políticas y econó- para Polonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal micas. En Asia y África se aceleró"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paises de la OTAN la liberación de países que eran ★ considerados colonias europeas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Paises del Pacto ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "México participó como aliado en de Varsovia esta guerra con un grupo de pilotos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fronteras de la llamado el Escuadrón 201."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posguerra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cortina de hierro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos *Aliados: Ligados por algo en común, por una alianza. En este caso se refiere a"
+    },
+    {
+      "type": "paragraph",
+      "text": "un grupo de países que se unieron para enfrentar a otro grupo de naciones."
+    },
+    {
+      "type": "paragraph",
+      "text": "224"
+    },
+    {
+      "type": "page_marker",
+      "page": 226
+    },
+    {
+      "type": "image",
+      "src": "images/p226_y-001_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Variaciones territoriales después de la y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Segunda Guerra Mundial transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noruega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finlandia del Norte ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irlanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinamarca ★ ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gran"
+    },
+    {
+      "type": "paragraph",
+      "text": "Países"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bretaña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bajos"
+    },
+    {
+      "type": "paragraph",
+      "text": "U.R.S.S."
+    },
+    {
+      "type": "paragraph",
+      "text": "★ ▼ ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bélgica ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Polonia ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oriental ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checoslovaquia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Occidental ★ ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Austria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hungría ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rumania ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "España"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yugoslavia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Negro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Italia ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulgaria ▼"
+    },
+    {
+      "type": "paragraph",
+      "text": "Albania ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grecia ★"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turquía"
+    },
+    {
+      "type": "paragraph",
+      "text": "Túnez"
+    },
+    {
+      "type": "paragraph",
+      "text": "Argelia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Mediterráneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Libia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Egipto 225"
+    },
+    {
+      "type": "page_marker",
+      "page": 227
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa el siguiente mapa de Europa después de la Segunda Guerra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mundial y el mapa actual del mismo continente. Escribe en tu cuaderno"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "las diferencias que encuentres en la división política de los países."
+    },
+    {
+      "type": "image",
+      "src": "images/p227_y0134_x-001.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Territorio temporalmente",
+        "independiente",
+        "Territorio desmilitarizado"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Finlandia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noruega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irlanda del Norte desde 1922"
+    },
+    {
+      "type": "paragraph",
+      "text": "Letonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinamarca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gran"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lituania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bretaña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Atlántico"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prusia Oriental"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holanda (AI)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bélgica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Polonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checoslovaquia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Austria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hungría"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rumania"
+    },
+    {
+      "type": "paragraph",
+      "text": "España"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yugoslavia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Córcega (Fr.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Italia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Islas Baleares"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cerdeña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Albania (Esp.) (It.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grecia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sicilia (Esp.) (It.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Argelia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Túnez (Fr.) (Fr.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Mediterráneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tripolitania (Fr.) 226"
+    },
+    {
+      "type": "page_marker",
+      "page": 228
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Después de la Segunda Guerra Mundial y la sociedad se transforman"
+    },
+    {
+      "type": "image",
+      "src": "images/p228_y0134_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unión Soviética"
+    },
+    {
+      "type": "paragraph",
+      "text": "U.R.S.S."
+    },
+    {
+      "type": "paragraph",
+      "text": "desde 1922"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ucrania 1917-1920"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caspio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Georgia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Negro 1918-1921"
+    },
+    {
+      "type": "paragraph",
+      "text": "Azerbayán 1918-1920"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armenia 1918-1921"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turquía desde 1923"
+    },
+    {
+      "type": "paragraph",
+      "text": "Persia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Siria (Fr.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Líbano (GB.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Transjordania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Palestina"
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Índico (GB.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kwait (GB.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Egipto (GB.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arabia 227"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indep. desde 1922"
+    },
+    {
+      "type": "page_marker",
+      "page": 229
+    },
+    {
+      "type": "image",
+      "src": "images/p229_y-001_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Islandia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "División política de los países que conforman Europa en la actualidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noruega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irlanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suecia del Norte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinamarca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reino"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unido"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bélgica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Océano Atlántico"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal"
+    },
+    {
+      "type": "paragraph",
+      "text": "España"
+    },
+    {
+      "type": "paragraph",
+      "text": "Italia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marruecos"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "1. República Checa",
+        "2. Austria",
+        "3. Eslovenia",
+        "4. Croacia",
+        "5. Bosnia - Herzegovina"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Shara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Argelia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mauritania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Libia 228"
+    },
+    {
+      "type": "page_marker",
+      "page": 230
+    },
+    {
+      "type": "image",
+      "src": "images/p230_y-001_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza y la sociedad se transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finlandia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Letonia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rusia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lituania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bielorrusia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kazajastán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ucrania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uzbekistán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Moldavia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rumania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turkmenistán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caspio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Georgia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Negro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Azerbaiyán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armenia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turquía"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "6.\t Polonia",
+        "7.\t Eslovaquia",
+        "8.\t Hungría",
+        "9.\t Servia",
+        "10.\t Macedonia",
+        "11.\t Albania",
+        "12.\t Grecia"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Irán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Siria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Irak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Israel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mar Mediterráneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jordania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Líbano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arabia Saudita"
+    },
+    {
+      "type": "paragraph",
+      "text": "Egipto 229"
+    },
+    {
+      "type": "page_marker",
+      "page": 231
+    },
+    {
+      "type": "paragraph",
+      "text": "Después de estas grandes guerras, han ocurrido cientos de conflictos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "entre muchos países y entre grupos al interior de distintas naciones. La"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "necesidad del ser humano por conquistar otros territorios y tener más"
+    },
+    {
+      "type": "paragraph",
+      "text": "poder ha ido de la mano con los avances de la ciencia y la tecnología; sin"
+    },
+    {
+      "type": "paragraph",
+      "text": "embargo, esos inventos también nos han beneficiado. Por ejemplo, el radar"
+    },
+    {
+      "type": "paragraph",
+      "text": "utilizado para detectar submarinos durante la guerra se usa actualmente"
+    },
+    {
+      "type": "paragraph",
+      "text": "para localizar bancos de peces, lo que facilita la tarea de los pescadores."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algunos de los avances, resultado de la conquista espacial, también nos"
+    },
+    {
+      "type": "paragraph",
+      "text": "han sido útiles, como la producción de alimentos concentrados y de"
+    },
+    {
+      "type": "paragraph",
+      "text": "aparatos empleados en las comunicaciones."
+    },
+    {
+      "type": "image",
+      "src": "images/p231_y0277_x0317.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p231_y0278_x0035.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "USAAF. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taak. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taak. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "La ciudad de Wesel en la cuenca del Ruhr,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Batalla de Normandía destruida por los bombarderos aliados."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Investiga con familiares o amigos en algún libro, revista, periódico",
+        "o video: Cuáles fueron las causas de la Segunda Guerra Mundial?",
+        "Cuánto tiempo duró esta guerra? Cuándo y por qué terminó este",
+        "conflicto internacional? Escribe un texto en el que expliques cuáles",
+        "fueron las consecuencias ecológicas que tuvo esta guerra para los",
+        "países participantes. Comparte la información que investigues con",
+        "tus compañeros del Círculo de estudio."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "230"
+    },
+    {
+      "type": "page_marker",
+      "page": 232
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué hacemos para corregir nuestros errores?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza"
+    },
+    {
+      "type": "image",
+      "src": "images/p232_y0091_x0288.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "droit d'auteur. wikipedia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee el siguiente texto."
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "G"
+    },
+    {
+      "type": "paragraph",
+      "text": "reenpeace, organización inter- nacional, ha iniciado una campaña para crear en México un"
+    },
+    {
+      "type": "paragraph",
+      "text": "santuario de ballenas, ante la caza ilegal de éstas y el tráfico y comercio"
+    },
+    {
+      "type": "paragraph",
+      "text": "clandestinos de sus productos. México firmó acuerdos internacionales para"
+    },
+    {
+      "type": "image",
+      "src": "images/p232_y0277_x-001.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "la protección de la ballena y en el artículo 420, fracción 1 del Código"
+    },
+    {
+      "type": "paragraph",
+      "text": "penal se especifican multas a quien de manera dolosa capture, dañe o prive"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la vida a algún mamífero marino o comercialice cualquiera de sus"
+    },
+    {
+      "type": "paragraph",
+      "text": "productos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ballena franca glacial."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Estás de acuerdo en que intervengan los países o las organizaciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "extranjeras en problemas que son de un país, pero afectan al planeta en"
+    },
+    {
+      "type": "paragraph",
+      "text": "su conjunto?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 231"
+    },
+    {
+      "type": "page_marker",
+      "page": 233
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Te interesa lo que ocurre en nuestro planeta la Tierra?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Actualmente se habla de la comunidad internacional , de los ciudadanos"
+    },
+    {
+      "type": "paragraph",
+      "text": "del mundo, de compromisos universales."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué opinas de que las personas debiéramos ocuparnos de lo que ocurre"
+    },
+    {
+      "type": "paragraph",
+      "text": "en el mundo, sin importar a qué ideología, creencia o país pertenezcamos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "como indican las expresiones anteriores?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tanto las guerras como la contaminación, la tala sin control de los bosques,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los desechos radiactivos, el consumo irracional de energía, la pobreza y la"
+    },
+    {
+      "type": "paragraph",
+      "text": "marginación de muchos pueblos, son producto de la humanidad; por estas"
+    },
+    {
+      "type": "paragraph",
+      "text": "razones, es un compromiso y una obligación de la comunidad internacional"
+    },
+    {
+      "type": "paragraph",
+      "text": "evitar que estos fenómenos continúen."
+    },
+    {
+      "type": "paragraph",
+      "text": "232"
+    },
+    {
+      "type": "page_marker",
+      "page": 234
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Conoces alguna organización nacional o internacional que promueva el"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "cuidado al ambiente, los derechos humanos o la solución de los conflictos"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza armados?"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si conoces alguna, anótala y explica qué es lo que promueve para el bien"
+    },
+    {
+      "type": "paragraph",
+      "text": "de la sociedad."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "En 1945 se creó la Organización de las Naciones Unidas (onu), con la"
+    },
+    {
+      "type": "paragraph",
+      "text": "finalidad de apoyar la resolución pacífica de los conflictos ocasionados"
+    },
+    {
+      "type": "paragraph",
+      "text": "por la Segunda Guerra Mundial, y ayudar al progreso social de los países"
+    },
+    {
+      "type": "paragraph",
+      "text": "miembros de esta organización."
+    },
+    {
+      "type": "paragraph",
+      "text": "En todas partes del mundo, la Cruz Roja Internacional está presente en"
+    },
+    {
+      "type": "paragraph",
+      "text": "los conflictos. La unicef es un organismo de las Naciones Unidas dedicada"
+    },
+    {
+      "type": "paragraph",
+      "text": "a vigilar que los niños vean satisfechas sus necesidades básicas."
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Los organismos internacionales”."
+    },
+    {
+      "type": "paragraph",
+      "text": "saber más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Antes no teníamos tanta información sobre lo que ocurría en el país y en"
+    },
+    {
+      "type": "paragraph",
+      "text": "otros países del planeta; no sabíamos la responsabilidad que tenemos"
+    },
+    {
+      "type": "paragraph",
+      "text": "cada uno de nosotros al no cuidar a la naturaleza, usar sin medida ciertos"
+    },
+    {
+      "type": "paragraph",
+      "text": "productos y contaminar el ambiente. Ahora, con los medios masivos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "comunicación, las telecomunicaciones y la internet, el mundo está más"
+    },
+    {
+      "type": "paragraph",
+      "text": "comunicado; una ventaja de esto es que pueden conocerse acciones de"
+    },
+    {
+      "type": "paragraph",
+      "text": "diferentes países para cuidar el planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "233"
+    },
+    {
+      "type": "page_marker",
+      "page": 235
+    },
+    {
+      "type": "paragraph",
+      "text": "El uso de la tecnología y sus desechos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe en tu cuaderno algunas formas de cómo se comunicaban las"
+    },
+    {
+      "type": "paragraph",
+      "text": "personas antes, y cómo lo hacemos actualmente."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Intercambia y comenta tus respuestas. Anota tres de las ideas que te",
+        "parezcan más importantes."
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "En la actualidad, la lejanía entre países y continentes ha sido práctica-"
+    },
+    {
+      "type": "paragraph",
+      "text": "mente acortada, principalmente por el uso de los diferentes medios de"
+    },
+    {
+      "type": "paragraph",
+      "text": "comunicación y transporte que, a su vez, han apoyado y fortalecido el"
+    },
+    {
+      "type": "paragraph",
+      "text": "intercambio cultural, científico, tecnológico, económico, político y social. La"
+    },
+    {
+      "type": "paragraph",
+      "text": "transformación social avanza a ritmos acelerados en los lugares más"
+    },
+    {
+      "type": "paragraph",
+      "text": "alejados, lo mismo que en las grandes ciudades; las normas de conducta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "los valores, las tradiciones y las costumbres están cambiando."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hay transformaciones lentas; el ser humano tardó cientos de años en"
+    },
+    {
+      "type": "paragraph",
+      "text": "crear herramientas para el trabajo del campo y actualmente siguen"
+    },
+    {
+      "type": "paragraph",
+      "text": "usándose herramientas muy parecidas a las de nuestros antepasados."
+    },
+    {
+      "type": "paragraph",
+      "text": "234"
+    },
+    {
+      "type": "page_marker",
+      "page": 236
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Crees que en un futuro cercano todo el trabajo se realice con técnicas,"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "herramientas y aparatos modernos? ¿Qué pasará con los hombres y"
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza las mujeres que utilizan su fuerza de trabajo para vivir?"
+    },
+    {
+      "type": "paragraph",
+      "text": "y la sociedad se transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflexiona sobre estas preguntas, dialoga con tus compañeros y com-"
+    },
+    {
+      "type": "paragraph",
+      "text": "pañeras del Círculo de estudio e imaginen qué cambios tendría la"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanidad si la mayor parte del trabajo que realiza el ser humano lo"
+    },
+    {
+      "type": "paragraph",
+      "text": "hicieran las máquinas. Descríbelos en tu cuaderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Actualmente se utilizan máquinas que facilitan el trabajo y la producción"
+    },
+    {
+      "type": "paragraph",
+      "text": "de alimentos de los seres humanos; la vida de muchas personas es cada"
+    },
+    {
+      "type": "paragraph",
+      "text": "vez más diferente debido al uso de máquinas y aparatos que se utilizan"
+    },
+    {
+      "type": "paragraph",
+      "text": "en todas las actividades cotidianas, así como en la agricultura, ganadería,"
+    },
+    {
+      "type": "paragraph",
+      "text": "pesca, etcétera."
+    },
+    {
+      "type": "image",
+      "src": "images/p236_y0359_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aspersor en operación."
+    },
+    {
+      "type": "paragraph",
+      "text": "235"
+    },
+    {
+      "type": "page_marker",
+      "page": 237
+    },
+    {
+      "type": "paragraph",
+      "text": "Las personas utilizan cada vez más aparatos, como teléfonos celulares,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "computadoras, radios, entre otros, para mantenerse comunicadas entre"
+    },
+    {
+      "type": "paragraph",
+      "text": "planeta, planeta, la Tierra la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "sí. Sin embargo, es necesario reflexionar sobre cómo ha afectado al"
+    },
+    {
+      "type": "paragraph",
+      "text": "ambiente la utilización de estas novedades tecnológicas, por ejemplo,"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿qué ha pasado con las primeras computadoras que salieron hace unas"
+    },
+    {
+      "type": "paragraph",
+      "text": "décadas?, ¿qué está pasando con la gran cantidad de teléfonos celulares,"
+    },
+    {
+      "type": "paragraph",
+      "text": "televisores, radios y otros aparatos viejos que son reemplazados por los"
+    },
+    {
+      "type": "paragraph",
+      "text": "nuevos que cada día salen al mercado?"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Pregunta a tus compañeros, familiares o amigos qué han hecho cuando",
+        "algún aparato electrónico ya no funciona en casa o se sustituye por",
+        "otro nuevo,  adónde van a dar todos los aparatos electrodomésticos",
+        "que son desechados?, cómo crees que afectan estos desechos al",
+        "ambiente?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparte tus respuestas con tus compañeros y juntos hagan propuestas"
+    },
+    {
+      "type": "paragraph",
+      "text": "sobre lo que se puede hacer con esta “basura tecnológica”."
+    },
+    {
+      "type": "paragraph",
+      "text": "abías que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "En el espacio están girando, alrededor del planeta, cientos de satélites artificiales"
+    },
+    {
+      "type": "paragraph",
+      "text": "que han contribuido a la comunicación entre la población de diversos países;"
+    },
+    {
+      "type": "paragraph",
+      "text": "es por ellos que actualmente podemos conocer las noticias que ocurren al"
+    },
+    {
+      "type": "paragraph",
+      "text": "otro lado del planeta en cuestión de minutos o la trayectoria que tiene un"
+    },
+    {
+      "type": "paragraph",
+      "text": "huracán. También están en construcción estaciones espaciales que realizan"
+    },
+    {
+      "type": "paragraph",
+      "text": "actividades de investigación; sin embargo, estos satélites y estaciones tienen"
+    },
+    {
+      "type": "paragraph",
+      "text": "un límite de funcionamiento en el espacio, cuando ya no funcionan se"
+    },
+    {
+      "type": "paragraph",
+      "text": "precipitan a la Tierra, como fue el caso de la estación espacial rusa mir que"
+    },
+    {
+      "type": "paragraph",
+      "text": "fue desintegrada el 23 de marzo de 2001."
+    },
+    {
+      "type": "paragraph",
+      "text": "236"
+    },
+    {
+      "type": "page_marker",
+      "page": 238
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "La naturaleza naturaleza y la y la sociedad se sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios que producimos, también son consecuencia de actos negativos,"
+    },
+    {
+      "type": "paragraph",
+      "text": "transforman transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "como las guerras y el ansia de poder. Ante algunos problemas provocados"
+    },
+    {
+      "type": "paragraph",
+      "text": "por la irresponsabilidad y la actitud intransigente de representantes"
+    },
+    {
+      "type": "paragraph",
+      "text": "gubernamentales, es necesario que la sociedad civil se organice y participe"
+    },
+    {
+      "type": "paragraph",
+      "text": "en acciones que demanden el cumplimiento del derecho universal para"
+    },
+    {
+      "type": "paragraph",
+      "text": "lograr mejores condiciones de vida. La organización de los ciudadanos es"
+    },
+    {
+      "type": "paragraph",
+      "text": "necesaria para orientar nuestros esfuerzos hacia el logro de este derecho,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sin lesionar la vida del planeta. Valoremos los avances alcanzados por la"
+    },
+    {
+      "type": "paragraph",
+      "text": "humanidad, pero seamos críticos sobre aquellas situaciones donde estamos"
+    },
+    {
+      "type": "paragraph",
+      "text": "influyendo negativamente, para estar en posibilidad, no sólo de imaginar,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sino de crear mejores condiciones de vida en la sociedad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los cambios que se han dado en la actualidad, gracias a los avances"
+    },
+    {
+      "type": "paragraph",
+      "text": "científicos y tecnológicos, también exigen responsabilidad en relación con"
+    },
+    {
+      "type": "paragraph",
+      "text": "los desechos que de ellos se generan. Es necesario formular propuestas"
+    },
+    {
+      "type": "paragraph",
+      "text": "para evitar la contaminación ambiental y el cuidado del planeta en el que"
+    },
+    {
+      "type": "paragraph",
+      "text": "habitamos todos."
+    },
+    {
+      "type": "image",
+      "src": "images/p238_y0457_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "237"
+    },
+    {
+      "type": "page_marker",
+      "page": 239
+    },
+    {
+      "type": "paragraph",
+      "text": "uestros avances"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, planeta, la Tierra la Tierra"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. ¿Tiene alguna utilidad saber cómo cambian las cosas en la"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "naturaleza?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sí"
+    },
+    {
+      "type": "paragraph",
+      "text": "No"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2. ¿Qué importancia crees que haya tenido para el conocimiento"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "humano el descubrimiento del átomo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b 238"
+    },
+    {
+      "type": "page_marker",
+      "page": 240
+    },
+    {
+      "type": "list",
+      "items": [
+        "3. Elabora un cuadro que incluya los principales tipos de cambios"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La estudiados y después explícalo a tus compañeros."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exploremos naturaleza el mundo y la sociedad se transforman"
+    },
+    {
+      "type": "list",
+      "items": [
+        "4. Saber que el acero calentado a altas temperaturas se hace flexible"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ha servido a los seres humanos para:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "5. Explica con tus propias palabras qué significa la frase: “La energía"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "no se crea ni se destruye, sólo se transforma”. Utiliza algunos de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "ejemplos revisados en la unidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b 239"
+    },
+    {
+      "type": "page_marker",
+      "page": 241
+    },
+    {
+      "type": "list",
+      "items": [
+        "6. Describe una de las actividades de esta unidad que te haya sido útil"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro"
+    },
+    {
+      "type": "paragraph",
+      "text": "para comprender la capacidad que tenemos los seres humanos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "producir algún cambio benéfico para la naturaleza o la sociedad."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra \b \b \b \b \b"
+    },
+    {
+      "type": "list",
+      "items": [
+        "7. Escribe una acción que se pueda realizar en tu localidad a favor del"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "cuidado del ambiente en relación con los desechos tecnológicos."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b 240"
+    },
+    {
+      "type": "page_marker",
+      "page": 242
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué he aprendido y para qué me sirve?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exploremos naturaleza el mundo y la sociedad se"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad 3. La naturaleza y la sociedad se transforman transforman"
+    },
+    {
+      "type": "paragraph",
+      "text": "Temas:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. La naturaleza es diversa; sus cambios, también",
+        "2. ¿Por qué cambian las cosas?",
+        "3. La energía y su relación con el cambio",
+        "4. Nuestra influencia en los cambios de la naturaleza y de"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "la sociedad"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué aprendí en esta unidad?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué debo repasar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Para qué me sirve lo que he aprendido en esta unidad?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b 241"
+    },
+    {
+      "type": "page_marker",
+      "page": 243
+    },
+    {
+      "type": "image",
+      "src": "images/p243_y-001_x0249.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "¿QUÉ NOS",
+        "PROPONEMOS?",
+        "•\tComprender y explicar cómo",
+        "se relacionan entre sí y con su",
+        "ambiente los seres vivos que",
+        "habitan en México y en otras",
+        "partes del mundo.",
+        "•\tReconocer y valorar la",
+        "diversidad de recursos naturales",
+        "y culturales para realizar",
+        "acciones que los conserven",
+        "o recuperen.",
+        "•\tIdentificar las causas de",
+        "los principales problemas",
+        "ambientales de nuestra",
+        "comunidad y proponer medidas",
+        "para solucionarlos.",
+        "TEMAS",
+        "1.\tMéxico, un país",
+        "de contrastes",
+        "2.\tLos ecosistemas en",
+        "el mundo",
+        "3.\tCuidemos el patrimonio",
+        "de la humanidad",
+        "4.\tConservemos la Tierra",
+        "Nuestros avances",
+        "¿Qué he aprendido y para qué",
+        "me sirve?"
+      ]
+    },
+    {
+      "type": "page_marker",
+      "page": 244
+    },
+    {
+      "type": "image",
+      "src": "images/p244_y-001_x-001.jpeg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Unidad"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "y diversidad"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "en la Tierra"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Es común escuchar a las personas decir que"
+    },
+    {
+      "type": "paragraph",
+      "text": "disfrutan de la naturaleza que les rodea, como"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los huma- si ellas no fueran parte de ésta."
+    },
+    {
+      "type": "paragraph",
+      "text": "nos somos parte de la naturaleza, no estamos en el centro de ella, ni somos observadores"
+    },
+    {
+      "type": "paragraph",
+      "text": "En esta unidad ajenos de lo que sucede."
+    },
+    {
+      "type": "paragraph",
+      "text": "revisaremos algunas relaciones de mutua dependencia que existen entre poblacio-"
+    },
+    {
+      "type": "paragraph",
+      "text": "nes de personas, animales, plantas y otros componentes del ambiente que hacen posi-"
+    },
+    {
+      "type": "paragraph",
+      "text": "ble la gran diversidad de paisajes y formas de vida que hay en la Tierra, así como también"
+    },
+    {
+      "type": "paragraph",
+      "text": "algunos de los principales problemas am- bientales y cómo podemos participar para"
+    },
+    {
+      "type": "paragraph",
+      "text": "resolverlos."
+    },
+    {
+      "type": "page_marker",
+      "page": 245
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "México, un país de contrastes"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tema"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta,"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "México es un país que tiene una gran diversidad natural y cultural, es",
+        "decir, que a lo largo y ancho del territorio nacional encontramos distintos",
+        "tipos de paisajes, climas, suelos, plantas, animales, personas, formas de",
+        "vestir, vivir, hablar, ser y pensar.",
+        "¿Qué conoces de esa diversidad? ¿Sabes cómo se relacionan los seres",
+        "vivos con el clima, la luz, el suelo y el agua que hay en el lugar que",
+        "habitan? ¿Qué importancia tiene cuidar la gran variedad de formas de",
+        "vida que hay en México? Busquemos respuestas a estas preguntas al",
+        "realizar las actividades de este tema."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra ara empezar…"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lean y comenten las instrucciones de la Lotería ecológica y organícense"
+    },
+    {
+      "type": "paragraph",
+      "text": "para jugarla entre los integrantes del Círculo de estudio o con otras"
+    },
+    {
+      "type": "paragraph",
+      "text": "personas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anota el nombre de tres animales y tres plantas de la Lotería ecológica"
+    },
+    {
+      "type": "paragraph",
+      "text": "que habiten en forma silvestre en el lugar donde vives o que conozcas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Plantas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Animales"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. \b",
+        "1. \b",
+        "2. \b",
+        "2. \b",
+        "3. \b",
+        "3. \b"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "244"
+    },
+    {
+      "type": "page_marker",
+      "page": 246
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Describe en tu cuaderno cómo es el lugar donde viven las plantas",
+        "y los animales que escribiste en la actividad anterior y explica qué",
+        "hace distinto ese lugar y sus habitantes de otros lugares representa-",
+        "dos en la Lotería ecológica.",
+        "Revisen sus respuestas y comenten las explicaciones que cada uno",
+        "escribió."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observen los lugares ilustrados en cada una de las láminas de la Lotería"
+    },
+    {
+      "type": "paragraph",
+      "text": "ecológica y comenten las siguientes preguntas:"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cuáles de estos sitios conocen? ¿Qué saben de ellos? ¿Qué semejanzas"
+    },
+    {
+      "type": "paragraph",
+      "text": "o diferencias encuentran entre ellos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Escribe en tu cuaderno algunas de las principales diferencias que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "identificaron."
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0397_x0084.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "En México tenemos la mayoría de climas y condiciones de relieve que",
+        "se conocen en el mundo. Aquí vive la décima parte de todas las plantas",
+        "y los animales que existen en la Tierra. Nuestro país ocupa uno de los",
+        "primeros lugares en el mundo por la variedad de aves, mamíferos y",
+        "plantas, y el primero por la gran diversidad de reptiles y cactáceas,",
+        "como las biznagas."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0413_x0311.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0422_x0402.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0465_x0073.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0498_x0270.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p246_y0503_x0171.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "245"
+    },
+    {
+      "type": "page_marker",
+      "page": 247
+    },
+    {
+      "type": "paragraph",
+      "text": "Para conocer mejor nuestro ambiente, podemos observar cuidadosamente"
+    },
+    {
+      "type": "paragraph",
+      "text": "todo lo que hay en él; sus componentes vivos y no vivos. Si identificamos bien"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta,"
+    },
+    {
+      "type": "paragraph",
+      "text": "sus características, podremos distinguir más fácilmente las semejanzas, las"
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "diferencias y las relaciones que existen entre todos ellos. Comprender cómo"
+    },
+    {
+      "type": "paragraph",
+      "text": "se relacionan los seres vivos con la tierra, el aire, el agua, la temperatura y la"
+    },
+    {
+      "type": "paragraph",
+      "text": "cantidad de luz, es indispensable para entender que todos los componentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "son partes igualmente importantes y necesarias para dar continuidad a la"
+    },
+    {
+      "type": "paragraph",
+      "text": "herencia más valiosa que nos ofrece la Tierra: la vida."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conozcamos más de los seres vivos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa y compara las plantas de las siguientes ilustraciones."
+    },
+    {
+      "type": "image",
+      "src": "images/p247_y0338_x0023.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "246"
+    },
+    {
+      "type": "page_marker",
+      "page": 248
+    },
+    {
+      "type": "image",
+      "src": "images/p248_y0050_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Describe en tu cuaderno cómo son las hojas, los tallos y las raíces",
+        "de las plantas ilustradas y explica a qué se deben las diferencias que",
+        "observas. Posteriormente compara tus descripciones con las de otras",
+        "personas del Círculo de estudio y anota una de las explicaciones que te",
+        "parezca más importante."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Subraya las frases con las que estés de acuerdo."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Las espinas son hojas modificadas que evitan que la planta pierda"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "agua."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Las plantas del desierto guardan el agua en sus raíces.",
+        "Cuando llueve, las plantas del desierto almacenan agua en sus tallos.",
+        "En el suelo del desierto el agua se filtra rápidamente y las raíces de"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "las plantas se extienden para absorber mayor cantidad de agua."
+    },
+    {
+      "type": "paragraph",
+      "text": "247"
+    },
+    {
+      "type": "page_marker",
+      "page": 249
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Compara tus respuestas con tus compañeros del Círculo de estudio y",
+        "explica por qué elegiste esas frases. Después, respondan la siguiente",
+        "pregunta."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Las características de las plantas tendrán alguna relación con el lugar"
+    },
+    {
+      "type": "paragraph",
+      "text": "donde viven?"
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Por parejas, seleccionen seis barajas de la Lotería ecológica que",
+        "contengan animales que vivan en la tierra y otros seis que habiten",
+        "en el agua. Fíjate qué partes de sus cuerpos les ayudan a comer, a",
+        "protegerse o a vivir mejor en el medio en el que habitan.",
+        "Anota en tu cuaderno el nombre de dos animales y las características",
+        "que les dan mayores oportunidades de sobrevivir.",
+        "Lee tus respuestas y coméntalas al grupo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "248"
+    },
+    {
+      "type": "page_marker",
+      "page": 250
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Alguna vez has visto a un pájaro carpintero?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad"
+    },
+    {
+      "type": "image",
+      "src": "images/p250_y0090_x0196.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Abundantes plumas en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lengua muy larga y pequeñas impiden que aserrada en la punta."
+    },
+    {
+      "type": "paragraph",
+      "text": "el aserrín entre en sus orificios nasales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dedos con uñas curvas y afiladas; dos"
+    },
+    {
+      "type": "paragraph",
+      "text": "La cola tiene plumas dedos delanteros y muy resistentes que le"
+    },
+    {
+      "type": "paragraph",
+      "text": "dos traseros le sirven sirven para apoyarse para caminar hacia"
+    },
+    {
+      "type": "paragraph",
+      "text": "sobre el tronco."
+    },
+    {
+      "type": "paragraph",
+      "text": "arriba."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con los integrantes del Círculo de estudio las siguientes",
+        "preguntas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Para qué le sirve a este pájaro tener la lengua aserrada? ¿Qué uso da"
+    },
+    {
+      "type": "paragraph",
+      "text": "a sus uñas? Escribe las respuestas en tu cuaderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué sabes de los animales ilustrados a continuación?"
+    },
+    {
+      "type": "image",
+      "src": "images/p250_y0534_x0335.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p250_y0561_x0067.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las serpientes pueden tragar presas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los murciélagos emiten un sonido que grandes porque sus mandíbulas se"
+    },
+    {
+      "type": "paragraph",
+      "text": "al chocar con el cuerpo de un insecto pueden separar."
+    },
+    {
+      "type": "paragraph",
+      "text": "produce eco que le permite localizarlo para después comerlo."
+    },
+    {
+      "type": "paragraph",
+      "text": "249"
+    },
+    {
+      "type": "page_marker",
+      "page": 251
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Qué pasaría si el murciélago perdiera las garras de sus patas?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro \b planeta, la Tierra \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Las personas, al igual que otros seres vivos, se adaptan al ambiente. Fíja-",
+        "te en la forma de vestir de cada persona que está en el mapa y contesta",
+        "en tu cuaderno las siguientes preguntas."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué crees que sean distintas? ¿Cómo es el clima en esos estados?"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Cómo crees que vista la gente que vive en Baja California Sur, Chihuahua"
+    },
+    {
+      "type": "paragraph",
+      "text": "y Yucatán?"
+    },
+    {
+      "type": "image",
+      "src": "images/p251_y0361_x0007.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las personas se visten con ropas de materiales propios de cada lugar."
+    },
+    {
+      "type": "paragraph",
+      "text": "250"
+    },
+    {
+      "type": "page_marker",
+      "page": 252
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenta con los integrantes del Círculo de estudio la siguiente pregunta",
+        "y respóndela en tu cuaderno:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por qué el ser humano puede sobrevivir en ambientes tan distintos? Anota las"
+    },
+    {
+      "type": "paragraph",
+      "text": "ideas más importantes de la plática."
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b"
+    },
+    {
+      "type": "image",
+      "src": "images/p252_y0350_x0062.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los seres humanos transformamos el ambiente."
+    },
+    {
+      "type": "paragraph",
+      "text": "ara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “La adaptación de los organismos"
+    },
+    {
+      "type": "paragraph",
+      "text": "saber vivos”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "paragraph",
+      "text": "251"
+    },
+    {
+      "type": "page_marker",
+      "page": 253
+    },
+    {
+      "type": "paragraph",
+      "text": "De acuerdo con la información que leíste de la Revista explica con tus"
+    },
+    {
+      "type": "paragraph",
+      "text": "palabras, un ejemplo de adaptación de alguna planta o animal al medio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, en que habitas."
+    },
+    {
+      "type": "paragraph",
+      "text": "la Tierra \b \b \b \b"
+    },
+    {
+      "type": "paragraph",
+      "text": "A la forma, las funciones del cuerpo y el comportamiento que tiene un"
+    },
+    {
+      "type": "paragraph",
+      "text": "ser vivo y que le ofrece mayores oportunidades para sobrevivir en un"
+    },
+    {
+      "type": "paragraph",
+      "text": "ambiente determinado, se le llama adaptación. Esta característica de los"
+    },
+    {
+      "type": "paragraph",
+      "text": "seres vivos les da mayores posibilidades de supervivencia, es decir, les"
+    },
+    {
+      "type": "paragraph",
+      "text": "permite conseguir sus alimentos, protegerse de las condiciones difíciles"
+    },
+    {
+      "type": "paragraph",
+      "text": "del medio o defenderse de otros organismos para llevar a cabo todas sus"
+    },
+    {
+      "type": "paragraph",
+      "text": "funciones. Los seres vivos heredan a sus descendientes la forma en que"
+    },
+    {
+      "type": "paragraph",
+      "text": "pueden adaptarse a un ambiente y así dan continuidad a su existencia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee la siguiente noticia."
+    },
+    {
+      "type": "image",
+      "src": "images/p253_y0458_x0058.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las mariposas monarca,"
+    },
+    {
+      "type": "image",
+      "src": "images/p253_y0493_x0396.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "en peligro por la tala de bosques"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toluca, Méx., 29 de agosto de 1999. Las autorida- des del municipio de Donato Guerra han ma-"
+    },
+    {
+      "type": "paragraph",
+      "text": "nifestado su preocupación por la visible dismi- nución del número de mariposas monarca que"
+    },
+    {
+      "type": "paragraph",
+      "text": "cada invierno arriban, procedentes de Canadá, a los estados de México y Michoacán. La causa"
+    },
+    {
+      "type": "paragraph",
+      "text": "principal de este problema ecológico es el incre- mento de la tala clandestina."
+    },
+    {
+      "type": "paragraph",
+      "text": "252"
+    },
+    {
+      "type": "page_marker",
+      "page": 254
+    },
+    {
+      "type": "image",
+      "src": "images/p254_y-001_x0032.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las monarcas, que arriban anualmente al ejido El Capulín, ocupan"
+    },
+    {
+      "type": "paragraph",
+      "text": "unas 750 hectáreas de monte y se extienden a lo largo de tres kilómetros"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad a la redonda."
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "En lo que va del año, la policía municipal ha detenido al menos a"
+    },
+    {
+      "type": "paragraph",
+      "text": "una decena de taladores clandestinos, pero luego de consignarlos ante"
+    },
+    {
+      "type": "paragraph",
+      "text": "el Ministerio Público han sido liberados bajo fianza. Otros justifican"
+    },
+    {
+      "type": "paragraph",
+      "text": "el corte de árboles para satisfacer sus necesidades. A estas personas se"
+    },
+    {
+      "type": "paragraph",
+      "text": "les proporciona ayuda material y capacitación para evitar que incurran"
+    },
+    {
+      "type": "paragraph",
+      "text": "nuevamente en estas faltas."
+    },
+    {
+      "type": "image",
+      "src": "images/p254_y0224_x0059.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "La tala clandestina ya ha acabado con los bosques del lado de"
+    },
+    {
+      "type": "paragraph",
+      "text": "Michoacán y, de no tomarse medidas, se continuará ahora en territorio"
+    },
+    {
+      "type": "paragraph",
+      "text": "mexiquense."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Identifica las ideas principales de la noticia. Después, coméntalas en",
+        "el grupo y opinen acerca de las siguientes preguntas:"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "¿Qué podría ocurrir con el bosque si continúa la tala?",
+        "¿Cómo afecta la tala a las mariposas monarcas, a otros animales, al"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "suelo y a las personas? ¿Por qué?"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Escribe en tu cuaderno las opiniones que te parezcan más importantes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "253"
+    },
+    {
+      "type": "page_marker",
+      "page": 255
+    },
+    {
+      "type": "image",
+      "src": "images/p255_y-001_x0373.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las plantas ocupan un lugar privilegiado en todos los paisajes. Las hay terrestres y"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, acuáticas. Algunas son originarias de este la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "país; otras, han llegado de países lejanos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Como revisamos en unidades anteriores, son alimento de millones de organismos."
+    },
+    {
+      "type": "paragraph",
+      "text": "También producen oxígeno y fijan el suelo, tienen un importante valor económico,"
+    },
+    {
+      "type": "paragraph",
+      "text": "cultural, ornamental y curativo. Por todo ello, se toman como base para agrupar y"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esta flor mexicana es el nombrar a los distintos paisajes."
+    },
+    {
+      "type": "paragraph",
+      "text": "símbolo de la Navidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa las siguientes imágenes. ¿Conoces a los seres vivos que se"
+    },
+    {
+      "type": "paragraph",
+      "text": "muestran en ellas?"
+    },
+    {
+      "type": "image",
+      "src": "images/p255_y0343_x-001.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "images/p255_y0364_x0263.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta la siguiente página de internet y juega “Conociendo a otros"
+    },
+    {
+      "type": "paragraph",
+      "text": "mexicanos”: www.conevyt.org.mx/cursos/juegos/con_mex/index.htm"
+    },
+    {
+      "type": "paragraph",
+      "text": "254"
+    },
+    {
+      "type": "page_marker",
+      "page": 256
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Marca con ✓ el nombre de los animales que viven en el lugar que se"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ilustra a continuación."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "image",
+      "src": "images/p256_y0107_x0062.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "coyote",
+        "escorpión",
+        "venado",
+        "tucán",
+        "conejo",
+        "pájaro",
+        "halcón",
+        "catarina",
+        "jaguar",
+        "sapo",
+        "carpintero",
+        "oso",
+        "cangrejo",
+        "mariposa",
+        "armadillo",
+        "ocelote",
+        "hormiguero",
+        "tigre",
+        "rana",
+        "avestruz",
+        "ardilla",
+        "cocodrilo",
+        "escarabajo",
+        "rata de campo",
+        "anémona",
+        "codorniz",
+        "zorrillo",
+        "gorrión",
+        "correcaminos",
+        "quetzal",
+        "colibrí",
+        "zopilote"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "255"
+    },
+    {
+      "type": "page_marker",
+      "page": 257
+    },
+    {
+      "type": "paragraph",
+      "text": "Revisen sus respuestas; si tienen dudas consulten las láminas de la Lotería"
+    },
+    {
+      "type": "paragraph",
+      "text": "ecológica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro planeta, la Tierra"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Observa en la lámina “Bosque de coníferas” de la Lotería ecológica,",
+        "los organismos que están representados en ella; forma una red ali-",
+        "menticia, utiliza flechas para indicar cómo se relacionan entre sí y",
+        "con su ambiente esos organismos para poder vivir. Si tienes dudas,",
+        "consulta las unidades 2 y 3 de este módulo.",
+        "Revisen sus trabajos y conversen acerca de la importancia que tienen",
+        "los componentes no vivos para que exista la vida. Anota las ideas más",
+        "importantes de la conversación."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "\b \b \b \b \b \b \b \b \b \b \b 256"
+    },
+    {
+      "type": "page_marker",
+      "page": 258
+    },
+    {
+      "type": "paragraph",
+      "text": "Los paisajes de México y sus habitantes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identifica con los integrantes del Círculo de estudio en qué estados del"
+    },
+    {
+      "type": "paragraph",
+      "text": "en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "país se localizan los lugares representados en las láminas de la Lotería"
+    },
+    {
+      "type": "paragraph",
+      "text": "ecológica."
+    },
+    {
+      "type": "image",
+      "src": "images/p258_y0186_x0000.jpeg"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Matorral xerófilo:",
+        "Zonas áridas y semiáridas;",
+        "desierto",
+        "Selva tropical seca",
+        "Bosque de coníferas",
+        "y encinos",
+        "Pastizales",
+        "Bosque de niebla",
+        "Selva tropical húmeda",
+        "Zona marítima"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ubicación geográfica de ecosistemas mexicanos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Golfo de México"
+    },
+    {
+      "type": "paragraph",
+      "text": "Óceano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pacífico 257"
+    },
+    {
+      "type": "page_marker",
+      "page": 259
+    },
+    {
+      "type": "paragraph",
+      "text": "Explica con tus palabras qué es un ecosistema."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestro \b planeta, la Tierra \b \b \b \b"
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Consulta en un diccionario el significado de la palabra ecosistema.",
+        "Anótalo en tu cuaderno y compara la definición con la tuya.",
+        "Comenten las siguientes preguntas.",
+        "¿Cuál de los lugares ilustrados en el mapa ocupa la mayor parte",
+        "de extensión del país? ¿Por qué crees que se agruparon de esa",
+        "manera?",
+        "Escribe en tu cuaderno lo que te gustaría saber o investigar de algu-",
+        "no de los sitios que aparecen en el mapa, como: cuál es el clima del",
+        "bosque de niebla, o qué hacen las personas que habitan ahí."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ara saber"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulta en tu Revista el texto “Los ecosistemas de México”."
+    },
+    {
+      "type": "paragraph",
+      "text": "más..."
+    },
+    {
+      "type": "callout",
+      "kind": "note",
+      "lines": [
+        "Comenten las ideas más importantes del texto anterior y, con base",
+        "en ellas, completa, de ser necesario, las definiciones de la palabra",
+        "ecosistema que escribieron antes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "258"
+    },
+    {
+      "type": "page_marker",
+      "page": 260
+    },
+    {
+      "type": "paragraph",
+      "text": "ecordemos que..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unidad y diversidad en la Tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "En México hay paisajes distintos. Éstos se forman por comunidades o grupos"
+    },
+    {
+      "type": "paragraph",
+      "text": "de seres vivos, por ejemplo, microorganismos, hongos, abejas, ardillas, pinos"
+    },
+    {
+      "type": "paragraph",
+      "text": "y personas, entre muchos otros. Existen relaciones entre los seres vivos, así"
+    },
+    {
+      "type": "paragraph",
+      "text": "como entre ellos y la luz, el agua, el aire y la tierra del lugar donde habitan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las comunidades de seres vivos de un lugar, los componentes no vivos de"
+    },
+    {
+      "type": "paragraph",
+      "text": "éste, así como las interacciones que existen entre ambos reciben el nombre"
+    },
+    {
+      "type": "paragraph",
+      "text": "de ecosistemas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hay ecosistemas grandes, por ejemplo, un bosque; y pequeños, como un"
+    },
+    {
+      "type": "paragraph",
+      "text": "charco. Existen ecosistemas en el aire, en el agua, en la superficie de la tierra"
+    },
+    {
+      "type": "paragraph",
+      "text": "y debajo de ella. Los terrestres se pueden distinguir fácilmente por su clima"
+    },
+    {
+      "type": "paragraph",
+      "text": "y por su vegetación; los acuáticos, por la cantidad de luz y la concentración"
+    },
+    {
+      "type": "paragraph",
+      "text": "de sal que hay en ellos. Ningún ecosistema está aislado. Lo que sucede en"
+    },
+    {
+      "type": "paragraph",
+      "text": "uno de ellos afecta a los otros. Como revisamos en la unidad anterior, en los"
+    },
+    {
+      "type": "paragraph",
+      "text": "ecosistemas la energía se transforma y distribuye constantemente."
+    },
+    {
+      "type": "image",
+      "src": "images/p260_y0412_x0061.jpeg"
+    },
+    {
+      "type": "paragraph",
+      "text": "259"
+    }
+  ]
+}
