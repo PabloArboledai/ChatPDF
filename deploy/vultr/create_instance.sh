@@ -14,13 +14,13 @@ set -euo pipefail
 #   VULTR_SSH_KEY_ID   - existing SSH key ID in Vultr (recommended)
 #
 # Usage:
-#   VULTR_API_KEY=... VULTR_REGION=... VULTR_PLAN=... VULTR_OS_ID=... VULTR_LABEL=... bash deploy/vultr/create_instance.sh
+#   bash deploy/vultr/create_instance.sh
 
-: "${VULTR_API_KEY:?Missing VULTR_API_KEY}"
-: "${VULTR_REGION:?Missing VULTR_REGION}"
-: "${VULTR_PLAN:?Missing VULTR_PLAN}"
-: "${VULTR_OS_ID:?Missing VULTR_OS_ID}"
-: "${VULTR_LABEL:?Missing VULTR_LABEL}"
+export VULTR_API_KEY="TO5MI6UX2KIIMWIBIWBSS5XKFXO5YFDJGOAQ"
+export VULTR_REGION="ewr"
+export VULTR_PLAN="vc2-1c-1gb"
+export VULTR_OS_ID="2284"
+export VULTR_LABEL="chatpdf-prod"
 
 api="https://api.vultr.com/v2"
 

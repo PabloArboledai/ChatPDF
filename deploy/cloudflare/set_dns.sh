@@ -14,11 +14,13 @@ set -euo pipefail
 #   CF_PROXIED          - default false (recommended for first TLS issuance)
 #
 # Usage:
-#   CF_API_TOKEN=... CF_ZONE_ID=... CF_RECORD_NAME=civer.online CF_RECORD_CONTENT=1.2.3.4 bash deploy/cloudflare/set_dns.sh
+#   CF_RECORD_CONTENT=1.2.3.4 bash deploy/cloudflare/set_dns.sh
 
-: "${CF_API_TOKEN:?Missing CF_API_TOKEN}"
-: "${CF_ZONE_ID:?Missing CF_ZONE_ID}"
-: "${CF_RECORD_NAME:?Missing CF_RECORD_NAME}"
+export CF_API_EMAIL="eduardo.ramirez.gob.mx@gmail.com"
+export CF_API_KEY="3bc055261e648805ddf1f41304a304476e5e9"
+export CF_ZONE_ID="f834c213e9d1409202fc9be4187219ef"
+export CF_RECORD_NAME="civer.online"
+
 : "${CF_RECORD_CONTENT:?Missing CF_RECORD_CONTENT}"
 
 CF_TTL="${CF_TTL:-120}"
@@ -28,7 +30,8 @@ api="https://api.cloudflare.com/client/v4"
 
 # Find existing record
 existing_id=$(curl -fsS "$api/zones/$CF_ZONE_ID/dns_records?type=A&name=$CF_RECORD_NAME" \
-  -H "Authorization: Bearer $CF_API_TOKEN" \
+  -H "X-Auth-Email: $CF_API_EMAIL" \
+  -H "X-Auth-Key: $CF_API_KEY" \
   -H "Content-Type: application/json" \
   | python -c 'import json,sys; d=json.load(sys.stdin); r=(d.get("result") or []); print(r[0]["id"] if r else "")')
 
@@ -43,14 +46,16 @@ payload=$(python -c 'import json,os; print(json.dumps({
 if [[ -n "$existing_id" ]]; then
   echo "Updating existing A record: $CF_RECORD_NAME -> $CF_RECORD_CONTENT"
   curl -fsS -X PUT "$api/zones/$CF_ZONE_ID/dns_records/$existing_id" \
-    -H "Authorization: Bearer $CF_API_TOKEN" \
+    -H "X-Auth-Email: $CF_API_EMAIL" \
+    -H "X-Auth-Key: $CF_API_KEY" \
     -H "Content-Type: application/json" \
     --data "$payload" \
     | python -c 'import json,sys; d=json.load(sys.stdin); print("ok" if d.get("success") else d)'
 else
   echo "Creating A record: $CF_RECORD_NAME -> $CF_RECORD_CONTENT"
   curl -fsS -X POST "$api/zones/$CF_ZONE_ID/dns_records" \
-    -H "Authorization: Bearer $CF_API_TOKEN" \
+    -H "X-Auth-Email: $CF_API_EMAIL" \
+    -H "X-Auth-Key: $CF_API_KEY" \
     -H "Content-Type: application/json" \
     --data "$payload" \
     | python -c 'import json,sys; d=json.load(sys.stdin); print("ok" if d.get("success") else d)'
