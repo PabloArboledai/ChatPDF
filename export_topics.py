@@ -21,6 +21,7 @@ import json
 import os
 import re
 import statistics
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
@@ -70,6 +71,10 @@ def is_probably_footer_or_noise(line: str) -> bool:
     if len(s) <= 2 and s.isdigit():
         return True
     if "creative commons" in s.lower() or "licencia" in s.lower():
+        return True
+    if re.fullmatch(r"UNIDAD\s+\d+", s, re.IGNORECASE):
+        return True
+    if s.strip().upper() == "DADINU":
         return True
     letters = sum(ch.isalpha() for ch in s)
     if letters > 0 and letters / max(1, len(s)) < 0.25:
@@ -371,7 +376,53 @@ def extract_topic_assets(
 
         flush_list()
 
+    elements = postprocess_elements(elements)
     return elements, images_meta
+
+
+def postprocess_elements(elements: list[dict]) -> list[dict]:
+    """Mejora legibilidad uniendo líneas cortas que pertenecen al mismo párrafo."""
+    out: list[dict] = []
+    def ends_sentence(s: str) -> bool:
+        return bool(re.search(r"[\.!\?…:]$", s.strip()))
+
+    i = 0
+    while i < len(elements):
+        el = elements[i]
+        if el.get("type") != "paragraph":
+            out.append(el)
+            i += 1
+            continue
+
+        text = (el.get("text") or "").strip()
+        if not text:
+            i += 1
+            continue
+
+        # Merge with next paragraph lines while it looks like line-wrapping
+        j = i + 1
+        merged = text
+        while j < len(elements) and elements[j].get("type") == "paragraph":
+            nxt = (elements[j].get("text") or "").strip()
+            if not nxt:
+                j += 1
+                continue
+            # Heurística de unión
+            if (
+                len(merged) <= 60
+                and len(nxt) <= 60
+                and not ends_sentence(merged)
+                and not re.match(r"^[A-ZÁÉÍÓÚÑÜ¿¡]", nxt)
+            ):
+                merged = merged + " " + nxt
+                j += 1
+                continue
+            break
+
+        out.append({"type": "paragraph", "text": merged})
+        i = j
+
+    return out
 
 
 def write_md(topic_dir: Path, title: str, elements: list[dict]) -> Path:
@@ -465,8 +516,11 @@ def write_html(topic_dir: Path, title: str, elements: list[dict]) -> Path:
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.5;max-width:980px;margin:24px auto;padding:0 16px;}
     h1,h2,h3{line-height:1.2}
     img{max-width:100%;height:auto}
-    .callout{border-left:4px solid #444;background:#f6f6f6;padding:12px 14px;margin:12px 0}
+    figure{margin:12px 0}
+    figcaption{color:#666;font-size:0.9em;margin-top:6px}
+    .callout{border:1px solid #ddd;border-left:6px solid #444;background:#f8f8f8;padding:12px 14px;margin:12px 0;border-radius:6px}
     .muted{color:#666;font-size:0.9em}
+    hr{border:none;border-top:1px solid #eee;margin:18px 0}
     """.strip()
 
     html_parts = [
@@ -494,6 +548,7 @@ def write_html(topic_dir: Path, title: str, elements: list[dict]) -> Path:
         t = el["type"]
         if t == "page_marker":
             close_ul()
+            html_parts.append("<hr>")
             html_parts.append(f"<p class='muted'>Página {int(el['page'])}</p>")
         elif t == "heading":
             close_ul()
@@ -519,7 +574,9 @@ def write_html(topic_dir: Path, title: str, elements: list[dict]) -> Path:
         elif t == "image":
             close_ul()
             src = el.get("src", "")
+            html_parts.append("<figure>")
             html_parts.append(f"<img src='{_html_escape(src)}' alt=''>")
+            html_parts.append("</figure>")
 
     close_ul()
     html_parts.append("</body></html>")
@@ -586,6 +643,73 @@ def write_pdf(topic_dir: Path, title: str, src_doc: fitz.Document, start_page_id
     out.insert_pdf(src_doc, from_page=start_page_idx, to_page=end_page_idx)
     out.save(str(p))
     out.close()
+    return p
+
+
+def write_index_html(out_root: Path, items: list[dict]) -> Path:
+    p = out_root / "index.html"
+    css = "body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;max-width:980px;margin:24px auto;padding:0 16px;line-height:1.5} a{text-decoration:none} li{margin:6px 0} .muted{color:#666;font-size:.9em}"
+    parts = [
+        "<!doctype html>",
+        "<html lang='es'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>",
+        "<title>Índice de temas</title>",
+        f"<style>{css}</style>",
+        "</head><body>",
+        "<h1>Índice de temas</h1>",
+        "<ul>",
+    ]
+    for it in items:
+        title = _html_escape(it["title"])
+        start_p = it["meta"]["start_page"]
+        end_p = it["meta"]["end_page"]
+        files = it.get("files", {})
+        href = files.get("html") or files.get("md") or files.get("pdf") or files.get("txt")
+        if href:
+            href = href.replace(os.sep, "/")
+            parts.append(f"<li><a href='{_html_escape(href)}'>{title}</a> <span class='muted'>(p. {start_p}–{end_p})</span></li>")
+        else:
+            parts.append(f"<li>{title} <span class='muted'>(p. {start_p}–{end_p})</span></li>")
+    parts.append("</ul></body></html>")
+    p.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    return p
+
+
+def write_index_pdf(out_root: Path, items: list[dict]) -> Path:
+    p = out_root / "index.pdf"
+    doc = fitz.open()
+    page = doc.new_page()
+    rect = fitz.Rect(36, 36, page.rect.width - 36, page.rect.height - 36)
+
+    lines = ["Índice de temas", ""]
+    for it in items:
+        title = it["title"]
+        start_p = it["meta"]["start_page"]
+        end_p = it["meta"]["end_page"]
+        files = it.get("files", {})
+        pdf_name = files.get("pdf")
+        suffix = f"p. {start_p}–{end_p}"
+        if pdf_name:
+            lines.append(f"- {title} ({suffix}) -> {pdf_name}")
+        else:
+            lines.append(f"- {title} ({suffix})")
+
+    text = "\n".join(lines)
+    # Insert; if too long, add more pages
+    while True:
+        rc = page.insert_textbox(rect, text, fontsize=11, fontname="helv", align=0)
+        if rc > 0:
+            break
+        # Not enough space: split and continue
+        split_at = max(10, int(len(text) * 0.7))
+        head = text[:split_at]
+        tail = text[split_at:]
+        page.insert_textbox(rect, head, fontsize=11, fontname="helv", align=0)
+        page = doc.new_page()
+        rect = fitz.Rect(36, 36, page.rect.width - 36, page.rect.height - 36)
+        text = tail
+
+    doc.save(str(p))
+    doc.close()
     return p
 
 
@@ -745,9 +869,14 @@ def main() -> None:
         if "docx" in formats:
             produced["docx"] = str(write_docx(topic_dir, title, elements).relative_to(out_root))
         if "pdf" in formats:
-            produced["pdf"] = str(
-                write_pdf(topic_dir, title, doc, t["start_page_idx"], t["end_page_idx"]).relative_to(out_root)
-            )
+            pdf_rel = str(write_pdf(topic_dir, title, doc, t["start_page_idx"], t["end_page_idx"]).relative_to(out_root))
+            produced["pdf"] = pdf_rel
+            # Copia adicional a /pdfs con nombre limpio
+            pdfs_dir = out_root / "pdfs"
+            pdfs_dir.mkdir(parents=True, exist_ok=True)
+            clean_name = f"tema_{idx:03d}_{slug}.pdf"
+            shutil.copyfile(topic_dir / "tema.pdf", pdfs_dir / clean_name)
+            produced["pdf_clean"] = str((Path("pdfs") / clean_name).as_posix())
 
         # Index entry
         link_target = produced.get("md") or produced.get("html") or produced.get("txt") or produced.get("pdf")
@@ -760,6 +889,10 @@ def main() -> None:
 
     (out_root / "index.md").write_text("\n".join(index_md_lines) + "\n", encoding="utf-8")
     (out_root / "index.json").write_text(json.dumps(index_json, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    # Índices extra
+    write_index_html(out_root, index_json)
+    write_index_pdf(out_root, index_json)
 
     doc.close()
     print(f"Listo. Exportado en: {out_root}")
