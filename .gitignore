@@ -9,3 +9,7 @@ libro.pdf
 output/
 output_md/
 output_all/
+
+# Cachés/salidas locales de la GUI
+.cache/
+output_ui/

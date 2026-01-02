@@ -14,6 +14,19 @@ Importante (calidad / fidelidad)
 pip install -r requirements.txt
 ```
 
+## GUI (recomendado)
+
+La forma más cómoda de usar todas las acciones del sistema es la GUI local (web) con Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+Desde la GUI puedes:
+- Subir/seleccionar un PDF
+- Ejecutar: exportación multi-formato, Markdown por tema, o clustering
+- Ver vista previa (MD/HTML) y descargar resultados (ZIP o archivos individuales)
+
 ## Descargar PDF desde Google Drive (si es público)
 
 ```bash
