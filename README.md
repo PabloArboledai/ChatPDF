@@ -31,6 +31,33 @@ Desde la GUI puedes:
 - Ejecutar: exportación multi-formato, Markdown por tema, o clustering
 - Ver vista previa (MD/HTML) y descargar resultados (ZIP o archivos individuales)
 
+## Stack profesional (frontend + API + workers) [en progreso]
+
+Además de la GUI local, el repo incluye un stack pensado para multiusuario en la nube:
+- Frontend: Next.js en `services/web`
+- API: FastAPI en `services/api`
+- Workers: Celery en `services/worker`
+- Infra local: Postgres + Redis vía Docker Compose
+
+Arranque local (modo producción-like):
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Nota sobre Clustering (ML):
+- El job `clustering` requiere dependencias pesadas (embeddings). Para evitar builds gigantes en entornos con poco disco, hay un worker ML opcional.
+- En local puedes correr el stack base (export/markdown). Para habilitar clustering:
+
+```bash
+docker compose --profile ml up --build
+```
+
+Servicios:
+- Web: http://localhost:3000
+- API: http://localhost:8000/health
+
 ## Descargar PDF desde Google Drive (si es público)
 
 ```bash

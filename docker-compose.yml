@@ -1,0 +1,79 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: chatpdf
+      POSTGRES_USER: chatpdf
+      POSTGRES_PASSWORD: chatpdf
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-dev}
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:chatpdf@postgres:5432/chatpdf}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+      DATA_DIR: ${DATA_DIR:-/data}
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+    volumes:
+      - chatpdf_data:/data
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+
+  worker:
+    build:
+      context: .
+      dockerfile: services/worker/Dockerfile
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:chatpdf@postgres:5432/chatpdf}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      DATA_DIR: ${DATA_DIR:-/data}
+    volumes:
+      - chatpdf_data:/data
+    depends_on:
+      - postgres
+      - redis
+
+  worker_ml:
+    profiles: ["ml"]
+    build:
+      context: .
+      dockerfile: services/worker/Dockerfile.ml
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://chatpdf:chatpdf@postgres:5432/chatpdf}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      DATA_DIR: ${DATA_DIR:-/data}
+    volumes:
+      - chatpdf_data:/data
+    depends_on:
+      - postgres
+      - redis
+
+  web:
+    build:
+      context: .
+      dockerfile: services/web/Dockerfile
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
+  chatpdf_data:

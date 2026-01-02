@@ -1,0 +1,28 @@
+.git
+.gitignore
+
+# Python
+.venv
+__pycache__
+*.pyc
+
+# Streamlit / local
+.cache
+output
+output_md
+output_all
+output_ui
+
+# Node / Next
+**/node_modules
+**/.next
+**/.turbo
+**/dist
+
+# OS / editor
+.DS_Store
+.vscode
+
+# PDFs locales
+libro.pdf
+*.pdf
